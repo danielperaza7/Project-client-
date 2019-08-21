@@ -1,0 +1,91 @@
+.customModal{
+  position: absolute !important;
+  top: 50%;
+  left: 50%;
+  margin: 0 !important;
+  max-width: 100%;
+  transform:translate(-50%, -50%) !important;
+  font-family: GothamBook;
+}
+.customModal :global(.modal-content){
+  border-radius: 0;
+  padding: 0 !important;
+}
+
+.wechatModal{
+  position: absolute !important;
+  top: 50%;
+  left: 50%;
+  margin: 0 !important;
+  max-width: 100%;
+  transform:translate(-50%, -50%) !important;
+  font-family: GothamBook;
+}
+.wechatModal :global(.modal-content){
+  border-radius: 3px;
+  background-color: #333;
+  padding: 0 !important;
+}
+
+.body{
+  max-height: 100%;
+}
+
+@media screen and (min-width: 992px){
+  .customModal :global(.modal-content){
+    padding: 15px;
+  }
+}
+
+.smallModal{
+  width:400px !important;
+  max-height: 100%;
+}
+.mediumModal{
+  width:600px !important;
+  max-height: 100%;
+}
+.largeModal{
+  width:1000px !important;
+  max-height: 100%;
+}
+.fullModal,
+.fullModal :global(.modal-content){
+  width:calc(100% + 2px) !important;
+  height:calc(100% + 1px) !important;
+  margin: 0 !important;
+  border: none;
+}
+
+.closeBtn{
+  font-size: 24px;
+  line-height: 24px;
+  position: absolute;
+  top:15px;
+  right:15px;
+  z-index: 10;
+  cursor: pointer;
+}
+
+.closeBtn:hover{
+  color: #C1B497;
+}
+
+@media screen and (min-width: 768px){
+  :global(.modal-dialog){
+    width: 680px;
+  }
+}
+
+@media screen and (max-width: 767px){
+  .customModal{
+    overflow-y:scroll
+  }
+  .wechatModal {
+    overflow-y:scroll
+  }
+  .mediumModal{
+    width:350px !important;
+    margin-top:10%
+  }
+}

@@ -1,0 +1,23 @@
+.container {
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 170px;
+  min-height: 600px;
+  overflow: hidden;
+}
+
+button{
+  border-radius:0px;
+}
+
+@media (max-width: 991px) {
+  .container {
+    margin-top: 75px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .ebe-container {
+    width:1410px !important;
+  }
+}

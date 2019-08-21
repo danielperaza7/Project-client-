@@ -1,0 +1,32 @@
+.reward-point-title {
+  font-size: 24px;
+  margin-top: 20px;
+  padding: 0;
+  margin-left: -1px;
+}
+
+.reward-point > .title {
+  font-weight: bolder;
+  margin-bottom: 10px;
+}
+
+.description {
+  margin-top: 20px;
+}
+
+.description p {
+  font-size:12px;
+  font-family: GothamBook;
+}
+
+.description .title{
+  font-size:14px;
+  font-family: GothamMedium;
+}
+
+@media screen and (max-width: 991px) {
+  .reward-point-title {
+    font-size: 18px;
+     margin-top: -10px;
+  }
+}

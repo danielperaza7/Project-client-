@@ -1,0 +1,179 @@
+
+
+/*-----------------ADDRESS BOOK OVERVIEW-----------------*/
+
+.addressbook-overview {
+  display: flex;
+  flex-direction: column;
+}
+
+.addressbook-overview button{
+  text-shadow: none;
+  border-radius: 0;
+  box-shadow: none;
+  font-family: GothamMedium;
+  padding: 0 10px;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.addressbook-overview button[disabled] {
+  background-color: #e0e0e0 !important;
+  cursor: not-allowed;
+}
+
+.addressbook-overview button:focus, .addressbook-overview button:visited{
+  outline: none;
+}
+
+.addressbook-overview button.blk-btn, .addressbook-overview :global(button.submitButton){
+  min-width: 100px;
+  margin: 0 5px;
+  height: 35px;
+  border: none;
+  background: black;
+  color: white;
+  font-size: 12px;
+}
+
+.addressbook-overview button.blk-btn:hover, .addressbook-overview button.blk-btn:hover:active, .addressbook-overview button.blk-btn:active {
+  border:none;
+  outline: none;
+  background-color: #ada082;
+  color: white
+}
+
+.addressbook-overview p {
+  font-size: 14px;
+}
+
+.addressbook-title {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10px;
+}
+
+.addressbook-title span {
+  font-size: 24px;
+  margin-bottom: 12px;
+  margin-left: -2px;
+}
+
+.single-address {
+  flex-direction: column;
+  border: 1px solid #000;
+  padding: 10px 20px;
+}
+
+/* dividers */
+.addressbook-overview-primary-wrapper, .addressbook-overview-all-wrapper {
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid #e0e0e0;
+}
+
+
+.addressbook-overview-all-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.address-overview-col {
+  margin-bottom: 20px;
+}
+
+.address-overview-col p {
+  margin-bottom: 5px;
+  font-size: 12px;
+}
+
+.address-overview-col a {
+  font-size: 12px;
+  color: black;
+  font-family: GothamMedium;
+}
+
+.address-overview-col a > i {
+  margin: 3px;
+}
+
+.addressbook-overview-bottombtn {
+  display: flex;
+  justify-content: space-between;
+}
+
+.addressbook-overview-bottombtn button span {
+  display: none;
+}
+
+.addressbook-overview-bottombtn button {
+  font-size: 12px;
+  text-shadow: none;
+  border: none;
+  padding: 0;
+  background: white;
+}
+
+.addressbook-overview-bottombtn button:after {
+  content: "\f123";
+  font-family: Ionicons;
+  font-size: 10px;
+}
+
+.addressbook-overview-bottombtn button:hover {
+  background-color: white;
+}
+
+.addressbook-overview-bottombtn button:active, .addressbook-overview-bottombtn button:visited {
+  background-color: white;
+  outline: none;
+}
+
+.addressbook-overview-closebtn {
+  align-self: flex-end;
+}
+.addressbook-overview-closebtn>i {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.addressbook-overview-hiddenbtn-wrapper {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: rgba(255,255,255,0.7);
+  left: 0;
+  top: 0;
+}
+
+.addressbook-overview-hiddenbtn-wrapper :global(.CircleLoader){
+  font-size: 30px;
+}
+
+.addressbook-overview-hiddenbtn {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: space-around;
+}
+
+.addressbook-overview-hiddenbtn button {
+  background: rgba(255, 255, 255, 1);
+  margin: 0 15px;
+  height: 30px;
+}
+
+
+/*-----------------------ADDRESSBOOK FORM-----------------------------*/
+
+.uploading-mask {
+  z-index: 3;
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(255,255,255,0.7);
+}

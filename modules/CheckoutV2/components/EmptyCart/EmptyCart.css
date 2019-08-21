@@ -1,0 +1,54 @@
+.empty-cart {
+  width: 100%;
+  margin-top: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .empty-cart img :global(.image) {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
+.middle-img {
+  width: 220px;
+  margin-left: calc(50% - 110px);
+  margin-top: 40px;
+}
+
+.middle-img img {
+  width: 100%;
+}
+
+.recommend {
+  margin-top: 60px;
+  margin-left: 10px;
+  margin-bottom: 30px;
+  font-size: 130%;
+  font-weight: bold;
+  color: #1c1a17;
+}
+
+.recommend+div {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.recommend+div :global(.slick-initialized) :global(.slick-prev) {
+  margin-left: -20px;
+}
+.recommend+div :global(.slick-initialized) :global(.slick-next) {
+  margin-right: -20px;
+}
+
+
+.goback-btn {
+  text-align: center;
+  width: 100%;
+  padding: 5px;
+  margin-top: 20px;
+  height: 3em;
+  background: black;
+  color: white;
+  border: none;
+}

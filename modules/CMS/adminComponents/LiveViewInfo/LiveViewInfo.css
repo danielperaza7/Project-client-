@@ -1,0 +1,15 @@
+.buttonWrapper button{
+  height: 30px;
+  padding: 5px 10px;
+  margin: 2px 8px;
+  background-color: none;
+  background: #FFF;
+  border: 1px solid #000;
+}
+.buttonWrapper button:hover{
+  background: #aaa;
+}
+.currentMode{
+  color: white !important;
+  background: #000 !important;
+}

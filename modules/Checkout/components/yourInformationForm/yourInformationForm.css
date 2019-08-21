@@ -1,0 +1,10 @@
+.forgotWrapper{
+  float: right;
+}
+.forgotWrapper a{
+  color: #000;
+}
+.input-warning{
+  color:rgb(253,79,87);
+  padding-left: 12px;
+}

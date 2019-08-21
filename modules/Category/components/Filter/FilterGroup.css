@@ -1,0 +1,42 @@
+.filter-group {
+  display:inline-block;
+  padding-left: 15px;
+  align-self: center;
+}
+
+
+.filter-group :global(.dropdown-menu){
+   font-family:GothamBook;
+   font-size:14px;
+  border: 1px solid lightgray !important;
+  margin-top: -1px !important;
+ }
+
+
+.filter-group :global(.caret){
+  color: gray;
+  margin-left: 8px;
+}
+
+.filter {
+  display:block;
+}
+
+.filter-group :global(.btn-group){
+  margin-right:10px;
+}
+
+.filter-title{
+  vertical-align: middle;
+  margin-right: 20px;
+  font-family:GothamMedium;
+}
+.ViewMoreFiltersButton{
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 12px;
+  font-family: GothamMedium;
+  cursor: pointer;
+}

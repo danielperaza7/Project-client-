@@ -1,0 +1,59 @@
+.select-container {
+  width: 335px;
+}
+
+.select-wrapper {
+  position: relative;
+}
+
+.select-wrapper::before {
+  content: attr(data-value);
+  background-color: white;
+  position: absolute;
+  top: -5px;
+  left: 6px;
+  z-index: 2;
+  font-size: 10px;
+  color: #6B7487;
+  padding: 0 5px;
+}
+
+.select-wrapper::after {
+  position: absolute;
+  content: '\F123';
+  font-family: Ionicons;
+  top: 15px;
+  right: 10px;
+  color: #DCD6DC;
+}
+
+.select-panel {
+  -moz-appearance: none;
+  -webkit-appearance:none;
+
+  width: 100%;
+  height: 40px;
+  padding: 10px 10px;
+
+  font-size: 12px;
+  font-weight: bold;
+
+  border-radius: 0;
+  background-color: white;
+  border: 1px solid #E9EBEE;
+
+}
+
+.select-panel::-ms-expand {
+  display: none;
+}
+
+.select-panel:hover,
+.select-panel:focus,
+.select-panel:visited {
+  outline: none;
+}
+
+.select-item {
+
+}

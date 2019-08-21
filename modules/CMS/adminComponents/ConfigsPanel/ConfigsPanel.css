@@ -1,0 +1,78 @@
+
+
+.configs, .moments {
+  font-size: 12px;
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid #e0e0e0;
+}
+
+.box-panel :global(div.row)>div {
+  display: inline-block;
+}
+
+.box-panel label {
+  font-family: GothamMedium;
+  text-transform: capitalize;
+  height: 30px;
+  vertical-align: top;
+  padding-top: 5px;
+}
+
+.box-panel input, .box-panel textarea, .box-panel select{
+  margin: 0 10px 10px 5px;
+  border: 1px solid #888;
+  padding: 5px;
+  height: 30px;
+  font-size: 14px;
+}
+
+.box-panel div.hint {
+  color: red;
+  text-transform: capitalize;
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+.box-panel div.hint .cnt {
+  font-family: GothamMedium;
+}
+
+.configs textarea {
+  min-height: 50px;
+  line-height: normal;
+}
+
+.box-panel .configs label{
+  width: 70px;
+}
+.box-panel .configs input, .box-panel .configs textarea, .box-panel .configs select {
+  width: calc(100% - 90px);
+}
+.box-panel div.hint {
+  padding-left: 15px;
+}
+
+.box-panel .moments label{
+  width: 100px;
+}
+.box-panel .moments input, .box-panel .moments textarea, .box-panel .moments select {
+  width: calc(100% - 120px);
+}
+
+/*For TagSelector*/
+.tagOptions {
+  margin-top: -8px;
+  display: inline-block;
+}
+.tagOptions > span {
+  display: inline-block;
+}
+
+.box-panel .configs .tagOptions > span > div > label {
+  width: auto;
+}
+.box-panel .configs .tagOptions > span > div > label > label {
+  padding-top: 0;
+  padding-right: 5px;
+  width: auto;
+}

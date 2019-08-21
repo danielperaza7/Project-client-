@@ -1,0 +1,74 @@
+.template div.goBack{
+  margin: 20px 15px 0 15px;
+}
+
+.skinCareVividDetailPicture{
+  width: 100%;
+  height:100%
+}
+
+.imageContainer{
+  width: 100%;
+  max-width: 680px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (min-width: 992px) {
+  .template div.goBack{
+    margin: 0;
+  }
+}
+
+.related-compltelook-row{
+  margin-bottom: 50px;
+  padding: 40px;
+  padding-top:0;
+  margin-left: -55px !important;
+}
+
+.related-compltelook-row :global(.galleryImg){
+  padding-right: 35px !important;
+}
+
+.related-alsolike-row{
+  margin-bottom: 20px;
+}
+
+.h2first, .h2second{
+  font-size:16px;
+  font-family: GothamMedium;
+  margin-bottom:30px;
+  margin-top:30px;
+  margin-left: -12px;
+}
+
+.main-product-wrapper {
+  margin-bottom: 60px;
+  margin-top: 40px;
+  /* margin-top: Need 40px, partial comes from container margin top */
+}
+
+@media screen and (max-width: 991px) {
+  .main-product-wrapper {
+    margin-top: 20px;
+  }
+  .related-compltelook-row{
+    margin-left: 0 !important;
+  }
+  .h2first, .h2second{
+    margin-left: 0;
+  }
+  .related-compltelook-row :global(.galleryImg){
+    padding-right: 15px !important;
+  }
+  .template div.goBack{
+    margin: 15px 15px 0 15px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .imageContainer{
+    padding: 0px 30px;
+  }
+}

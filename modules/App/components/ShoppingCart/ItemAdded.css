@@ -1,0 +1,59 @@
+.dropdown-item div {
+  color: black !important;
+  float: left;
+  font-size: 12px;
+}
+
+.dropdown-item {
+  border: 1px solid #ADA082;
+  border-bottom: none;
+  padding: 15px;
+  width: 100%;
+  background: white;
+  text-align: left;
+}
+
+.title{
+  line-height: 12px;
+  margin-bottom: 15px;
+}
+
+.title, .item-name {
+  width: 100%;
+}
+
+.panel > div{
+  padding-left: 15px;
+  height: 80px;
+  padding: 0;
+}
+
+.item-img {
+  width: 30%;
+}
+
+.item-img > img {
+  height: inherit;
+}
+
+.item-detail {
+  width: 70%;
+}
+
+.item-detail > div {
+  width: 100%;
+  line-height: normal;
+  text-align: left;
+  padding-bottom: 5px;
+  padding-left: 10px;
+}
+
+.item-name {
+  font-weight: bold;
+}
+
+.ori-price {
+  text-decoration: line-through;
+  color: grey;
+  font-size: 12px;
+}

@@ -1,0 +1,97 @@
+.colorName{
+  font-size: 72px;
+  text-transform: uppercase;
+  font-family: GothamMedium;
+}
+
+.colorName_mobile{
+  font-size: 50px;
+  text-transform: uppercase;
+  font-family: GothamMedium;
+  height: 60px;
+  width: 100%;
+  white-space: nowrap;
+}
+
+.triangle{
+  width: 0;
+  height: 0;
+  border-width: 26px;
+  border-style: solid;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+.itemNum{
+  font-size: 14px;
+  font-family: GothamBook;
+  margin-left: 75px;
+  color: grey;
+  margin-bottom:30px;
+}
+
+.triangle_mobile{
+  width: 15px;
+  height: 35px;
+  border-style: solid;
+  margin-right: 10px;
+  margin-top:15px;
+}
+
+.triangleR_mobile{
+  height: 10px;
+  border-style: solid;
+  width:inherit;
+  margin-left: 20px;
+  margin-top:40px;
+}
+
+
+.productlistContainer{
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.productlistContainer ul{
+  padding-left: 0px;
+}
+
+.triangle_container{
+  display:inline-flex;
+  margin-top: 50px;
+  height: 80px;
+}
+
+.itemNum_mobile{
+  font-size: 14px;
+  font-family: GothamBook;
+  margin-left: 25px;
+  color: grey;
+  margin-bottom:20px;
+}
+
+
+@media screen and (max-width: 767px){
+  .itemNum{
+    margin-left: 25px;
+  }
+}
+
+@media screen and (max-width: 1023px){
+  .itemNum{
+    margin-left: 141px;
+  }
+  .triangle_container{
+    margin-left: 63px;
+  }
+}
+
+
+@media screen and (min-width: 1024px){
+  .itemNum{
+    margin-left: calc( 50% - 309px);
+  }
+  .triangle_container{
+    margin-left: calc( 50% - 387px);
+  }
+}

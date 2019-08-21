@@ -1,0 +1,41 @@
+.emailInput{
+  min-width: 70%;
+  border: 1px #E0E0E0 solid;
+  color: #9B9B9B;
+  font-family: GothamBook;
+  opacity: 1.0;
+  padding: 15px !important;
+  margin-left:10px;
+  border-radius: none;
+}
+
+.emailInput:focus, .emailInput:active{
+  border: 1px #C1B497 solid !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+.errShow{
+  position: absolute;
+  color: red;
+  font-size: 10px;
+  font-family: GothamBook;
+  left: 0;
+  margin-left:13px;
+}
+
+.emailButton{
+  border: none;
+  border-radius: 0px;
+  background: #C1B497;
+  color: white;
+  min-width: 20%;
+  padding: 8px 8px;
+  vertical-align: bottom;
+  font-family: GothamMedium;
+  letter-spacing: .1em;
+}
+
+.emailButton:focus{
+  outline: none !important;
+}

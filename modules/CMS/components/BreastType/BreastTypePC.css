@@ -1,0 +1,42 @@
+.breastTypePC {
+  margin-top: 60px;
+  font-family: "PingFang SC" !important;
+}
+
+.topWording {
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 35px;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.mainWrapper {
+  width: 100%;
+  background-color: #f7f5f0;
+  margin-top: 45px;
+  padding-top: 45px;
+  margin-bottom: 45px;
+  padding-bottom: 45px;
+}
+
+.mainContent {
+  background-color: #fff;
+  width: 720px;
+  margin: auto;
+  margin-top: 30px;
+  padding: 30px 30px 40px 30px;
+}
+.mainContent h2.stepTitle {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  margin-top: 0;
+}
+
+@media screen and (min-width: 992px) {
+  .mainContent {
+    width: 920px;
+    padding: 40px;
+  }
+}

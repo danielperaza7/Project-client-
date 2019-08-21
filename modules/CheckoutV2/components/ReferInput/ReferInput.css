@@ -1,0 +1,44 @@
+.title {
+  font-weight: normal;
+}
+
+.title:hover {
+  cursor: pointer;
+  color: #ADA082;
+}
+
+.sectionWrapper {
+  margin: 20px 0;
+  font-size: 12px;
+}
+
+.sectionWrapper label{
+  font-family: GothamBook !important;
+  font-weight: normal;
+}
+
+.collapsedIcon {
+  padding-right: 5px;
+}
+
+
+.innerNode input {
+  height: 40px;
+  width: 100%;
+  padding: 0 10px;
+  font-size: 12px;
+  border: 1px solid #e0e0e0;
+  margin-top: 10px;
+  color: #aaa;
+}
+
+.innerNode input:focus, .innerNode button:focus  {
+  outline: none;
+}
+
+.hint {
+  color: #aaa;
+  float: left;
+  margin-top: 5px;
+  margin-left: 2px;
+}

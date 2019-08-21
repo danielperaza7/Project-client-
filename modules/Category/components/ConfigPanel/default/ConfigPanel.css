@@ -1,0 +1,149 @@
+.config-panel {
+  margin-top: 20px;
+  margin-bottom: 15px;
+  font-size: 12px;
+}
+
+.config-panel>div {
+  margin: 10px 0 5px 0;
+}
+
+.button-toolbar button.n-avail{
+  color: #e0e0e0 !important;
+}
+
+.button-toolbar button.n-avail.imageBtn::after{
+  content: "";
+  position: absolute;
+  z-index: 1;
+  border-bottom: 1px solid #e0e0e0;
+  width: 55px;
+  margin-left: -45px;
+  margin-top: 17px;
+  -moz-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+
+}
+
+.avail{
+  border: 2px solid #ADA082;
+  color: #ADA082;
+}
+
+.button-toolbar button.selected {
+  border: 2px solid #ADA082;
+  color:  #ADA082;
+  font-family: GothamMedium;
+}
+
+.button-toolbar button.selected:hover {
+  border: 2px solid #ADA082;
+}
+
+.imageBtn img{
+  width: 100%;
+}
+
+.button-toolbar button.imageBtn {
+  width: 40px;
+  height: 40px;
+}
+
+.option-title-current-option {
+  font-family: GothamMedium;
+}
+
+.button-toolbar{
+  /*margin-top:5px;*/
+}
+
+.button-toolbar button {
+  padding: 2px;
+  outline: none;
+  box-shadow: none;
+  border-radius: 0;
+  background: none;
+  display: inline-block;
+  margin: 5px 5px !important;
+  min-width: 40px;
+  height: 40px;
+  border: 1px solid #e0e0e0;
+  color: black;
+  overflow: visible;
+  white-space: nowrap;
+}
+.button-toolbar button:focus, .button-toolbar button:active {
+  outline:none ;
+  background: white;
+}
+.button-toolbar button:hover {
+  border: 1px solid #ADA082;
+  /*width: initial;
+  min-width: 40px;*/
+}
+
+.option-name {
+  display: block;
+  overflow: hidden;
+}
+
+
+.sizeGuideBtn{
+  float: right;
+  cursor: pointer;
+  text-transform: capitalize;
+  color:#000;
+  font-family: GothamBook;
+  padding-right: 10px;
+  text-decoration: underline;
+}
+.sizeGuideBtn:hover{
+  color: #ADA082;
+}
+
+.sizeguide-modal{
+  width:100% !important;
+  max-width:900px !important;
+}
+.sizeguide-modal :global(.modal-content){
+  border-radius: 0;
+  border: none;
+}
+.sizeguide-modal :global(.modal-header button.close) {
+  position: absolute;
+  right: 15px;
+  top: 20px;
+}
+.sizeguide-modal :global(.modal-header button.close span){
+  font-size: 35px;
+  font-family: GothamBook;
+  font-weight: normal;
+}
+
+@media screen and (max-width: 767px){
+  .sizeguide-modal{
+    margin: 0 !important;
+  }
+  .sizeguide-modal :global(.modal-content){
+  }
+}
+
+.sizeGuideHeader{
+  font-size: 28px;
+  line-height: 30px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  font-family: GothamBook,NS-Display,sans-serif;
+  letter-spacing: -1px;
+  color: #c1b497;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.close{
+  background: white;
+  color:black;
+  padding: 8px 20px;
+  border:1px black solid;
+  font-family: GothamBook;
+}

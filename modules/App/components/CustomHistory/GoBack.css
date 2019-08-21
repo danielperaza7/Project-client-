@@ -1,0 +1,19 @@
+.goBackWrapper{
+  border: 1px solid #000;
+  text-align: center;
+  padding: 8px 10px 8px 5px;
+}
+
+.goBackWrapper span{
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.goBackRight{
+  max-width: 80%;
+}
+
+.goBackWrapper i {
+  margin-right: 15px;
+  margin-left: -20px;
+}

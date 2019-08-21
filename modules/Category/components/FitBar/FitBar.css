@@ -1,0 +1,35 @@
+.fitBar{
+   width: 100%;
+}
+
+.horizon{
+  background: #D8D8D8;
+  height: 2px;
+}
+
+.circle{
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #D8D8D8;
+  display: inline-flex;
+}
+
+.circle_list{
+  margin-top:-12px;
+}
+
+.person{
+  width:8px;
+  height:17px;
+  position:relative;
+}
+
+.label{
+  width: 50px;
+  font-size:10px;
+  font-family: GothamBook;
+  color: #4A4A4A;
+  display: inline-block;
+  text-align: center;
+}

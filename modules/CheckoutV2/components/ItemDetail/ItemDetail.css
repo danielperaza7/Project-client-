@@ -1,0 +1,157 @@
+.itemWrapper button:focus {
+  outline: none;
+}
+
+.itemWrapper {
+  border-top: 1px solid #e0e0e0;
+  width: 100%;
+  position: relative;
+}
+
+.itemWrapper .leftImage {
+  width: 20%;
+  padding: 15px 15px 15px 0;
+  display: inline-block;
+  height: 100%;
+}
+
+.itemWrapper .rightInfo {
+  width: 80%;
+  padding: 15px 0 15px 0;
+  display: inline-block;
+  height: 100%;
+  vertical-align: top;
+}
+
+/* right info */
+.rightInfo > div {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.rightInfo .basicInfo {
+  width: calc(100% - 85px);
+}
+
+.rightInfo .basicInfo > *,
+.rightInfo .priceAndQty > * {
+  width: 100%;
+  display: block;
+  position: relative;
+}
+
+.rightInfo .redeemInfo {
+  width: 150px;
+  position: absolute;
+  right: 0px;
+  text-align: right;
+}
+
+.basicInfo > * {
+  line-height: 14px;
+  font-size: 10px;
+}
+
+.prodName {
+  font-weight: bold;
+  margin: 0;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.attrTitle {
+  text-transform: uppercase;
+}
+
+.stockInfo {
+  color: #fd4f57;
+  font-style: italic;
+}
+
+.priceAndQty {
+  text-align: right;
+  width: 85px;
+}
+
+.price {
+  display: block;
+  height: 30px;
+}
+
+.ori_price {
+  color: #9b9b9b;
+  text-decoration: line-through;
+  font-size: 12px;
+  width: 100%;
+  display: block;
+}
+
+.rightInfo > div.removeRow {
+  width: 80%;
+  position: absolute;
+  bottom: 15px;
+  left: 20%;
+  font-size: 14px;
+  line-height: 14px;
+}
+
+.rightInfo > div.removeRow > button {
+  padding-left: 20px;
+  border-left: 1px solid #ada082;
+  margin-left: 20px;
+  border-radius: 0;
+}
+
+.rightInfo > div.removeRow > button:first-child {
+  padding-left: 0;
+  border-left: none;
+  margin-left: 0;
+}
+
+.redeemedText {
+  font-family: GothamMedium;
+  font-size: 14;
+}
+
+.redeemPoints {
+  font-family: GothamBook;
+  font-size: 14;
+}
+
+.expDate {
+  font-family: GothamBook;
+  font-size: 12;
+  color: #fd4f57;
+}
+
+@media screen and (max-width: 767px) {
+  .itemWrapper .leftImage {
+    width: 25%;
+  }
+  .itemWrapper .rightInfo {
+    width: 75%;
+  }
+  .rightInfo > div.removeRow {
+    left: 25%;
+    width: 75%;
+  }
+  .rightInfo .basicInfo {
+    width: calc(100% - 65px);
+  }
+  .rightInfo .priceAndQty {
+    width: 65px;
+  }
+  .price {
+    height: 22px;
+    font-size: 12px;
+  }
+  .ori_price {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .rightInfo .redeemInfo {
+    width: 65px;
+  }
+}

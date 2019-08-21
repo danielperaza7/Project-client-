@@ -1,0 +1,123 @@
+.option {
+  cursor: pointer !important;
+  color: black !important;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.option .nocheck{
+  padding-left:1em !important;
+  vertical-align: super !important;
+  font-size: 14px;
+}
+
+.option .check{
+  padding-left:1.37em !important;
+  vertical-align: super !important;
+}
+
+.option span:hover{
+  /*color: black;*/
+}
+
+.option::before{
+  content:"" !important;
+  width:20px !important;
+  height:20px !important;
+  background: white !important;
+  display:inline-block !important;
+  border: 2px solid rgba(0,0,0,0.1);
+}
+.radio .option::before{
+  border-radius: 20px !important;
+}
+.disabled {
+  cursor:not-allowed !important;
+  color:gainsboro !important;
+}
+.disabled::before {
+  content:"" !important;
+  background:
+    linear-gradient(to top left,
+    rgba(0,0,0,0) 0%,
+    rgba(0,0,0,0) calc(50% - 0.8px),
+    rgba(0,0,0,1) 50%,
+    rgba(0,0,0,0) calc(50% + 0.8px),
+    rgba(0,0,0,0) 100%),
+    linear-gradient(to top right,
+    rgba(0,0,0,0) 0%,
+    rgba(0,0,0,0) calc(50% - 0.8px),
+    rgba(0,0,0,1) 50%,
+    rgba(0,0,0,0) calc(50% + 0.8px),
+    rgba(0,0,0,0) 100%) !important;
+  color:gainsboro !important;
+  border:1px solid gainsboro !important;
+}
+
+.filter_btn{
+  background: #FFFFFF  !important;
+  font-size: 14px  !important;
+  color: black  !important;
+  letter-spacing: 0  !important;
+  font-family: GothamBook;
+}
+
+.filter_btn+ul{
+  background: white !important;
+  margin: 0px !important;
+  width: 600px !important;
+  border: none !important;
+  border-radius: 0px !important;
+  box-shadow: none !important;
+  /*max-height: 400px;
+  display: flex;
+  flex-flow: column wrap;*/
+}
+
+.option-panel {
+  margin: 10px 0px 10px 15px !important;
+}
+
+.option-panel li {
+  display: inline-block !important;
+  width: 30% !important;
+  margin-right: 3.33%;
+  height: 30px;
+  overflow: hidden !important;
+  white-space: nowrap !important;
+}
+
+.option-panel li a:hover{
+  text-decoration: none !important;
+  outline: none !important;
+}
+
+/*.filter_btn:focus, .filter_btn:active, .filter_btn[aria-expanded="true"] {*/
+.filter_btn[aria-expanded="true"] {
+  background: white !important;
+  text-decoration: none !important;
+  border: 1px solid lightgray !important;
+  border-bottom: none !important;
+  margin-top: -1px;
+  cursor: default !important;
+}
+
+.filter_btn:focus, .filter_btn:active{
+  text-decoration: none !important;
+}
+
+.checkboxIcon{
+  margin-left: -8.5%;
+  width: 10px;
+  height: 15px;
+  color: black;
+  vertical-align: super !important;
+}
+
+.filter_btn[aria-expanded="false"]{
+  background: none  !important;
+  color: rgba(0,0,0,87)  !important;
+  letter-spacing: 0  !important;
+  font-family: GothamBook;
+  font-size: 14px !important;
+  cursor: default !important;
+}

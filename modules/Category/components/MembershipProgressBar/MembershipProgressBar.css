@@ -1,0 +1,25 @@
+.progressBarContainer{
+  margin-top: 10px;
+  height: 16px;
+  width: 100%;
+  border: 1px solid #b39350;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: white;
+}
+
+.progressBar{
+  height: 100%;
+  background: linear-gradient(#fdedca,#fdefc9,#fbd268,#f9ba0b,#f9ba0b);
+}
+
+.progressLabel{
+  width: 80px;
+  text-align: center;
+  margin-left:auto;
+  margin-right: auto;
+  color:black;
+  font-size: 10px;
+  font-family: GothamMedium;
+  margin-top: -14px;
+}

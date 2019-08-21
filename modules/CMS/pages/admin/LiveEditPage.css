@@ -1,0 +1,78 @@
+.split-pane :global(.Resizer){
+  border: 2px solid #333;
+  cursor: ew-resize;
+}
+
+.pop-alert {
+  width: 50%;
+  height: 30%;
+  margin: auto;
+}
+
+.pop-alert :global(.modal-content){
+  margin: 0px;
+}
+
+.liveViewWrapper{
+  width: 100%;
+  height: 100%;
+  background-color: #aaa;
+  text-align: center;
+}
+
+.liveViewWrapper > div {
+  height: 100%;
+}
+
+.inside-pane {
+  height: 100%;
+  overflow-y: scroll;
+}
+
+.columns {
+  display: inline-block;
+  width: calc(100% - 15px);
+  height: 100%;
+  padding: 0 10px;
+}
+
+.columns-button-left, .columns-button-right {
+  display: inline-block;
+}
+
+.columns-button-left, .columns-button-right {
+  height: 100%;
+  vertical-align: middle;
+  float: right;
+  width: 15px;
+}
+
+.columns-button-right {
+  float: left;
+}
+
+
+.columns-button-left button, .columns-button-right button {
+  vertical-align: middle;
+  height: inherit;
+  width: inherit;
+  background: none;
+  border: #EEEEEE;
+  font-weight: bolder;
+  font-size: 120%;
+  text-shadow: black;
+  padding: 0;
+}
+
+.columns-button-left button:hover, .columns-button-right button:hover {
+  background: #F0F0F0;
+}
+
+.columns-button-left button:active, .columns-button-right button:active {
+  outline: none;
+  background: #888888;
+}
+
+.columns-button-left button:focus, .columns-button-right button:focus {
+  outline: none;
+}

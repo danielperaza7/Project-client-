@@ -1,0 +1,40 @@
+.undoWrapper {
+  padding: 15px 0;
+  position: relative;
+}
+
+.undoColClose, .undoColText, .undoColUndo {
+  display: inline-table;
+  vertical-align: middle;
+}
+
+.undoColClose {
+  width: 40px;
+}
+
+.undoColText {
+  width: calc(100% - 100px);
+}
+
+.undoColUndo {
+  width: 60px;
+  text-align: right;
+}
+
+.undoWrapper button.close {
+  width: 20px;
+  border: none;
+  background: none;
+  text-align: left;
+  padding-left: 1px;
+  font-size: 20px;
+}
+
+.text .prodName {
+  text-decoration: underline;
+}
+
+.text{
+  font-size:12px;
+  font-family: GothamBook;
+}

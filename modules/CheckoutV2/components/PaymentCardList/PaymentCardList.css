@@ -1,0 +1,36 @@
+.listWrapper {
+  padding: 3px;
+}
+
+.listWrapper > div{
+  position: relative;
+  width: calc(50% - 10px);
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.listWrapper > div:nth-child(2n+1) {
+  margin-right: 10px;
+}
+
+.listWrapper > div:nth-child(2n) {
+  margin-left: 10px;
+}
+
+@media screen and (max-width: 767px) {
+  .listWrapper {
+    padding: 0;
+  }
+
+  .listWrapper > div{
+    width: calc(50% - 3px);
+  }
+
+  .listWrapper > div:nth-child(2n+1) {
+    margin-right: 3px;
+  }
+
+  .listWrapper > div:nth-child(2n) {
+    margin-left: 3px;
+  }
+}

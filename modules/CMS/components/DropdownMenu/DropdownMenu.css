@@ -1,0 +1,63 @@
+.dropdownMenu{
+  margin-right: 40px;
+  float: right;
+  width: 100px;
+  margin-top:0px;
+}
+.dropdownMenu :global(.dropdown-menu){
+  left: -160px;
+}
+.dropdownMenu :global(.dropdown-menu>li>a){
+  margin: 8px 0 8px 0;
+}
+.dropdownMenu :global(.dropdown-menu>li>a):hover{
+  color: #ADA082 !important;
+  background: none;
+}
+.dropdownMenu :global(.dropdown .btn-default){
+  background-position: 0px ;
+  background-image: url("https://storage.googleapis.com/evesetus/email/threeDots.svg");
+  width: 32px;
+  height: 32px;
+  border-radius: 16px;
+  background-repeat: no-repeat;
+  border: none;
+}
+
+.dropdownMenu :global(.dropdown .btn-default):hover{
+  background-position: 0px;
+}
+
+.dropdownMenu :global(.dropdown .btn-default):focus{
+  background-position: 0px;
+}
+
+.dropdownMenu :global(.dropdown .btn-default):active{
+  background-image: url("https://storage.googleapis.com/evesetus/email/threeDots.svg");
+}
+
+.dropdownMenu :global(.dropdown .btn-default.active, .btn-default:active):active{
+  background-position: 0px;
+  background-image: url("https://storage.googleapis.com/evesetus/email/threeDots.svg");
+  width: 35px;
+  height: 35px;
+  background-repeat: no-repeat;
+  border: none;
+}
+
+.dropdownMenu :global(.open>.dropdown-toggle.btn-default){
+  background-position: 0px;
+  background-image: url("https://storage.googleapis.com/evesetus/email/threeDots.svg");
+}
+
+.dropdownMenu :global(.open>.dropdown-toggle.btn-default:focus, .open>.dropdown-toggle.btn-default:hover){
+  background: none;
+}
+
+.dropdownMenu :global(.dropdown-menu> li:hover){
+  background: none;
+}
+
+.dropdownMenu :global(.dropdown-menu>li>a:focus){
+  outline: none;
+}

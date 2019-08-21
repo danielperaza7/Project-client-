@@ -1,0 +1,24 @@
+.input-field-container {
+  max-width: 335px;
+  width: 100%;
+}
+
+.input-field-input-area {
+  border: 1px solid #E9EBEE;
+  padding: 10px 10px;
+  width: 100%;
+  font-family: GothamBook;
+  position: relative;
+}
+
+.input-field-input-area-wrapper::before {
+  content: attr(data-value);
+  background-color: white;
+  position: absolute;
+  top: -5px;
+  left: 20px;
+  z-index: 2;
+  font-size: 10px;
+  color: #6B7487;
+  padding: 0 5px;
+}

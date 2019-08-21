@@ -1,0 +1,60 @@
+button.goldTextBtn {
+  border: none;
+  padding: 0;
+  background: none;
+  color: #ada082;
+}
+
+.qtyController {
+  padding-top: 15px;
+}
+
+.qty {
+  line-height: 20px;
+  width: 43px;
+  text-align: center;
+  display: inline-block;
+}
+
+.qtyController > button {
+  border: none;
+  padding: 0;
+  background: #C1B497;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 20px;
+  font-size: 18px;
+}
+
+.qtyController > button:focus {
+  outline: none;
+}
+
+.qtyController .loaderContainer {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  left: 0;
+  text-align: center;
+  background-color: #fff;
+  opacity: 0.7;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+@media screen and (max-width: 767px) {
+  .qty {
+    width: 33px;
+  }
+
+  .qtyController > button {
+    width: 16px;
+    height: 16px;
+    line-height: 16px;
+    font-size: 16px;
+  }
+}

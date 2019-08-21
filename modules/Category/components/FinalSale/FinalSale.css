@@ -1,0 +1,157 @@
+.finalSale{
+  opacity: 1;
+  transition: all .5s ease-in-out;
+  margin-top:10px;
+}
+
+.finalSale p{
+  margin: 0 20px !important;
+}
+
+.finalSale_no_popover{
+  opacity: 1;
+  transition: all 1s ease-in-out;
+  margin-top:10px;
+}
+
+.finalSale_no_popover p{
+  margin: 0 20px !important;
+}
+
+
+.popoverbox{
+  font-size: 12px;
+  font-family: GothamBook;
+  line-height: 1.5;
+  color: black;
+}
+
+.popoverbox a{
+  color: black;
+  text-decoration: underline;
+  cursor:pointer;
+}
+.popoverbox a:hover{
+  text-decoration: underline;
+}
+
+
+.returnDetail{
+  margin: 40px;
+}
+
+.closeButton{
+  margin-top: -15px;
+  margin-right: -10px;
+  float: right;
+}
+
+.closeButton i{
+  color: black;
+  font-size: 20px;
+}
+
+.finalSaleForMobile{
+  background-color:#EEEAE1;
+  padding:20px;
+}
+
+.arrow {
+    border-color: transparent transparent #EEEAE1 !important;
+    border-width:0px 10px 10px !important;
+    left: 132px;
+    position: relative;
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    bottom: 94px;
+    top: -30px !important;
+}
+
+/*@media screen and (min-width: 768px){
+  .finalSale >div >div{
+    top: 20px !important;
+  }
+}
+
+@media screen and (max-width: 1200px){
+  .finalSale >div >div >div{
+     margin-left: 52% !important;
+  }
+}*/
+
+@media screen and (max-width: 767px) {
+  .popoverbox{
+    line-height: 1.6;
+  }
+
+  .finalSale >div >div :nth-child(2){
+     margin-left: -170px !important;
+     margin-top: 10px;
+  }
+  .finalSale >div >div >div{
+    border-color: transparent transparent #EEEAE1 !important;
+    border-width: 0px 10px 10px !important;
+    position: fixed !important;
+    top: initial !important;
+    z-index: 998;
+  }
+
+  .finalSaleForMobile p{
+    margin: 0 !important;
+    text-align: center;
+  }
+}
+
+.arrow_PC{
+  margin-top: -30px !important;
+  margin-left: 132px;
+  position: absolute !important;
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-color: transparent transparent #EEEAE1 !important;
+  border-width:0px 10px 10px !important;
+}
+
+.arrow_mobile{
+  margin-top: -30px !important;
+  margin-left: 133px;
+  position: absolute !important;
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-color: transparent transparent #EEEAE1 !important;
+  border-width:0px 10px 10px !important;
+}
+
+.popover{
+  background: #E4D8BF;
+  bottom: 80px;
+  width: 314px;
+  left: 162px;
+  padding: 20px;
+  position: absolute;
+  z-index: 2;
+}
+
+.popover_arrow{
+  border-color: #E4D8BF transparent transparent !important;
+  border-width: 10px 10px 0px!important;
+  margin-left: 55px;
+  position: absolute;
+  border-style: solid;
+  bottom: -10px;
+}
+
+@media screen and (max-width: 1200px) {
+  .popover_arrow{
+    margin-left: 41px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .arrow_PC{
+    margin-left: 164px;
+  }
+}

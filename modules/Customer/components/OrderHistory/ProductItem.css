@@ -1,0 +1,36 @@
+.attr-list-item {
+  font-size: 12px;
+  line-height: 140%;
+  font-family: Gotham;
+  text-transform: capitalize;
+}
+
+.product-item-container {
+  margin-bottom: 20px;
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+
+.product-item-container :global(.col-xs-8){
+   padding:0 !important;
+}
+
+.attr-list-container {
+  padding-left: 10px;
+}
+
+.price-tag {
+  font-weight: bold;
+  padding-left: 15px;
+}
+
+.finalSale {
+  float: right;
+  font-size: 12px;
+}
+
+.seeKitDetail {
+  font-size: 12px;
+  font-family: "GothamMedium";
+  color: '#9B9B9B';
+}

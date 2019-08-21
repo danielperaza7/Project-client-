@@ -1,0 +1,256 @@
+.checkout-title{
+  font-size: 30px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.option-content{
+  padding:0 20px;
+  font-weight: normal;
+}
+
+.shippingInfo{
+  margin-bottom:8px;
+}
+
+.shippingInfo .option-content{
+  margin-bottom: 5%;
+}
+
+.option-content :global(.styled){
+  margin-top: 3px;
+}
+
+.edit-btn{
+  margin-top:-8px;
+  background: transparent;
+}
+
+.edit-btn-context{
+  padding: 2px 8px;
+  transform:translate(0, 2px);
+  background-image: none;
+  background: white;
+  outline: none;
+  text-shadow: none;
+  color: grey;
+  font-size: 14px;
+  font-weight: bold;
+  border:none;
+  margin-left: 3%;
+  box-shadow: none;
+}
+
+.edit-btn-context:hover{
+  background: white;
+  color: orange;
+  text-decoration: underline;
+}
+
+.edit-btn-context:focus{
+  outline: none;
+}
+
+.edit-btn-context i {
+ font-size: 20px;
+ font-weight: bold;
+ color: grey;
+ padding-left: 15%;
+}
+
+
+/*.edit-btn:hover{
+  color:#eee;
+}*/
+
+.subsection-title{
+  margin-top: 20px;
+  font-family: GothamMedium;
+  margin-bottom: 3%;
+}
+
+.subsection-title:first-child{
+  margin-top: 0;
+}
+
+.next-button{
+  font-size: 12px;
+  font-family: GothamMedium;
+  background-image: none;
+  background-color: black;
+  border: none;
+  color: white;
+  height: 40px;
+  width: 100%;
+  text-shadow: none;
+  margin:10px 0;
+  cursor: pointer;
+}
+.next-button:hover{
+  background: #ADA082;
+  color:white;
+}
+
+.next-button:focus{
+  outline: none;
+}
+
+.next-button:global(.disabled){
+  background-color:#E9EBEE;
+}
+.next-button[disabled]{
+  background-color:#E9EBEE;
+}
+
+.input-style{
+  border: 1px solid #E0E0E0;
+  padding:4px 10px;
+  font-family: GothamMedium;
+  font-size: 12px;
+  color: #000;
+  background-image: none;
+}
+
+.input-style:focus{
+  outline: none;
+}
+
+.input-structure{
+  width: calc( 100% - 108px );
+  height: 40px;
+}
+
+.button-style{
+  height: 40px;
+  border: none;
+  background: #000;
+  color: #FFF;
+  border-radius: 0;
+  text-shadow: none;
+  outline: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-family: GothamMedium;
+  font-size: 12px;
+}
+.button-style:hover{
+  background: #C1B497;
+}
+
+.button-style[disabled]:hover{
+  background: #e0e0e0;
+}
+.button-style:focus{
+  outline: none;
+}
+.button-structure{
+  width: 100px;
+  margin: -2px 0 0 8px;
+  font-weight: normal;
+}
+
+/* step panels */
+@media screen and (min-width: 1200px){
+  .step-panel:global(.panel) {
+    margin-right: 100px;
+  }
+}
+
+.step-panel:global(.panel), .step-panel :global(.panel),.step-panel :global(.panel-heading),.step-panel :global(.panel-body),.step-panel :global(.panel-collapse){
+  border-color: #e0e0e0;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.step-panel > :global(div.panel-heading){
+  background-image: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-image: none;
+}
+.step-panel:global(.current) :global(.panel-heading){
+  background-color: #ADA082;
+  color: white;
+  margin-left: -1px;
+  margin-right: -1px;
+}
+
+.step-panel:global(.done) :global(.panel-heading){
+   background-color: #E0E0E0;
+   color: #000;
+}
+
+.step-panel:global(.todo) :global(.panel-heading){
+   background-color: #FFF;
+   color: #D3D6DC;
+}
+
+
+.error-msg{
+  color: #FC2674;
+  text-align: center;
+}
+
+.order-summary .place-order-wrapper{
+  margin: 0;
+}
+.order-summary .place-order-wrapper .next-button {
+  margin-top: 0;
+}
+
+.place-order-wrapper{
+  margin: 10px 0;
+}
+
+.coupon-wrapper{
+  font-weight: normal;
+}
+
+.extras-wrapper{
+  border: 1px solid #E0E0E0;
+  margin-bottom: 20px;
+}
+
+.extras-wrapper .option-content {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.paypal-btn-wrapper{
+  text-align: center;
+  padding-top: 20px;
+}
+
+.billingAddress{
+  margin-bottom: 1.5%
+}6673
+
+@media screen and (max-width: 767px){
+  .checkout-title{
+    font-size: 20px;
+  }
+  .option-content :global(.styled){
+    margin-top:8px;
+  }
+}
+
+@media only screen and (min-width: 768px){
+  div.checkout-page{
+      padding-left: 15px;
+      padding-right: 15px;
+  }
+}
+
+@media only screen and (min-width: 992px){
+  div.checkout-page{
+      padding-left: 30px;
+      padding-right: 30px;
+  }
+}
+
+@media only screen and (min-width: 1200px){
+  div.checkout-page{
+      padding-left: 45px;
+      padding-right: 45px;
+  }
+}

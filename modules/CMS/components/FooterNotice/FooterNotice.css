@@ -1,0 +1,18 @@
+.notice {
+  font-size: 12px;
+  line-height: 18px;
+  margin-bottom: 16px;
+  color: rgb(253, 79, 87);
+}
+@media screen and (max-width: 1023px) {
+  .notice {
+    text-align: center;
+    width: 343px;
+  }
+}
+
+@media screen and (max-width: 374px) {
+  .notice {
+    width: auto;
+  }
+}

@@ -1,0 +1,51 @@
+
+.finalSale {
+  position: relative;
+}
+
+.finalSaleBtn {
+  font-weight: bold;
+  line-height: 18px;
+  color:red;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.finalSaleBtn:hover {
+  text-decoration: underline;
+}
+
+.finalSaleBtn > i {
+  color: #C1B497;
+  font-size: 12px;
+  padding-left: 5px;
+  vertical-align: middle;
+}
+
+.description {
+  font-size: 12px;
+  position: absolute;
+  bottom: 24px;
+  background-color: #E6D8C4;
+  min-width: 230px;
+  max-width: 300px;
+  padding: 20px 18px 10px 18px;
+  z-index: 999;
+}
+
+.description > i {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.description::after {
+  content: "";
+  display: block;
+  background-color: #E6D8C4;
+  transform: rotate(45deg);
+  position: absolute;
+  height: 16px;
+  width: 16px;
+  left: 68px;
+}

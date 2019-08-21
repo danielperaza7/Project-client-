@@ -1,0 +1,103 @@
+
+.table {
+  border-left: 2px solid #000;
+  margin: 0 15px 40px 15px;
+}
+
+.table .rows > td {
+  padding: 0 5px 40px 5px;
+}
+
+.table .rows:last-child > td {
+  padding-bottom: 0;
+}
+
+.table .rows > td.year {
+  text-align: right;
+  vertical-align: top;
+  padding-left: 20px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.table .rows > td.content {
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.table .rows > td.content .title {
+  font-size: 16px;
+  font-weight: bold;
+  width: 100%;
+  display: block;
+}
+
+.listHistory {
+
+}
+
+.listHistory .year, .listHistory .now .title, .listHistory span.title  {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.listHistory .content {
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.single {
+  margin-bottom: 25px;
+}
+
+.now {
+  text-align: center;
+  max-width: 600px;
+  margin: auto;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 120px;
+}
+
+.now span.title {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  margin-top: 30px;
+}
+
+.listHistory :global(.col) {
+  padding-right: 40px;
+}
+
+.listHistory :global(.col:last-child) {
+  padding-right: 15px;
+}
+
+@media screen and (min-width: 1440px){
+  .listHistory :global(.col) {
+    padding-right: 60px;
+  }
+
+  .listHistory :global(.col:last-child) {
+    padding-right: 15px;
+  }
+
+  .now span.title {
+    margin-top: 60px;
+  }
+}
+
+@media screen and (min-width: 768px){
+  .table {
+    width: 493px;
+    margin: auto;
+  }
+  .table .rows > td {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .table .content {
+    width: 395px;
+  }
+}

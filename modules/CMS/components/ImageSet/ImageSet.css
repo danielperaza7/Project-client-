@@ -1,0 +1,45 @@
+/*:global(@media (min-width: 768px)*/
+/*.col-lg-4){*/
+  /*width: 20%;*/
+/*}*/
+/*:global(@media (min-width: 768px)*/
+/*.col-xl-4){*/
+  /*width: 20%;*/
+/*}*/
+/*:global(@media (min-width: 768px)*/
+/*.col-md-4){*/
+  /*width: 20%;*/
+/*}*/
+/*:global(@media (min-width:768px)*/
+/*.col-sm-4){*/
+  /*width: 20%;*/
+/*}*/
+
+.DesktopImageWrapper{
+  width: 16.66%;
+  padding: 7.5px;
+  float: left;
+}
+
+.MobileImageWrapper{
+  width: 50%;
+  display: inline-block;
+  padding-left: 0px;
+}
+
+.ImageSet{
+  max-width: 1370px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ImageSetMobile {
+  position: relative;
+}
+
+.ImageSetMobile :global(.row) {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+  

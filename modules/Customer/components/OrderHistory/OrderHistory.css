@@ -1,0 +1,323 @@
+.price-detail-panel {
+  border-bottom: 1px solid #eee;
+  border-top: 1px solid #eee;
+  font-size: 12px;
+  padding: 15px 0px;
+  margin-top: 15px;
+}
+.price-detail-panel + .price-detail-panel {
+  margin-top: -1px;
+}
+
+.price-detail-panel-content {
+  margin-left: 35%;
+}
+
+
+.price-detail-bar {
+  display: flex;
+  margin-top: 4px;
+}
+
+.price-detail-title {
+  font-size: 12px;
+}
+
+.price-detail-value {
+  font-size: 12px;
+  font-family: GothamBook;
+  text-align: right;
+}
+
+.close-button {
+  height: 40px;
+  background-color: #dbdbdb;
+  width: 95%;
+  margin-left: 3%;
+  cursor: pointer;
+}
+
+.popup-return-footer {
+  margin: 20px 0 0;
+}
+
+.popup-return-footer:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.popup-return-cancel-button {
+  border: 1px #E0E0E0 solid;
+  background: white;
+  color: black;
+}
+
+.popup-return-cancel-button,
+.popup-return-confirm-button {
+  font-size: 12px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  padding: 0 25px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 3px;
+  width: 48%;
+}
+
+.popup-return-cancel-button {
+  float: left;
+}
+
+.popup-return-confirm-button {
+  background-color: black;
+  color: white;
+  float: right;
+}
+
+.order-history-title {
+  margin-top: 20px;
+  font-size: 24px;
+  margin-bottom: 25px;
+  margin-left: -2px;
+}
+
+.order-history-title-description {
+  font-size: 12px;
+  margin-bottom: 12px;
+}
+
+.order-history-title-container {
+  width: 100%;
+}
+
+.order-history-item-header-container {
+  width: 100%;
+  border-radius: 0 !important;
+  border:none;
+  box-shadow: none;
+  border-bottom: 1px solid lightgray;
+}
+
+.order-history-item-header-container :global(.panel-body){
+  padding:15px 20px;
+}
+
+.order-history-item-header-container > div:global(.panel-heading) {
+  background-image: none !important;
+  background-color: white;
+  height: 100%;
+  border: none;
+  padding: 20px 20px 10px 20px;
+}
+
+.orders :global(.panel) {
+  margin-bottom: 0px;
+}
+
+.order-history-item-header-container > div:global(.panel-heading):hover{
+  /*background: #EEEAE1 !important;*/
+  color: black;
+}
+
+.order-history-item-order-number {
+  font-size: 12px;
+  font-family: GothamMedium;
+  cursor: pointer;
+  min-width: 215px;
+}
+
+/*.order-history-item-order-number*/
+
+
+.order-history-item-header-place-time {
+  font-size: 12px;
+  font-family: GothamBook;
+  margin-bottom: 5px;
+}
+
+.order-history-item-header-tracking-number {
+  font-size: 12px;
+  font-family: GothamBook;
+  margin-bottom: 5px;
+}
+
+.order-history-item-header-tracking-number-content {
+  font-size: 12px;
+  font-family: GothamBook;
+}
+.order-history-item-header-tracking-number-content > span {
+  cursor: pointer;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.return-column {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.order-history-item-header-return-link {
+  font-size: 12px;
+  font-family: GothamBook;
+}
+
+.order-history-item-header-return-link > div > a {
+  color: #ADA082;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.order-history-item-header-return-link > div {
+  margin-bottom: 5px;
+}
+
+
+.order-history-item-header-return-link > a:hover {
+  color: #C1B497;
+  text-decoration: none;
+}
+
+/* ============= Order item ============ */
+.order-item-shipping-title {
+  font-family: GothamMedium;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+.order-item-shipping-body {
+  font-size: 12px;
+  font-family: GothamBook;
+  margin-bottom: 5px;
+}
+
+.order-item-shipping-container {
+  margin-bottom: 30px;
+}
+
+.question{
+  cursor: pointer;
+}
+
+.orderStatusInfoDialog{
+  width: 50% !important;
+  min-width: 300px;
+  max-width: 450px;
+  height: auto;
+  margin-top: 312px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.orderStatusInfoDialog :global(.modal-content){
+  border-radius:2px;
+  padding:20px 25px;
+  box-shadow: 0 0px 12px rgba(0,0,0,.5);
+  display: flex;
+}
+/* ============= contact us =========== */
+.contact-us-title {
+  font-size: 12px;
+  color: #9B9B9B;
+  line-height: 20px;
+}
+
+.collapseItem{
+  font-size: 12px;
+  color: #9B9B9B;
+  line-height: 20px;
+  float:right;
+}
+.collapseItem button{
+  border: 1px #9B9B9B solid;
+  background: white;
+  padding: 4px;
+}
+
+/* ============= order tabs =========== */
+.order-tabs :global(.tab-content){
+  padding-top: 20px;
+}
+
+.order-tabs :global(li){
+  border-bottom: solid rgba(0,0,0,0) 3px;
+  margin-bottom: -3px;
+}
+
+.order-tabs :global(li.active a:hover){
+  border: none;
+  color: #B39350;
+ }
+
+.order-tabs :global(li a:hover){
+  border-color: rgba(0,0,0,0);
+  background-color: rgba(0,0,0,0);
+  color: #B39350;
+}
+
+.order-tabs :global(li.active){
+  border-bottom: solid #B39350 3px;
+}
+.order-tabs :global(li.active a){
+  border:none;
+  color: black;
+}
+.order-tabs :global(li.active a:focus){
+  border:none;
+}
+.order-tabs :global(li a){
+  color: rgba(0,0,0,0.54);
+}
+
+.orders {
+  border-top: solid #00000032 1px;
+  margin: 0;
+}
+
+
+@media screen and (max-width:991px){
+
+  .order-history-item-header {
+    height: 100%;
+    margin-left: -20px;
+  }
+
+  .order-history-title{
+    font-size: 18px;
+  }
+}
+.refundTable{
+  width: 100%;
+  margin-top: 10px;
+  margin-left: 15px;
+  margin-bottom: 20px;
+}
+.refundTable thead{
+  font-size: 12px;
+}
+.refundTable tbody{
+  font-size: 12px;
+}
+
+
+@media screen and (max-width:767px){
+  .order-history-detail-column {
+    padding-left: 35px;
+    padding-top: 8px;
+  }
+
+  .return-column {
+    padding-left: 35px;
+    padding-top: 8px;
+  }
+
+  .refundTable tbody td{
+    max-width: 95px;
+    padding-right: 5px;
+  }
+
+  .order-history-item-header-container > div:global(.panel-heading) {
+    padding-bottom: 10px;
+  }
+}

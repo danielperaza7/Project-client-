@@ -1,0 +1,143 @@
+.reviewTitle{
+  font-size: 26px;
+  font-family: GothamBook;
+  margin-bottom: 20px;
+}
+
+.orderNumber{
+  font-size: 12px;
+  font-family: GothamBook;
+  margin-bottom: 20px;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 58px;
+  overflow-x: hidden;
+  min-height: 600px;
+}
+
+.reviewItem{
+  margin-bottom:100px;
+}
+
+.surveyContainer{
+  padding:30px;
+  padding-top:15px;
+}
+
+.surveyList{
+  margin-top:20px;
+  margin-bottom: 20px;
+}
+
+.surveyTitle{
+  font-size:20px;
+  font-family: GothamMedium;
+}
+
+.surveyNote{
+  font-size:14px;
+  font-family: GothamBook;
+  margin-top: 10px;
+}
+
+.surveyItem{
+  font-size:14px;
+  font-family: GothamBook;
+  width:30%;
+  display: inline-flex;
+  margin-top: 10px;
+}
+
+.item{
+  width:50%;
+  display: inline-flex;
+  margin-left:10px;
+  vertical-align: middle;
+  margin-top:10px;
+}
+
+.surveyInput{
+  width: 100%;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  /* margin-left: 10px; */
+  vertical-align: middle;
+  margin-top: 10px;
+  border: none;
+  border-bottom: 1px solid black !important;
+  padding-bottom: 10px;
+  -webkit-appearance: unset !important;
+  appearance: unset !important;
+  outline: none !important;
+  padding-left: 14px;
+}
+
+.item :global(.dropdown){
+  border-bottom:1px solid black !important;
+  width:100%;
+}
+
+.item :global(.caret){
+  color: black !important;
+}
+
+.item :global(.btn-link){
+  text-decoration: none;
+  color: black;
+}
+
+.surveyBTN{
+  font-family: GothamMedium;
+  font-size: 20px;
+  height: 48px;
+  background: black;
+  color:white;
+  padding-top: 12px;
+  text-align: center;
+  cursor:pointer;
+}
+
+@media (min-width: 1440px) {
+  .container {
+    width:1410px !important;
+  }
+}
+
+@media (max-width: 1439px) {
+  .container {
+    padding-left:15px;
+    padding-right: 15px;
+  }
+}
+
+@media (max-width: 767px) {
+  .reviewItem{
+    margin-bottom:30px;
+  }
+
+  .container {
+    margin-top: 30px;
+  }
+
+  .surveyBTN{
+    font-family: GothamMedium;
+    font-size: 16px;
+    padding-top: 14px;
+  }
+
+  .surveyItem{
+    width: 50%;
+  }
+
+  .item{
+    width: 30%;
+  }
+
+  .item :global(.dropdown-menu){
+    font-size:12px;
+  }
+
+}

@@ -1,0 +1,85 @@
+.sectionWrapper {
+  margin: 20px 0;
+  font-size: 12px;
+}
+
+.title {
+  font-weight: normal;
+}
+
+.title:hover {
+  cursor: pointer;
+  color: #ADA082;
+}
+
+.collapsedIcon {
+  padding-right: 5px;
+}
+
+.innerNode {
+  margin: 5px 10px;
+  position: relative;
+}
+
+.innerNode input {
+  height: 40px;
+  width: 335px;
+  padding: 0 5px;
+  font-size: 12px;
+  border: 1px solid #e0e0e0;
+}
+
+.innerNode input:focus, .innerNode button:focus  {
+  outline: none;
+}
+
+.innerNode button {
+  font-family: GothamMedium;
+  font-size: 12px;
+  border: none;
+  background: none;
+  color: #ADA082;
+  padding: 5px 20px;
+  text-transform: uppercase;
+}
+
+.innerNode .dollarSign {
+  line-height: 40px;
+  position: absolute;
+  left: 0;
+  vertical-align: middle;
+  text-align: center;
+  padding-left: 5px;
+}
+
+.innerNode .dollarSign + input {
+  padding-left: 15px;
+}
+
+.innerNode .applied, .innerNode .error, .innerNode :global(.error), .innerNode :global(.redeemed), .innerNode :global(.checkAmount) {
+  margin: 5px 0;
+}
+
+.innerNode .applied {
+  font-weight: bold;
+}
+
+.innerNode .error, .innerNode :global(.error) {
+  color: red;
+}
+
+.innerNode a {
+  color: black;
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 767px) {
+  .innerNode input {
+    width: 80%;
+  }
+  .innerNode input + button {
+    padding: 5px 10px;
+    align-items: flex-end;
+    width: 20%;
+  }
+}

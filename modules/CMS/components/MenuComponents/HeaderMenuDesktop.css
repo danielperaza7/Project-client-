@@ -1,0 +1,542 @@
+.menu-btn {
+  width: auto !important;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: small;
+  height: 39px;
+  margin-bottom: -15px;
+}
+.menu-btn:hover,{
+  color:#555;
+}
+.menu-btn span{
+  padding-bottom: 2px;
+    font-family: GothamBook !important;
+    font-size: 12px;
+    letter-spacing: 0.05em;
+  font-weight: lighter;
+}
+.current-menu-btn span{
+  border-bottom: 2px solid #000;
+}
+
+.menu-bar,
+.menu-bar a{
+  vertical-align: middle;
+  text-decoration: none;
+  cursor: pointer;
+  color: #000;
+}
+
+.menu-bar{
+  display: flex;
+  max-width: 960px;
+  width: 80vw;
+  justify-content: space-between;
+  margin: 0 10vw;
+}
+.menu-bar a{
+  display: table-cell;
+}
+.menu-bar a:hover{
+  text-decoration: none;
+  color:#555;
+}
+
+.menu-bar{
+  padding-bottom: 15px;
+}
+
+
+.submenu-list{
+  -ms-box-orient: horizontal;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
+  width: inherit;
+}
+
+.submenu-wrapper{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  font-size: 12px;
+}
+.submenu-col{
+  /*min-width: 100px;*/
+  display: table-table-cell;
+
+  text-align: right;
+  width: inherit;
+}
+
+.menu-panel{
+  padding: 15px 55px 40px 55px;
+  text-align: center;
+}
+
+
+.submenu-col a{
+  color: black;
+}
+
+.submenu-col a:hover{
+  text-decoration: none !important;
+  color: #ADA082 !important;
+}
+
+
+.search-btn{
+  font-size: 20px;
+  margin-top: 0.6em;
+}
+
+.no-link{
+  cursor: default;
+  text-decoration: none;
+}
+
+.closePanelBtn{
+  float: right;
+  font-size: 28px;
+  margin-top: -15px;
+}
+
+.topBar_container{
+  width: 890px;
+  height: 140px;
+  margin:auto;
+  padding-top: 10px;
+}
+
+.topBar_card{
+  width: 270px;
+  display:inline-flex;
+  margin-right: 40px;
+}
+
+
+
+.topBar_info{
+  margin-left: 15px;
+}
+
+.topBar_rate{
+  font-size: 16px;
+  font-family: GothamMedium;
+  letter-spacing: .05em;
+}
+
+.topBar_productName{
+  margin-top: 10px;
+  font-size: 12px;
+  font-family: GothamBook;
+  line-height: 150%;
+  letter-spacing: .05em;
+}
+
+.topBar_starRate{
+  margin-top:5px;
+}
+
+.ion-android-star-outline{
+  color:#E0E0E0;
+  vertical-align: middle;
+  margin-left: 2px;
+}
+
+.ion-android-star{
+  color:#F5C86A;
+  vertical-align: middle;
+  margin-left: 2px;
+}
+
+.topBar_price{
+  margin-top:5px;
+  font-size:12px;
+  font-family: GothamMedium;
+}
+
+.leftBTN{
+  width:180px;
+  height:30px;
+  background: black;
+  color: white;
+  font-family: GothamMedium;
+  padding-top:8px;
+  display: inline-block;
+
+}
+
+.rightText{
+  color:#ADA081;
+  font-size:12px;
+  font-family: GothamBook;
+  display: inline-block;
+  margin-left:200px;
+}
+
+.specialOffer_container{
+  width: 880px;
+  margin: auto;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.specialOffer_item{
+   height:160px;
+   width: 260px;
+   margin-left: 50px;
+   display: inline-flex;
+}
+
+.specialOffer_img{
+  width: 260px;
+}
+
+.specialOffer_text_container{
+  position: absolute;
+  top:175px;
+  height:41px;
+  width:260px;
+  background: #FFFFFF !important;
+  opacity: .74 !important;
+  font-family: GothamMedium;
+  text-align: center;
+}
+
+.specialOffer_text {
+  position: relative;
+  max-height: 41px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+
+.blog_container{
+  padding-bottom: 15px;
+  max-width: 800px;
+  width: 82vw;
+  margin-left: 19vw;
+  position: relative;
+  margin: 0;
+  left: 50%;
+  transform: translateX(-400px);
+}
+
+.blog_left_text{
+  font-size:12px;
+  font-family: GothamBook;
+  color:#ADA081;
+  display: inline-flex;
+  position:absolute;
+  left:0px;
+  margin-top:9px;
+}
+
+.right_btn_text{
+  width: fit-content;
+  height: 30px;
+  padding: 8px 30px 8px 30px;
+  background: black;
+  color: white;
+  text-align: center;
+  font-family: GothamMedium;
+  display: inline-flex;
+  position:absolute;
+  right:0px;
+  cursor:pointer;
+}
+
+.right_btn_text a{
+  color: inherit;
+  text-decoration: none;
+}
+
+.blog_card_container{
+  width: 100% !important;
+  height: 362px;
+  margin-top: 50px;
+  justify-content: space-between;
+  display: inline-flex;
+}
+
+.blog_card{
+  display:inline-flex;
+  width:240px;
+  height: 360px;
+  margin-left: 30px;
+}
+
+.blog_img{
+  width: 240px;
+}
+
+.blog_text{
+  position: absolute;
+  height:120px;
+  width:240px;
+  background: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  padding-top: 20px;
+  font-size:50px;
+  font-family: GothamMedium;
+  color: white;
+
+}
+
+.blog_details{
+  width:240px !important;
+  height:240px;
+  background: #EEEAE1;
+  padding: 15px;
+}
+
+.blog_details a{
+  color: inherit;
+  text-decoration: none;
+}
+
+
+.blog_title{
+  font-family: GothamMedium;
+  margin-top:15px;
+  text-align: left;
+  min-height: 35px;
+}
+
+.blog_date{
+  font-family: GothamBook;
+  font-size:11px;
+  margin-top:10px;
+  color:#ADA081;
+  text-align: left;
+}
+
+.details{
+  height:105px;
+  margin-top:10px;
+  font-family: GothamBook;
+  font-size:11px;
+  text-align: left;
+  overflow: hidden;
+  margin-bottom:18px;
+}
+
+.content_btn_text{
+  width:140px;
+  height: 35px;
+  background: #ADA081;
+  color: white;
+  font-family: GothamMedium;
+  text-align: center;
+  padding-top: 10px;
+  justify-content: center;
+  margin-left:35px;
+}
+
+.search-input-open ~ i.search-icon {
+  margin-left: -25px;
+  vertical-align: top;
+  height: 24px;
+}
+
+.search_container{
+  width: fit-content;
+  padding: 20px 0px;
+  margin:auto;
+}
+
+.search_input{
+  width: 527px;
+  height: 40px;
+  margin-bottom: 20px;
+  display: inline-flex;
+}
+
+.input{
+  width: 414px;
+  height: 40px;
+  border: 1px solid #ADA081;
+  padding: 10px;
+  border-right:none;
+  font-size:12px;
+  font-family: GothamBook;
+  outline:none;
+}
+
+.btn{
+  width: 113px;
+  height: 40px;
+  background: #ADA081;
+  color: white;
+  font-size:16px;
+  font-family: GothamBook;
+}
+
+.title{
+  margin-left: 20px;
+  font-size: 12px;
+  font-family: GothamMedium;
+  margin-bottom: 20px;
+}
+
+.bottom_container{
+  display: flex;
+}
+
+
+.productCard{
+  height: 115px;
+  width:111px;
+  margin-left: 20px;
+  display: inline-block;
+}
+
+.productCard_title{
+  font-size: 11px;
+  font-family: GothamBook;
+  padding: 6px;
+  text-align: center;
+}
+
+.topSearch_container{
+  margin-left: 20px;
+}
+
+.title_top{
+  margin-left: 20px;
+  font-size: 12px;
+  font-family: GothamMedium;
+}
+
+.list_top{
+  margin-top: 20px;
+  padding-left:20px;
+  border-left: 1px solid #E4D8BF;
+  font-size: 12px;
+  font-family: GothamBook;
+}
+
+.topNum{
+  height: 12px;
+  width: 12px;
+  margin-right: 10px;
+  display: inline-block;
+  font-size: 10px;
+  text-align: center;
+  vertical-align: middle;
+  color: white;
+}
+
+.topCard{
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.recentSearchPart{
+  width: 394px;
+}
+
+.recentCard_list{
+  margin-left:20px;
+}
+
+.recentCard{
+  font-size: 12px;
+  font-family: GothamBook;
+  margin-bottom:10px;
+}
+
+.clearBtn{
+  float: right;
+  font-size: 10px;
+  font-family: GothamMedium;
+  color: #ADA081;
+  letter-spacing: .05em;
+  cursor: pointer;
+}
+
+.elasticSearchPart{
+  width: 414px;
+  height: 185px;
+  border: 1px solid #EEEAE1;
+  border-top: none;
+  margin-top:-20px;
+  padding: 10px;
+  padding-right:20px;
+  overflow-y:scroll;
+}
+
+.suggestsItem{
+  font-size: 12px;
+  font-family: GothamBook;
+  margin-bottom:5px;
+  overflow:hidden;
+}
+
+.ion-close-circled{
+  color: #ADA081;
+  position: absolute;
+  margin-left: 390px;
+  margin-top: 10px;
+}
+
+
+.new{
+  width: 780px;
+}
+
+.new_container{
+  max-width: 1000px;
+  width: 82vw;
+  margin-left: 3vw;
+  /* margin-right: -20px; */
+  margin-top: -250px;
+}
+
+
+.right_btn_text_news{
+  width: fit-content;
+  height: 30px;
+  padding: 8px 30px 8px 30px;
+  background: black;
+  color: white;
+  text-align: center;
+  font-family: GothamMedium;
+  display: inline-flex;
+  position:absolute;
+  right: 2vw;
+  cursor:pointer;
+}
+
+.left_text{
+  font-size:12px;
+  font-family: GothamBook;
+  color:#ADA081;
+  display: inline-flex;
+  position:absolute;
+  left:0px;
+  margin-top:9px;
+}
+
+.newArrives{
+  background: #EEEAE1;
+  height: 230px;
+  margin: 0 calc(5vw - 50%);
+  margin-top: 100px;
+}
+
+@media screen and (min-width: 1200px) {
+  .new_container{
+    margin-left: calc( 50% - 500px );
+  }
+
+  .right_btn_text_news{
+    right: 15px;
+  }
+}

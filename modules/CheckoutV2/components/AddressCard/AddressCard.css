@@ -1,0 +1,37 @@
+@media screen and (min-width: 768px){
+  .cardWrapper{
+    border: 1px solid #E0E0E0;
+    width: calc( 50% - 10px);
+    padding:15px;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-top:15px;
+    font-size: 12px;
+    min-height:105px;
+    display: inline-grid;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .cardWrapper {
+    border: 1px solid #E0E0E0;
+    padding: 15px;
+    width:100%;
+    margin-top: 15px;
+  }
+}
+
+.selected{
+  border: 2px solid black !important;
+}
+
+@media screen and (max-width: 1200px) {
+  .cardWrapper{
+    min-height:120px;
+    vertical-align: top;
+  }
+}
+
+.cardWrapper:hover{
+  border: 1px solid black;
+}

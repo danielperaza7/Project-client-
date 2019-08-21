@@ -1,0 +1,429 @@
+.header {
+  background: #eee url('../../header-bk.png') center;
+  background-size: cover;
+  border-bottom: 1px solid #ccc;
+}
+.header-mid-row{
+  background: #fff;
+  padding:8px 0 2px 0;
+  border-bottom: 1px #e0e0e0 solid;
+}
+.collapseHeaderMiddle{
+  padding:15px;
+  margin-top: -80px;
+  opacity: 0;
+  width: 1px;
+  overflow: hidden;
+  -webkit-transition: margin 0.2s;
+  -moz-transition: margin 0.2s;
+  transition: margin 0.2s;
+}
+.headerMiddle{
+  padding-top: 15px;
+  margin-top: 0;
+  opacity: 1;
+  -webkit-transition: margin 0.3s;
+  -moz-transition: margin 0.3s;
+  transition: margin 0.3s;
+}
+.cart-number{
+  font-size: 10px;
+  position: absolute;
+  width:21px;
+  text-align: center;
+  margin-top: 12px;
+}
+.content {
+  width: 100%;
+  max-width: 980px;
+  margin: auto;
+  padding: 64px 16px;
+  overflow: auto;
+}
+
+.site-title {
+  font-weight: 300;
+  font-size: 42px;
+  float: left;
+}
+
+.site-title a {
+  text-decoration: none;
+  color: #FFF;
+}
+
+.add-post-button {
+  display: inline-block;
+  color: #FFF;
+  background: #03A9F4;
+  padding: 8px 16px;
+  text-decoration: none;
+  border-radius: 1000px;
+  float: right;
+}
+
+.logo-ebe, .logo-et {
+  height:50px;
+  display:inline-block;
+  padding: 8px;
+}
+
+@media screen and (max-width:991px){
+  .logo-ebe, .logo-et{
+    height:20px;
+    display:block;
+    margin: 0 auto;
+    /*width: 200px;*/
+    margin-bottom: 4%;
+    padding: 0;
+  }
+}
+
+
+
+
+
+/* ----- for header nav page --- */
+.header-nav-item {
+   display: inline-block;
+   padding: 0 !important;
+   margin-bottom: 10px;
+ }
+.header-nav-item > img {
+  display: block;
+  width: 100%;
+  margin-bottom: 2px;
+}
+
+.mobile-nav-row-btn-left {
+  width: 58.33% !important;
+  font-size: 12px;
+  font-family: GothamMedium;
+  color:#fff;
+  background: #000;
+  vertical-align: middle;
+  border: none;
+  height: 40px;
+}
+
+.mobile-nav-row-btn-right {
+  width: 41.67% !important;
+  font-size: 12px;
+  font-family: GothamMedium;
+  color:#000;
+  background: #fff;
+  vertical-align: middle;
+  border: none;
+  height: 40px;
+  border-top: 1px #000 solid;
+}
+
+.mobile-nav-sub {
+  height:100%;
+}
+.mobile-nav-col {
+  position: relative;
+  padding: 0px;
+  border: none;
+}
+
+.mobile-nav-row-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  color:black;
+}
+
+.logo_h1{
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+.mobile-nav-row{
+  width: 100%;
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  margin: 4px 0px !important;
+  /*justify-content: center;*/
+  justify-content: space-between;
+  -webkit-justify-content: space-between;
+  background: #fff;
+  padding: 0px;
+  border: none;
+  font-size: 14px;
+  margin: 0 !important;
+}
+
+.mobile-nav-row::after,
+.mobile-nav-row::before{
+  content: initial !important;
+}
+
+
+/*.mobile-nav-row-leftright {
+  width: 20%;
+  font-size: 24px;
+  display: inherit;
+  justify-content: inherit;
+  position: absolute;
+}
+
+.mobile-nav-row-leftright:last-child {
+  right: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .mobile-nav-row-leftright:last-child {
+    right: calc((100vw - 750px) / 2);
+  }
+}*/
+
+.mobile-nav-page {
+  font-size: 80%;
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0;
+}
+
+.mobile-nav-item {
+  overflow: scroll;
+  width: 75%;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.mobile-nav-item >div >div{
+  height:40px;
+  padding: 0 8px !important;
+}
+
+.mobile-nav-item > div {
+  padding: 15px 8px;
+}
+
+.div-modals :global(.modal-dialog) :global(.modal-content) {
+  box-shadow: none;
+  border: none;
+  border-radius: 0 !important;
+  height: 100%;
+  min-height:100%;
+}
+
+.nav-tab-navbar :global(.container) {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+
+
+
+
+
+
+/* ----- Flexbox for mobile header nav page--- */
+
+/* ----- React CSS Transition for Mobile NavIcon --- */
+
+.left-appear {
+  right: 100px;
+}
+
+.left-appear-active {
+  right: 0;
+  transition: right 0.5s;
+  width:100%;
+  margin: 0;
+  height:100%;
+}
+
+.left-leave {
+  right: 0px;
+}
+
+.left-leave-active {
+  right:100px;
+  transition: left 0.5s;
+}
+
+.mobile-nav-main {
+  display: flex;
+  height: 80vh;
+  display: -webkit-flex;
+  flex-direction: row;
+  margin: 0px;
+  height: calc(100vh - 80px);
+
+}
+
+.mobile-nav-leftbtn {
+  margin: 0;
+  flex: 1;
+  padding: 2px 0 !important;
+  width: 25;
+  overflow: scroll;
+}
+
+.mobile-nav-leftbtn button {
+  background-color: #FAFAFA;
+  vertical-align: middle;
+  border: none;
+  height: 12.6vh;
+  width: 100%;
+  background-blend-mode: color;
+  border: none;
+  border-radius: 0px;
+  margin: 0px !important;
+  white-space: normal;
+  font-size: 9px;
+  box-shadow: none;
+  padding: 2px 6px !important;
+  color: #000;
+  font-family: GothamBook;
+}
+
+.mobile-nav-leftbtn button:focus, .mobile-nav-leftbtn button:active{
+  outline: none !important;
+  font-family: GothamMedium;
+  border-color: #000 !important;
+  box-shadow: none;
+}
+
+.mobile-nav-leftbtn .curTab {
+  background-color: #FFF !important;
+  color: black !important;
+}
+
+.mobile-nav-leftbtn .curTab-red {
+  background-color: #FFF !important;
+  color: #fd4f57 !important;
+}
+
+.mobile-nav-data {
+  flex: 8;
+}
+
+
+
+/* ----- End of React CSS Transition for Mobile NavIcon)--- */
+
+
+.language-switcher {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.language-switcher ul {
+  list-style: none;
+  width: 980px;
+  margin: auto;
+  text-align: right;
+}
+
+.language-switcher li {
+  display: inline-block;
+  margin: 10px;
+  padding: 5px;
+  cursor: pointer;
+  color: #fff;
+}
+
+.language-switcher li:first-child {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.selected {
+  border-bottom: 1px solid #fff;
+}
+
+@media (max-width: 767px){
+  .add-post-button{
+    float: left;
+    margin-top: 16px;
+  }
+}
+
+/* =================== new CSS ==================== */
+.header-container {
+  position: relative;
+  background-color: white;
+  top: 0;
+  transition: top 0.3s;
+  border: 1px #e0e0e0 solid;
+}
+
+.header-container :global(.text-center){
+
+}
+
+.header-nav-tab-container {
+
+}
+
+:global(#header-nav-tab-bar) {
+  transform: rotate(0deg);
+}
+
+:global(#header-nav-tab-bar) :global(.open) > :global(.dropdown-menu) {
+  /*display: flex;
+  position: fixed;
+  width: 130%;
+  left: -5%;
+  top:100%;
+  align-items: flex-start;
+  justify-content: center;*/
+
+}
+
+:global(#header-nav-tab-bar) :global(.open) > :global(.dropdown-menu) div {
+  padding: 0 5%;
+}
+
+
+/*.nav-tab-row {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nav-tab-row nav {
+  width: 100%;
+}*/
+
+/* =================== the language switcher container ==================== */
+
+.language-switcher-bar {
+  /*padding-left: 120px;*/
+}
+
+:global(#language-switcher-container:after) {
+  content: "\f123";
+  font-family: Ionicons;
+  padding-left: 5px;
+}
+:global(#language-switcher-container:before) {
+  content: "\f276";
+  font-family: Ionicons;
+  padding-right: 5px;
+}
+
+
+:global(.header-title-leave) {
+  opacity: 1;
+}
+
+:global(.header-title-leave-active){
+  opacity: 0;
+  transition: opacity 300ms ease-in;
+}
+
+/* menu style tags */
+.tag-red{
+  color: #FC2674;
+  font-family: GothamMedium !important;
+}

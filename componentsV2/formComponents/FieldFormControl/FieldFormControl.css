@@ -1,0 +1,77 @@
+.FieldFormControl {
+  margin-bottom: 20px;
+  /*display: flex;*/
+}
+
+.FieldFormControl > :global(input.form-control) {
+  border-radius: 0;
+  border: 1px solid #9b9b9b;
+  box-shadow: none;
+  -webkit-appearance: none;
+  height: 40px;
+  letter-spacing: 0.05em;
+  font-size: 16px;
+  font-family: GothamBook;
+  color: black;
+}
+
+.FieldFormControlSelect {
+  display: flex;
+}
+
+.FieldFormControl > :global(select.form-control) {
+  border-radius: 0;
+  border: 1px solid #9b9b9b;
+  box-shadow: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin-right: -35px;
+  height: 40px;
+  letter-spacing: 0.05em;
+  font-size: 16px;
+  background-position: right 12px center;
+  background-repeat: no-repeat;
+  background-image: url("https://storage.googleapis.com/evesetus/arrow/up_and_down_arrow.png");
+  padding: 0.5em;
+  padding-right: 1.5em;
+  padding-left: 12px;
+  background-size: 10px;
+  color: #000;
+}
+
+.FieldFormControl > :global(select.form-control) + .select-arrow-icon {
+  pointer-events: none;
+  align-items: flex-end;
+  width: 25px;
+  margin: auto;
+  padding-top: 5px;
+  background: #fff;
+  margin-right: 10px;
+  text-align: center;
+  opacity: 0.9;
+}
+
+.FieldFormControl .error-msg {
+  color: #ff0000;
+}
+
+.arrowIcon-style {
+  font-size: 16px;
+  display: block;
+  color: #9b9b9b;
+}
+
+label {
+  margin-bottom: 0px;
+}
+
+.FieldFormControl input:focus {
+  border: 1px solid black;
+}
+
+@media (max-width: 767px) {
+  .FieldFormControl > :global(input.form-control) {
+    font-size: 16px; /*iOS zooms the page to show a larger input field if its font-size is less than 16px.*/
+  }
+}

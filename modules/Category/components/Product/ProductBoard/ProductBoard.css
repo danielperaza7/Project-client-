@@ -1,0 +1,356 @@
+/* add to bag */
+.add-to-bag-btn {
+  margin-top: 20px;
+  background: black;
+  color: white;
+  text-align: center;
+  width: 100%;
+  font-size: 14px;
+  font-family: GothamMedium;
+  border: none;
+  height: 40px;
+  letter-spacing:0.1em;
+}
+
+.add-to-bag-btn[disabled]{
+  background: #E0E0E0;
+}
+
+.add-to-bag-btn[disabled]:hover{
+  background: #E0E0E0;
+}
+
+
+.add-to-bag-btn:focus, .add-to-bag-btn:hover {
+  outline: none;
+  background: #C1B497;
+}
+.add-to-bag-btn:active, .add-to-bag-btn:visited{
+  background: #ADA082;
+}
+
+/* finalSale */
+.finalSale {
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+/* qty */
+.quantity-btn-wrapper button{
+  border:1px solid #e0e0e0;
+  box-shadow: none;
+  text-shadow: none;
+  border-radius: 0;
+  background: white;
+  margin-top: 5px;
+  width: 40px;
+  height: 40px;
+  color: #ADA082;
+}
+
+.quantity-btn-wrapper button.disabled-qty, .quantity-btn-wrapper button.disabled-qty:active, .quantity-btn-wrapper button.disabled-qty:focus {
+  border: 1px solid #e0e0e0;
+  color: #e0e0e0;
+  cursor: auto;
+  background: white !important;
+  box-shadow: none;
+}
+
+.quantity-btn-wrapper button.qty-qty{
+  border: 2px #ada082 solid;
+  color: black;
+  font-family: GothamBook;
+  font-size:12px;
+}
+
+.quantity-btn-wrapper button:focus, .quantity-btn-wrapper button:hover, .quantity-btn-wrapper button:active {
+  outline:none !important;
+  background: none !important;
+}
+
+/* single panel */
+.product div.panels {
+  margin-bottom: 0;
+}
+.panels div.single-panel{
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid #e0e0e0;
+  border-radius: 0;
+  box-shadow: none;
+  margin-top: 0 !important;
+  margin-bottom: 0;
+}
+.panels div.single-panel:first-child {
+  border-top: 1px solid #e0e0e0;
+  border-radius: 0;
+}
+
+.single-panel>div{
+  background: white !important;
+  padding-left: 1px;
+  padding-right: 1px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+}
+.single-panel :global(.panel-heading){
+  padding: 0 1px;
+}
+.single-panel :global(.panel-heading):hover{
+  cursor: pointer;
+}
+
+.single-panel :global(.panel-heading) a {
+  text-decoration: none;
+  font-size: 12px;
+  font-family: GothamMedium;
+  padding: 10px 0;
+  display: block;
+}
+.single-panel :global(.panel-collapse) {
+  padding-top: 0;
+}
+
+.single-panel :global(.panel-collapse) :global(.panel-body){
+  padding-top: 0;
+  border-top: none !important;
+  font-size: 12px;
+  font-family: GothamBook;
+  padding-left: 1px;
+}
+.single-panel :global(.panel-collapse) :global(.panel-body ul)  {
+  padding-left: 15px;
+}
+
+.single-panel :global(.panel-heading):active, .single-panel :global(.panel-heading):visited {
+  border-bottom: none;
+}
+
+.single-panel p {
+  white-space: pre-line;
+}
+
+/* price box */
+.priceBox {
+  margin-top: 20px;
+  text-align: left;
+  font-size: 1.2em;
+}
+.priceBox > div {
+  display:inline-block;
+}
+.priceBox > div.fakePrice {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+/* promotion */
+.promotion-wrapper{
+  text-align: center;
+  background: #F7F5F0;
+  padding: 10px;
+  font-size: 12px;
+  margin-top: 10px;
+}
+.promotion-wrapper p{
+  white-space: pre-line;
+}
+.promotion-wrapper p:last-child {
+  margin: 0;
+}
+.promotion-wrapper code{
+  color: #ADA082;
+  font-family: GothamMedium;
+  background: none;
+}
+
+.align-to-main-img{
+  margin-left: 16.67%;
+}
+
+/* product name */
+.product-name h1{
+  font-size: 24px;
+  color:black;
+  margin: 0;
+  line-height: inherit;
+}
+
+.product-name-link h2{
+  line-height: 1.4em;
+  font-size: 20px;
+  cursor: pointer;
+  color:black;
+  line-height: inherit;
+}
+
+.product-name-link h2:hover, .product-name-link h2:active {
+   color: #ADA082 !important;
+   cursor: pointer;
+}
+
+.out-of-stock{
+  color: #FC2674;
+}
+
+.product a{
+  color: black;
+}
+
+.product a:hover{
+  text-decoration: none !important;
+  color: #ADA082;
+}
+
+.product a:active{
+  text-decoration: none !important;
+}
+
+.return{
+  margin-top: 4px;
+  font-size: 12px;
+  font-family:GothamBook;
+  cursor: pointer;
+}
+
+.return:hover{
+  color: #ADA082;
+}
+
+.return i{
+  font-size:14px;
+  margin-right: 5px;
+  color: #ADA082;
+}
+
+.panelContent{
+  max-height: 350px;
+  overflow-y: scroll;
+}
+
+.enlargeWrapper{
+  text-align: center;
+  font-size: 12px;
+}
+.enlargeWrapper i{
+  margin-right: 10px;
+}
+
+.modalGalleryWrapper{
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.returnDetail{
+  margin: 40px;
+}
+
+.quantity{
+  font-size: 12px;
+  font-family: GothamBook;
+}
+
+.quantity span{
+  font-family: GothamMedium;
+}
+
+.formItem{
+  display: grid;
+  margin-bottom: 15px;
+}
+
+.formItem label{
+  font-size:12px;
+  font-family: GothamBook;
+  font-weight:400;
+}
+
+.formItem input{
+   font-size:12px;
+   font-family: GothamBook;
+   width: inherit;
+   height: 40px;
+   margin-top:5px;
+   padding-left: 8px;
+   border: 1px solid #D3D6DC;
+   border-radius: 0px;
+}
+
+.errMsg{
+  font-size:10px;
+  font-family: GothamBook;
+  color: red;
+}
+
+.giftCard_note{
+  font-family: GothamBook;
+  font-size: 12px;
+  text-transform: uppercase;
+  width:203px;
+  margin-bottom: 20px;
+}
+
+.priceBox_giftcard{
+  font-family: GothamMedium;
+  font-size: 1.2em;
+}
+
+.ion-android-star-outline{
+  font-size:16px;
+  color:#F5C86A;
+  vertical-align: middle;
+  margin-left: 2px;
+}
+
+.ion-android-star{
+  font-size:16px;
+  color:#F5C86A;
+  vertical-align: middle;
+  margin-left: 2px;
+}
+
+
+.starList_mainProduct{
+  margin-left: -2px;
+  margin-top: 10px;
+}
+
+.starList_mainProduct span{
+  margin-left:10px;
+  font-size:12px;
+  font-family: GothamBook;
+  color:#9B9B9B;
+}
+
+.membershipPriceContainer{
+  border-bottom: 1px solid #E4D8BF;
+  padding-bottom: 14px;
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 767px){
+  .product>div.images>div {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .product-name{
+    font-size: 20px;
+    margin-top: 10px;
+    color:black;
+  }
+  .returnDetail{
+    margin: 15% 10%;
+    /*text-align: center;*/
+  }
+  .panels{
+    margin-top:44px;
+  }
+}
+
+.wishListBTN{
+  text-align: center;
+  margin-top:20px;
+  font-family: GothamMedium;
+  cursor: pointer;
+}

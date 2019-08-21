@@ -1,0 +1,245 @@
+.photoContainer{
+  position: relative;
+  margin: 5px;
+}
+
+.InsPhoto{
+  width: 100%;;
+}
+
+.photoMask{
+  background-color: rgba(0,0,0,0.5);
+  width: 100%;
+  height: 100%;
+  margin-top: -100%;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.maskText{
+  font-size: 16px;
+  color: white;
+  border: 1px solid white;
+  height: 32px;
+  width: 155px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  line-height: 32px;
+}
+
+.popupWindow{
+  width: 940px;
+  height: 600px;
+  position: absolute !important;
+  top: 50%;
+  left: 50%;
+  margin: 0 !important;
+  max-width: 100%;
+  transform:translate(-50%, -50%) !important;
+}
+
+.popupWindow > div{
+  width: 100%;
+  height: 100%;
+  border-radius: 0px;
+  display: flex;
+}
+
+.detailPhotoBox{
+  width: 600px;
+  height: 100%;
+  background-color: lightgray;
+}
+
+.detailTextBox{
+  height: 100%;
+  width: 340px;
+  padding: 24px;
+}
+
+.windowClose{
+  text-align: end;
+  color: black;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.userInfo{
+  color: #000;
+  font-size: 20px;
+  font-family: GothamMedium;
+  display: flex;
+  align-items: center;
+  margin-top: 24px;
+  margin-bottom: 48px;
+}
+
+.avatarBox{
+  height: 72px;
+  width: 72px;
+  border-radius: 50%;
+  background-color: lightgray;
+  overflow: hidden;
+  margin-right: 12px;
+}
+
+.avatar{
+  height: 72px;
+  width: 72px;
+}
+
+.InsPhotoDescription{
+  font-family: GothamBook;
+  margin-bottom: 12px;
+}
+
+.singleTag{
+  font-family: GothamBook;
+  color: #4190e2;
+  line-height: 24px;
+  margin-right: 5px;
+}
+
+.goToProduct{
+  background-color: black;
+  color: white;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.detailTextContainer{
+  height: 94%;
+  font-size: 16px;
+}
+
+.detailPhotoBoxHeader{
+  display: flex;
+  padding: 24px;
+}
+
+.tagBox{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tagsAndDescriptionBox{
+  height: 64%;
+  overflow-y: scroll;
+}
+
+@media screen and (max-width: 991px) {
+  .photoContainer{
+    margin: 0px;
+  }
+
+  .popupWindow {
+    width: 480px;
+    height: auto;
+    margin-top: 128px;
+  }
+
+  .detailPhotoBox{
+    width: 100%;
+    height: 478px;
+  }
+
+  .popupWindow > div{
+    display: block;
+  }
+
+  .windowClose{
+    margin-right: 0px;
+    margin-left: auto;
+  }
+
+  .userInfo{
+    margin: 0px;
+    font-size: 16px;
+  }
+
+  .detailTextBox{
+    width: 100%;
+    font-size: 12px;
+    padding: 24px;
+  }
+
+  .avatarBox{
+    width: 36px;
+    height: 36px;
+  }
+
+  .avatar{
+    width: 36px;
+    height: 36px;
+  }
+
+  .detailTextContainer{
+    height: auto;
+    font-size: 12px;
+  }
+
+  .InsPhotoDescription{
+    margin-bottom: 4px;
+  }
+
+  .goToProduct{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .tagsAndDescriptionBox{
+    max-height: 160px;
+    margin-bottom: 16px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .detailTextBox{
+    padding-bottom: 40px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .detailPhotoBoxHeader{
+    padding: 16px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+  }
+
+  .popupWindow{
+    width: 375px;
+    margin-top: 70px
+  }
+
+  .detailPhotoBox{
+    height: 373px;
+  }
+
+  .goToProduct{
+    margin-bottom: 8px;
+  }
+
+  .detailTextBox{
+    padding:  12px 24px;
+  }
+
+  .tagsAndDescriptionBox{
+    max-height: 88px;
+  }
+}
+
+@media screen and (max-width: 374px) {
+  .popupWindow{
+    width: 320px;
+  }
+
+  .detailPhotoBox{
+    height: 318px;
+  }
+}

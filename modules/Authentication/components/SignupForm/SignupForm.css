@@ -1,0 +1,93 @@
+.sign-up-form-container {
+  width: 100%;
+}
+.sign-up-form-container :global(.row){
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+.sign-up-form-container :global(.row) :global(.control-label){
+  font-size: 13px;
+  font-family: ProximaNova-Regular,sans-serif;
+  color: #000;
+}
+
+.sign-up-form-container :global(.row) :global(.form-control){
+  border-radius:0;
+}
+
+.sign-up-form-container :global(.row):nth-child(4){
+  font-size: 13px;
+  font-family: ProximaNova-Regular,sans-serif;
+  color: #000;
+}
+
+.ebe-form-control {
+  border-radius: 0;
+  padding: 0 20px;
+}
+
+.sign-up-form-title {
+  margin-bottom: 10px;
+  font-size: 30px;
+}
+
+.staySignedIn{
+  margin-left: 1%;
+}
+
+.subscribeNewsletters{
+  display: inline-block;
+  margin-right: 1%;
+  margin-left: auto;
+}
+
+.checkboxContainer{
+  margin: 15px 0px;
+  display: flex;
+  font-size: 12px;
+}
+
+.checkboxContainer :global(label){
+  font-weight: normal;
+}
+
+/* ========== Sign up button ========== */
+.sign-up-button {
+  background: black;
+  width: 100%;
+  border-style: solid;
+  border-width: thin;
+  padding: 8px 4px;
+  font-family: ProximaNova-Regular,sans-serif;
+  font-size: 14px;
+  color: white;
+  border-radius: 0px;
+  height:40px;
+  margin-top:20px;
+}
+
+/* ========== Go to sign in =========== */
+.back-to-login {
+  font-size: 12px;
+  font-weight: bold;
+  color: black;
+  text-decoration: underline;
+}
+
+.back-to-login:hover{
+  text-decoration: underline;
+  color:black;
+}
+
+@media screen and (max-width:991px){
+
+  .sign-up-form-container :global(.col-md-6){
+    width: 50%;
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width:767px){
+
+}

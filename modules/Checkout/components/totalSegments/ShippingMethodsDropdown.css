@@ -1,0 +1,28 @@
+.shipping-method-btn-wrapper button.shipping-method-btn{
+  margin-top: 10px;
+  background-image: none;
+  width:100%;
+  text-align:left;
+  height: 40px;
+  text-shadow: none;
+  padding: 6px 20px;
+  border-radius: 0;
+  border-color: #e0e0e0;
+}
+.shipping-method-btn-wrapper button.shipping-method-btn:hover{
+  border-color: #000;
+  background: #fff;
+}
+
+.shipping-method-btn-wrapper{
+  width:100%;
+}
+.shipping-method-btn-wrapper :global(.btn-group){
+  width:100%;
+}
+.shipping-method-btn-wrapper :global(.btn-group) :global(.dropdown-menu){
+  width:100%;
+}
+.shipping-method-btn-wrapper :global(.btn-group) :global(.dropdown-menu) a{
+  padding: 6px 20px;
+}

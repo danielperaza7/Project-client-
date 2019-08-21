@@ -1,0 +1,168 @@
+.membershipPriceBox{
+  margin-top: 5px;
+  font-family: GothamBook;
+  width: 20px;
+}
+
+.membershipPriceLabel{
+  font-size: 12px;
+  color: rgba(252,38,116,100);
+  text-decoration: underline;
+  cursor: pointer;
+  font-family: GothamBook;
+  width: 20px;
+  white-space: nowrap;
+  display: inline-block;
+}
+
+.menbershipInfoPanel{
+  width: 193px;
+  height: 165px;
+  background-color: #f8f6f0;
+  border: 1px solid #dacaa8;
+  position: absolute;
+  margin-left: -20px;
+  margin-top: -178px;
+  box-shadow: 0 1px 4px 0 lightgray;
+  padding: 12px 16px;
+}
+
+.menbershipInfoPanelLogedIn{
+  width: 193px;
+  height: 140px;
+  background-color: #f8f6f0;
+  border: 1px solid #dacaa8;
+  position: absolute;
+  margin-left: -20px;
+  margin-top: -153px;
+  box-shadow: 0 1px 4px 0 lightgray;
+  padding: 12px 16px;
+}
+
+.menbershipInfoPanelTri{
+  width: 30px !important;
+  height: 30px !important;
+}
+
+.menbershipInfoPanelTriContainer{
+  width: 193px;
+  display: flex;
+  margin-left: -20px;
+  margin-top: -23px;
+  position: absolute;
+  justify-content: center;
+}
+
+.menbershipInfoTitle{
+  font-family: GothamMedium;
+  font-size: 14px;
+  text-space: 16px;
+  margin-bottom: 8px;
+}
+
+.membershipPrice{
+  font-size: 12px;
+  display: flex;
+  width: 100%;
+  margin-bottom: 5px;
+  text-space: 18px;
+}
+
+.membershipPriceHighlight{
+  font-size: 12px;
+  display: flex;
+  width: 100%;
+  margin-bottom: 3px;
+  text-space: 18px;
+  color: #fe1b73;
+}
+
+.membershipPriceTitle{
+  width: 50%;
+}
+
+.membershipDetails{
+  font-size: 10px;
+  text-space: 16px;
+  color: #b2b2b2 !important;
+}
+
+.membershipDetails:hover{
+  cursor: pointer;
+  text-decoration: none;
+  color: #b2b2b2;
+}
+
+.membershipPriceInfoSignin{
+  font-size: 12px;
+  text-space: 16px;
+  margin-top: 8px;
+}
+
+.membershipPriceInfoSigninLink{
+  color: black;
+  text-decoration: underline;
+}
+
+.membershipPriceInfoSigninLink:hover{
+  cursor: pointer;
+}
+
+.membershipInfoDialog{
+  width: 315px !important;
+  height: auto;
+  margin-top: 312px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  /*transition: none !important;*/
+}
+
+.membershipInfoDialog :global(.modal-content){
+  border-radius:2px;
+  padding:20px 25px;
+  box-shadow: 0 0 12px rgba(0,0,0,.5);
+  display: flex;
+}
+
+.dialogCross{
+  display: inline-block;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 991px) {
+  .menbershipInfoTitle{
+    font-size: 20px;
+  }
+
+  .membershipPrice{
+    font-size: 14px;
+    opacity: 0.54;
+  }
+
+  .membershipPriceHighlight{
+    font-size: 14px;
+  }
+
+  .membershipDetails{
+    color: #c2a974 !important;
+  }
+
+  .membershipPriceInfoSignin{
+    margin-top: 16px;
+  }
+
+  .membershipPriceTitle{
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .membershipPriceLabel{
+    margin-top: 5px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .membershipInfoDialog{
+    margin-top: 205px !important;
+  }
+}

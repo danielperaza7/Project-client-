@@ -1,0 +1,96 @@
+.header-container {
+  position: relative;
+  background-color: white;
+  top: 0;
+  border-bottom: 1px #E0E0E0 solid;
+  height: 53px;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+}
+
+.dropleft-icon{
+  font-size: 14px;
+  color: black;
+  margin-left: 20px;
+  margin-right:5px;
+}
+
+.backToshopping{
+  margin-top:16px;
+}
+
+.backToshopping a{
+  font-size:12px;
+  font-family: GothamBook;
+  color:black;
+  border-bottom: 2px #979797 solid;
+}
+
+
+.backToshopping a:hover{
+  border-bottom: 1px #979797 solid !important;
+}
+
+.logo{
+  float:left;
+}
+
+.logo img{
+   width: 165px;
+   height:20px;
+   margin-top: 16px;
+}
+
+.shoppingBag{
+  position:absolute;
+  right: 20px;
+  margin-top:9px;
+}
+
+.assistance{
+  position: absolute;
+  font-size:12px;
+  margin-top:20px;
+  font-family: GothamBook;
+  color: #9B9B9B;
+  right:273px;
+}
+
+.assistance_phone{
+  position: absolute;
+  font-size:12px;
+  margin-top:20px;
+  font-family: GothamBook;
+  color: #9B9B9B;
+  right:151px;
+}
+
+.left, .medium, .right{
+  display: inline-flex;
+}
+
+.right{
+  float:right;
+}
+
+.medium{
+  left: calc( 50% - 82px );
+  position: absolute;
+}
+
+.LiveChat{
+   color: #9B9B9B;
+   margin-top: 19px;
+   right:61px;
+   position: absolute;
+}
+
+.LiveChat:hover{
+   color: #9B9B9B;
+}
+
+.title{
+  font-size:12px;
+  font-family: GothamBook;
+  margin-left: 5px;
+  vertical-align: top;
+}

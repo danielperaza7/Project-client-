@@ -1,0 +1,128 @@
+
+.leftCol {
+  max-width: 655px;
+}
+
+.leftCol :global(.panel-default) :global(.panel-heading){
+  border:none;
+}
+
+.edit-btn-context{
+  padding: 2px 8px;
+  transform:translate(0, 2px);
+  background-image: none;
+  background: white;
+  outline: none;
+  text-shadow: none;
+  color: grey;
+  font-size: 14px;
+  font-weight: bold;
+  border:none;
+  margin-left: 3%;
+  box-shadow: none;
+}
+
+.edit-btn-context:hover{
+  cursor: pointer;
+  background: white;
+  color: orange;
+  text-decoration: underline;
+}
+
+.edit-btn-context:focus{
+  outline: none;
+}
+
+.edit-btn-context i {
+ font-size: 20px;
+ font-weight: bold;
+ color: grey;
+ padding-left: 15%;
+}
+
+.input-style{
+  border: 1px solid #E0E0E0;
+  padding:4px 10px;
+  font-family: GothamMedium;
+  font-size: 12px;
+  color: #000;
+  background-image: none;
+}
+
+.input-style:focus{
+  outline: none;
+}
+
+.button-style{
+  height: 40px;
+  border: none;
+  background: #C1B497;
+  color: #FFF;
+  border-radius: 0;
+  text-shadow: none;
+  outline: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-family: GothamMedium;
+  font-size: 12px;
+}
+.button-style:hover{
+  background: #E4D8BF;
+}
+
+.button-style[disabled]:hover{
+  background: #e0e0e0;
+}
+.button-style:focus{
+  outline: none;
+}
+
+.ion-ios-locked{
+  font-size: 30px;
+  color:#C1B497;
+  margin-right: 10px;
+}
+
+.checkout_title{
+  font-size:30px;
+  font-family: GothamBook;
+  margin-bottom:45px;
+  padding-left:15px;
+}
+
+.stepPanels :global(.panel) {
+  border-radius: 0;
+}
+
+.stepPanels :global(.panel-heading) {
+  background-color: #F2F2F2;
+  position: relative;
+  background-image: none;
+  border-radius: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .checkout_title{
+    font-size: 24px;
+    margin-bottom:25px;
+  }
+}
+
+
+@media screen and (min-width: 1200px) {
+  .checkout_title{
+    width:1100px;
+    margin:auto;
+    margin-bottom:45px;
+  }
+
+  .stepPanels {
+    width: 655px;
+    margin-right:70px;
+  }
+
+  .checkout_title + :global(.show-grid.row) {
+    width:1100px;
+    margin:auto;
+  }
+}

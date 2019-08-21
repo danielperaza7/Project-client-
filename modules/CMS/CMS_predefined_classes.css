@@ -1,0 +1,44 @@
+.ebe-container{
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+@media (max-width: 767px){
+  .ebe-container {
+    width: 100% !important;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+@media (min-width: 768px){
+  .ebe-container {
+    width: 100% !important;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+@media (min-width: 992px){
+  .ebe-container {
+    width: 100% !important;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+}
+@media (min-width: 1200px){
+  .ebe-container {
+    width: 100% !important;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+}
+@media (min-width: 1440px){
+  .ebe-container {
+    width:1410px !important;
+  }
+
+}

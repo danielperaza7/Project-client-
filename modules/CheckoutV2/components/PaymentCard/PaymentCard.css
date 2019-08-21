@@ -1,0 +1,76 @@
+.paymentInnerWrapper {
+  padding: 2px;
+  border: 1px solid #fff;
+  border-radius: 10px;
+}
+.paymentWrapper {
+  border: 1px solid #fff;
+  border-radius: 10px;
+  cursor: pointer;
+  background: #fff;
+  opacity: 0.5;
+}
+
+.paymentInnerWrapper:hover {
+  border-color: #000;
+}
+
+.paymentSelected:hover {
+  border-color: #fff;
+}
+
+.paymentSelected, .paymentSelected > .paymentInnerWrapper {
+  border-color: #000;
+  opacity: 1;
+}
+
+.bgImage {
+  width: 100%;
+}
+
+.cardNumber, .expireDate, .paypalAccountTitle, .paypalAccountValue {
+  position: absolute;
+  color: #fff;
+  text-shadow: 0 2px 4px #333;
+  font-size: 16px;
+}
+
+.cardNumber, .paypalAccountTitle {
+  top: 50%;
+  left: 20px;
+}
+
+.expireDate, .paypalAccountValue  {
+  bottom: 30px;
+  right: 20px;
+}
+
+.seeMore {
+  text-align: center;
+  color: #ADA082;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 767px) {
+  .paymentInnerWrapper {
+    border-radius: 5px;
+    padding: 1px;
+  }
+  .paymentWrapper {
+    border-radius: 5px;
+  }
+
+  .cardNumber, .expireDate, .paypalAccountTitle, .paypalAccountValue {
+    font-size: 10px;
+  }
+
+  .cardNumber, .paypalAccountTitle {
+    top: 50%;
+    left: 5px;
+  }
+
+  .expireDate, .paypalAccountValue  {
+    bottom: 10px;
+    right: 5px;
+  }
+}

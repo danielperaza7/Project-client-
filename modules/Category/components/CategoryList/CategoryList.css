@@ -1,0 +1,36 @@
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 0;
+}
+
+@media screen and (max-width: 991px){
+  .product-list {
+    padding: 15px 7px;
+  }
+}
+
+.product-list li {
+  list-style: none;
+  text-align:center;
+  margin-bottom: 30px;
+  padding: 0 8px;
+}
+
+@media (min-width: 1440px){
+	.product-list li {
+	    width: 20%;
+	}
+}
+.product-list li img {
+  max-width:100%;
+  width:100%;
+  height: auto;
+}
+
+.productlistContainer{
+  margin-left:-8px !important;
+  margin-right:-8px !important;
+  margin-top: 50px;
+}

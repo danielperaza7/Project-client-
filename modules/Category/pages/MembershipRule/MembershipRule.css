@@ -1,0 +1,144 @@
+.membershipRuleContainer{
+  max-width: 864px;
+  margin:0px auto;
+  width: 100%;
+  padding-top: 64px;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.membershipStarsBox{
+  background-color: #f8f6f0;
+  padding: 24px 32px;
+}
+
+.membershipStarsContainer{
+  display: flex;
+  margin-bottom: 24px;
+  justify-content: space-around;
+}
+
+.howToEarnBlock{
+  display: flex;
+}
+
+.howToEarnBox{
+  padding: 16px 8px;
+  background-color: white;
+  border: 4px solid #f1ebde;
+  width: 200px;
+  height: 140px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.howToEarnResult{
+  padding: 16px;
+  width: 100px;
+  line-height: 108px;
+  font-family: GothamMedium;
+}
+
+.howToEarnTitle{
+  padding-left: 24px;
+  padding-bottom: 16px;
+}
+
+.productType{
+  font-size: 12px;
+}
+
+.textBox{
+  padding: 16px;
+}
+
+.singleMembership{
+  display: flex;
+  margin: 5px 0px;
+}
+
+.membershipName{
+  width: 88px;
+  font-family: GothamMedium;
+}
+
+.membershipDetail{
+  display: flex;
+}
+
+.starRange{
+  width: 140px;
+}
+
+.benefitBox{
+  padding: 16px;
+  background-color: #f8f6f0;
+}
+
+.benefitBox th{
+   text-align: center;
+}
+
+.benefitBox td{
+  text-align: center;
+}
+
+.membershipName_table{
+  border: None !important;
+  font-size: 16px;
+}
+
+.membershipMedal_table{
+  border-bottom: 1px solid #dacaa8 !important;
+  border-top: None !important;
+}
+
+.rowHead{
+  border:None !important;
+  border-right: 1px solid #dacaa8 !important;
+  width: 32%;
+  text-align: left !important;
+}
+
+.success-icon{
+  color:#2b9755;
+  font-size: 24px;
+}
+
+.singleTableBodyCell{
+  border: None !important;
+  border-left: 1px solid #f1ebde !important;
+  width: 17%;
+}
+
+@media screen and (max-width: 767px){
+  .membershipStarsContainer{
+    display: block;
+  }
+
+  .membershipStarsSingleBlock{
+    width: 300px;
+    margin: 32px auto;
+  }
+
+  .membershipStarsContainer{
+    margin-bottom: -8px;
+  }
+
+  .membershipDetail{
+    display: block;
+  }
+
+  .membershipName_table{
+    font-size: 12px;
+  }
+
+  .singleTableBodyCell{
+    vertical-align: inherit !important;
+  }
+
+  .rowHead{
+    font-size: 10px;
+  }
+}
+

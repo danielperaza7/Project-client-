@@ -1,0 +1,55 @@
+.wrapper {
+  width: 100%;
+  display: block;
+}
+
+.wrapper > * {
+  display: block;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.img {
+  width: 400px;
+  height: 400px;
+}
+
+.oops {
+  font-size: 48px;
+  max-width: 600px;
+  line-height: 1.25em;
+  width: calc(100% - 30px);
+}
+
+.text {
+  font-size: 14px;
+  max-width: 500px;
+  line-height: 1.5em;
+  width: calc(100% - 30px);
+}
+
+.goBack {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #ADA082;
+  font-weight: bold;
+}
+
+.picks-for-you > h2 {
+  text-align: left;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 991px) {
+  .oops, .picks-for-you > h2 {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .img {
+    width: 300px;
+    height: 300px;
+  }
+}

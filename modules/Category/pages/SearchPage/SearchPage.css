@@ -1,0 +1,13 @@
+.product-list li {
+  list-style: none;
+  height:500px;
+  margin-top:30px;
+}
+.product-list li img {
+  max-width:100%;
+}
+@media screen and (max-width: 500px){
+  .product-list li {
+    height:420px;
+  }
+}

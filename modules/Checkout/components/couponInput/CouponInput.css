@@ -1,0 +1,30 @@
+.coupon-input-wrapper{
+  font-family: GothamMedium;
+  font-size: 12px;
+}
+.title{
+  margin: 0 0 8px 0;
+}
+.coupon-input{
+  width: calc( 100% - 108px );
+  height: 40px;
+}
+.coupon-apply{
+  width: 100px;
+  margin-left: 8px;
+  vertical-align: top;
+}
+.show_msg {
+  color: #FC2674;
+  margin-top: 8px;
+}
+.disabled-btn{
+  background: #e0e0e0;
+}
+
+.codesNote{
+  font-size:10px;
+  font-family: GothamBook;
+  margin-bottom:20px;
+  margin-top:10px;
+}

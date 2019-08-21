@@ -1,0 +1,148 @@
+.bigTitle {
+  font-family: GothamBook;
+  font-size: 30px;
+  margin: 0 auto;
+}
+
+.followDetailsContainer{
+  max-width: 960px;
+  margin:0px auto;
+  width: 100%;
+  color: rgba(0,0,0, 0.87);
+}
+
+.wechatProcessContainer {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 52px;
+  width: 100%;
+  border-bottom: 1px solid rgba(0,0,0,0.08);
+  padding-bottom: 70px;
+  
+}
+
+.instagramProcessContainer {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 32px;
+  width: 100%;
+}
+
+.icon {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.iconStyles {
+  width: 192px;
+  height: 192px;
+  padding: 0 auto;
+}
+
+.processContainer {
+  flex: 2;
+}
+
+.title {
+  font-family: GothamMedium;
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 16px;
+}
+
+.stepsText {
+  font-family: GothamBook;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.qrcode {
+  width: 221px;
+  height: 221px;
+  margin-bottom: 8px;
+}
+
+.orderList {
+  display: flex;
+  margin-bottom: 8px;
+}
+
+@media screen and (max-width: 767px) {
+  .bigTitle {
+    width: 100% !important;
+    padding-top: 24px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 20px;
+  }
+  .followDetailsContainer {
+    width: 100% !important;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .wechatProcessContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    margin-top: 24px;
+    width: 100%;
+    border-bottom: 1px solid rgba(0,0,0,0.08);
+    padding-bottom: 48px;
+  }
+
+  .instagramProcessContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    margin-top: 24px;
+    width: 100%;
+  }
+  .icon {
+    flex: 0;
+  }
+  .processContainer {
+    flex: 0;
+  }
+
+}
+
+@media screen and (min-width: 768px) {
+  .bigTitle {
+    width: 100% !important;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 24px;
+    font-size: 24px;
+  }
+  .wechatProcessContainer {
+    margin-top: 24px;
+    width: 100%;
+    border-bottom: 1px solid rgba(0,0,0,0.08);
+    padding-bottom: 48px;
+  }
+}
+
+@media screen and (min-width: 991px) {
+  .bigTitle {
+    width: 100% !important;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 54px;
+    font-size: 24px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .bigTitle {
+    width: 100% !important;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 54px;
+  }
+}
+@media screen and (min-width: 1440px){
+  .bigTitle {
+    width: 1410px !important;
+  }
+}

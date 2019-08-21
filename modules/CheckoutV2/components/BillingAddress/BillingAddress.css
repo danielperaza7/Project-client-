@@ -1,0 +1,16 @@
+.billingWrapper {
+  padding: 20px 0;
+}
+
+.billingTitle {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.editBtn {
+  float: right;
+  cursor: pointer;
+  font-family: GothamMedium;
+  font-size: 12px;
+  color: #ADA082;
+}

@@ -1,0 +1,24 @@
+.breadcrumb-name span{
+  text-transform: capitalize;
+  color: black;
+  cursor: pointer;
+}
+
+.breadcrumb-wrapper{
+  padding: 10px 15px 10px 0 !important;
+  margin: 0 !important;
+  background: #fff;
+  border: none;
+  font-size: 12px;
+  background-color: #fff !important;
+  border-radius: 0 !important;
+}
+
+.breadcrumb-name a{
+  color: black;
+}
+
+.breadcrumb-name a:hover{
+  color: #ada082;
+  text-decoration: none;
+}

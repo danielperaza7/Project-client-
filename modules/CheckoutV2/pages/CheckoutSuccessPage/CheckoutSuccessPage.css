@@ -1,0 +1,683 @@
+.header1{
+  font-size: 29px;
+  font-family: GothamBook;
+  display: inline-block;
+  line-height: 1.25;
+  margin-left: 20px;
+}
+
+.success-icon{
+  color:green;
+  font-size:40px;
+}
+
+.orderShow{
+  min-height: 24px!important;
+  font-size: 14px!important;
+  line-height: 1;
+  display:inline-block;
+}
+
+.orderShow h4{
+  font-size: 14px;
+  font-family: GothamBook;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  letter-spacing: .10em;
+  margin-left: 10px;
+  line-height: 2;
+}
+
+.orderShow_auth h4{
+  font-size: 14px;
+  font-family: GothamBook;
+  margin-bottom: 20px;
+  letter-spacing: .10em;
+  margin-left: 10px;
+  line-height: 2;
+}
+
+.liststyle{
+  list-style-type:none;
+  font-size:14px;
+  font-family: GothamBook;
+  line-height:20px;
+  padding: 1px 10px 0 10px;
+
+}
+
+.liststyle2{
+  list-style-type:none;
+  margin-left: -5%;
+  font-size:14px;
+  font-family: GothamBook;
+  margin-bottom: 10px;
+  line-height: 40px;
+}
+
+.signUp_title{
+  font-size:20px;
+  color:#C1B497;
+  margin-top:40px;
+  margin-left:10px;
+}
+
+.signUpOrIn{
+  font-size:12px;
+  font-family: GothamBook;
+  margin-top: 30px;
+  margin-left: 10px;
+}
+
+.signUpOrIn a{
+  text-decoration: underline;
+  color: black !important;
+  font-family:  GothamMedium;
+}
+
+.right{
+  width: 40%;
+  border: 1px solid #979797;
+  box-shadow: 0 2px 4px 0 #000000;
+  display: inline-block;
+  vertical-align: bottom;
+  margin-left: 40px;
+  padding: 16px 0;
+  line-height: 3;
+}
+
+.orderShow_auth{
+  width:80%;
+  min-height: 24px!important;
+  font-size: 14px!important;
+  line-height: 2;
+  /*margin-left: 35%;*/
+}
+
+.orderShow h4{
+  font-size: 10px;
+  letter-spacing: .01em;
+}
+
+.orderShow_auth h4{
+  font-size: 10px;
+  letter-spacing: .01em;
+}
+
+.orderShow span{
+  font-weight: bold;
+  font-family: GothamMedium;
+}
+
+.orderShow li{
+  font-size: 14px;
+  font-weight: 300;
+  margin-top: 2%;
+  margin-left: 2%;
+  /*margin-bottom: 2%;*/
+  letter-spacing: .05em;
+}
+
+.orderShow_auth li{
+  font-size: 14px;
+  font-weight: 300;
+  margin-top: 2%;
+  letter-spacing: .05em;
+}
+
+.registerinfo{
+  background: #f2f2f2 !important;
+  width: 60%;
+  margin-left: 9%;
+}
+
+.form{
+  margin-top:10%;
+  margin-left:2%;
+  height: 40%;
+  padding-top: 1%;
+}
+
+.explaination{
+  float:left !important;
+}
+
+.header{
+  margin: 2%;
+  font-weight: bold;
+}
+
+.labelFont{
+  font-weight: 700;
+}
+
+.name input{
+  font-weight: bold;
+}
+
+.form :global(.btn-default){
+  text-shadow: 0 1px 0 #fff;
+  margin:2%;
+  width:96%;
+  border: 1px solid transparent;
+}
+
+.title{
+  font-family:GothamMedium;
+  font-size: 14px;
+  margin-bottom:15px;
+}
+
+.list{
+  font-family:GothamMedium;
+  font-size: 12px;
+  color: #FC2674;
+}
+
+.dialogCross{
+  cursor: pointer;
+}
+
+.info_row:after{
+  content:"";
+  display: table;
+  clear: both;
+}
+
+.info_columns{
+  line-height:10px;
+  float:left;
+  width:50%;
+  padding-right: 5px;
+}
+
+.saving_info{
+  margin-top: 15px;
+  margin-bottom: 15px;
+  background-color: #F8F6F0;
+  border: solid #F1EBDE;
+}
+
+.successtitle{
+  margin-bottom: 30px;
+}
+
+.next_section{
+  margin-left: 5%;
+  margin-top: 70px;
+}
+
+.signUp{
+  margin-top: 20px;
+}
+
+.connectingText{
+  width: 80%;
+  margin-top: 9px;
+  font-family: GothamBook;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.connectingInfo{
+  width: 80%;
+  margin-top: 8px;
+  font-family: GothamMedium;
+  font-size: 12px;
+  line-height: 24px;
+  display:flex;
+}
+
+.wechatIcon{
+  width: 24px;
+  height: 24px;
+}
+
+.seeMemebershipProgress{
+  font-size: 12px;
+  color: #a38547;
+  margin-left: 20px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.seeMemebershipProgress a{
+  color: #a38547;
+}
+
+.seeMemebershipProgress a:hover{
+  text-decoration: none;
+}
+
+.navPic{
+  margin-right: 12px;
+  margin-top: -2px;
+}
+
+.upgradePopupWindow{
+  width: 50% !important;
+  min-width: 300px;
+  max-width: 450px;
+  height: auto;
+  margin-top: 336px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.upgradePopupWindow :global(.modal-content){
+  border-radius:2px;
+  padding:20px 25px;
+  box-shadow: 0 0 12px rgba(0,0,0,.5);
+  display: flex;
+}
+
+.dollaricon{
+  width: 60px;
+  height: 60px;
+  margin-bottom: 20px;
+}
+
+.shareText{
+  margin: 15px 25px;
+}
+
+.linkIcon{
+  margin-right: 30px
+}
+
+.followDetailsContainer{
+  max-width: 960px;
+  margin:0 auto;
+  width: 100%;
+  color: rgba(0,0,0, 0.87);
+}
+
+.processContainer{
+  flex: 2;
+}
+
+.mediaTitle{
+  font-family: GothamMedium, serif;
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 16px;
+}
+
+.stepsText{
+  font-family: GothamBook;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.orderList{
+  display: flex;
+  margin-bottom: 8px;
+}
+
+.iconStyles{
+  width: auto;
+  height: 154px;
+}
+
+.shareTitle{
+  font-size: 30px;
+  border-top: solid 2px #B39350;
+  padding: 45px 0 31px 0;
+  margin-top: 26px;
+}
+
+.limitText{
+  font-size: 14px;
+  color: rgba(0,0,0,0.54);
+  margin: 33px 80px 40px;
+}
+
+.linkIconList{
+  margin-left: 80px;
+  display: flex;
+}
+
+.icon{
+  width: auto;
+  height: auto;
+  margin: 10px 40px 10px 40px;
+  display: flex;
+}
+
+.qrcode{
+  width: 177px;
+  height: 177px;
+}
+
+.wechatProcessContainer{
+  display: flex;
+  align-items: flex-start;
+  margin-top: 15px;
+  width: 100%;
+  border-bottom: 1px solid rgba(0,0,0,0.08);
+  padding-bottom: 70px;
+}
+
+.instagramProcessContainer{
+  display: flex;
+  align-items: flex-start;
+  margin-top: 32px;
+  width: 100%;
+}
+
+.iconStyles{
+  width: auto;
+  height: 154px;
+}
+
+.bigTitle{
+  font-size: 30px;
+  border-top: solid 2px #B39350;
+  padding: 45px 0 42px 0;
+  margin-top: 30px;
+}
+
+.shareTitle{
+  font-size: 30px;
+  border-top: solid 2px #B39350;
+  padding: 45px 0 31px 0;
+  margin-top: 26px;
+}
+
+.limitText{
+  font-size: 14px;
+  color: rgba(0,0,0,0.54);
+  margin: 33px 80px 40px;
+}
+
+.linkIconList{
+  margin-left: 80px;
+  display: flex;
+}
+
+@media screen and (max-width:1440px){
+
+  .wechatProcessContainer{
+    display: flex;
+    align-items: flex-start;
+    margin-top: 15px;
+    width: 100%;
+    border-bottom: 1px solid rgba(0,0,0,0.08);
+    padding-bottom: 70px;
+  }
+
+  .instagramProcessContainer{
+    display: flex;
+    align-items: flex-start;
+    margin-top: 32px;
+    width: 100%;
+  }
+
+  .iconStyles{
+    width: auto;
+    height: 154px;
+  }
+
+  .icon{
+    margin: 10px 56px 10px 44px;
+  }
+
+  .bigTitle{
+    font-size: 30px;
+    border-top: solid 2px #B39350;
+    padding: 45px 0 42px 0;
+    margin-top: 30px;
+  }
+
+  .shareTitle{
+    font-size: 30px;
+    border-top: solid 2px #B39350;
+    padding: 45px 0 31px 0;
+    margin-top: 26px;
+  }
+
+  .limitText{
+    font-size: 14px;
+    color: rgba(0,0,0,0.54);
+    margin: 33px 80px 40px;
+  }
+
+  .linkIconList{
+    margin-left: 80px;
+    display: flex;
+  }
+
+  .orderShow h4{
+    font-size: 10px;
+    letter-spacing: .01em;
+  }
+
+  .orderShow_auth h4{
+    font-size: 10px;
+    letter-spacing: .01em;
+  }
+
+  .header1{
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width:1200px){
+
+  .header1{
+    font-size: 21px;
+  }
+
+  .shareTitle{
+    font-size: 30px;
+    border-top: solid 2px #B39350;
+    padding: 26px 0 31px 0;
+    margin-top: 28px;
+  }
+
+  .bigTitle{
+    font-size: 24px;
+    border-top: solid 2px #B39350;
+    padding: 26px 0 38px 0;
+    margin-top: 28px;
+  }
+
+  .icon{
+    margin: 10px 20px 10px 20px;
+    display: flex;
+  }
+
+}
+
+@media screen and (max-width:992px){
+
+  .next_section{
+    margin-top: 30px;
+    margin-left: 0;
+  }
+
+}
+
+@media screen and (max-width:768px){
+
+  .bigTitle{
+    font-size: 24px;
+    border-top: solid 2px #B39350;
+    padding: 36px 0 27px 0;
+    margin-top: 28px;
+  }
+
+  .shareTitle{
+    font-size: 30px;
+    border-top: solid 2px #B39350;
+    padding: 37px 0 31px 0;
+    margin-top: 28px;
+  }
+
+  .shareTitle{
+    font-size: 20px;
+  }
+
+  .limitText{
+    font-size: 14px;
+    color: rgba(0,0,0,0.54);
+    margin: 33px 80px 40px;
+  }
+
+  .linkIconList{
+    margin-left: 80px;
+    display: flex;
+  }
+
+  .shareListContainer{
+    margin: 1px
+  }
+
+  .shareText{
+    margin: 15px 25px;
+  }
+
+  .orderShow, .orderShow_auth, .connectingText, .connectingInfo{
+    width:calc( 100% - 20px );
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .orderShow li, .orderShow_auth li{
+    font-size: 12px;
+  }
+
+  .orderShow h4{
+    font-size: 14px;
+    letter-spacing: .05em;
+  }
+
+  .orderShow_auth h4{
+    font-size: 14px;
+    letter-spacing: .05em;
+  }
+
+  .header1{
+    font-size: 20px;
+    width: calc( 100% - 80px);
+  }
+
+  .right{
+    width:calc( 100% - 20px );
+    border:none;
+    box-shadow: none;
+    display: inline-block;
+    vertical-align: bottom;
+    margin-left: 10px;
+    padding: 0px;
+    line-height: 2;
+  }
+
+  .right ol{
+    padding: 0;
+    font-size: 12px;
+  }
+
+  .title{
+    margin-left:0;
+    margin-top: 30px;
+    padding-top: 10px;
+    border-top: 1px solid #E0E0E0;
+    font-size: 12px;
+  }
+
+  .signUp_title{
+    margin-left: 0;
+  }
+
+  .signUpOrIn{
+    margin-left: 0;
+    margin-top: 0;
+  }
+
+  .next_section{
+    margin-top: 30px;
+  }
+
+  .info_columns{
+    width: 100%;
+  }
+
+  .next_section {
+    margin-top: 0;
+    margin-left: 0;
+  }
+
+  .successtitle{
+    line-height: 1;
+    margin-bottom: 0;
+  }
+
+  .info_columns{
+    margin-top: 20px;
+  }
+
+  .success-icon{
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width:600px){
+
+  .qrcode {
+    width: 197px;
+    height: 197px;
+    padding: 20px;
+  }
+
+  .instagramProcessContainer{
+    margin: 32px 4px 0 4px;
+    width: 100%;
+    display: block;
+  }
+
+  .wechatProcessContainer{
+    align-items: flex-start;
+    margin: 15px 4px 0 4px;
+    width: 100%;
+    border-bottom: 1px solid rgba(0,0,0,0.08);
+    padding-bottom: 70px;
+    display: block;
+  }
+
+  .bigTitle{
+    font-size: 20px;
+    font-family: GothamMedium, serif;
+    border-top: solid 2px #B39350;
+    padding: 18px 0 0 0;
+  }
+
+  .shareTitle{
+    font-size: 20px;
+    border-top: solid 2px #B39350;
+    padding: 18px 0 27px 0;
+    margin-top: 14px;
+  }
+
+  .limitText{
+    font-size: 14px;
+    color: rgba(0,0,0,0.54);
+    margin: 36px 16px;
+  }
+
+  .linkIconList{
+    margin-left: 15px;
+    display: flex;
+  }
+
+  .icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .iconStyles{
+    width: auto;
+    height: 154px;
+  }
+
+}

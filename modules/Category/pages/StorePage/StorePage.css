@@ -1,0 +1,1120 @@
+.NBCAMContainer{
+}
+
+.backGroundVideoContainer{
+  width: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  overflow: hidden;
+}
+
+.backGroundImageContainer{
+  height: auto;
+  width: 100%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  z-index: -1;
+  overflow: hidden;
+}
+
+.popUpVideo{
+  width: 960px;
+  height: 540px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.popUpVideoContainer{
+  width: 960px;
+  height: 540px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: calc(50vh - 270px);
+}
+
+.popUpImage{
+  width: 960px;
+  height: 640px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.popUpImageContainer{
+  width: 960px;
+  height: 640px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: calc(50vh - 270px);
+}
+
+.popUpVideoCloseBtn{
+  font-size: 28px;
+  line-height: 28px;
+  position: absolute;
+  top:-30px;
+  right:0px;
+  z-index: 10;
+  cursor: pointer;
+  color: white;
+  opacity: 0.5;
+}
+
+.bannerContainer{
+  height: 800px;
+  width: 100%;
+  position: relative;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.bannerBlockWithCursor{
+  padding: 3px;
+  margin-top: 29px;
+  width: 472px;
+  height: 142px;
+  float: right;
+  background-color: #FFFFFF88;
+  padding: 6px;
+  flex-direction: column;
+  justify-content: space-around;
+  font-size: 20px;
+}
+
+.buttonGroups{
+  width:424px;
+  height: 44px;
+  margin-top: 470px;
+  margin-left: calc(50% - 212px);
+  position: absolute;
+  display:-webkit-box;
+  display:-webkit-flex;
+  display:-ms-flexbox;
+  display:flex;
+  -webkit-box-pack:justify;
+  -webkit-justify-content:space-between;
+  -ms-flex-pack:justify;
+  justify-content:space-between;
+}
+
+.nbButton{
+  width: 200px;
+  height: 44px;
+  background: black;
+  color: white;
+  position: relative;
+  font-family: GothamMedium;
+  display: inline-flex;
+  cursor: pointer;
+  vertical-align: middle;
+}
+
+.nbButtonIconImage{
+  color: white;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: '0px';
+  left: 16px;
+}
+
+.nbButtonText1{
+  font-size: 14px;
+  position: absolute;
+  top: 12px;
+  left: 80px;
+}
+
+.nbButtonText2{
+  font-size: 14px;
+  position: absolute;
+  top: 12px;
+  left: 75px;;
+}
+
+.bannerPic{
+  height: 100%;
+  width: 2560px;
+  position: absolute;
+  left:50%;
+  transform:translateX(-50%);
+}
+
+.textBlock{
+  margin-top: -500px;
+  position: absolute;
+  width: 100%;
+}
+
+.titleBlock{
+  background-color: #ffffff74;
+  width:774px;
+  height:123px;
+  padding-bottom: 16px;
+  margin-top: 103px;
+  padding-top: 25px;
+}
+
+.eventGalleryTitleAndDescription{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 100%;
+  /* height: 145px; */
+}
+
+.eventGalleryTitle{
+  font-size: 40px;
+  color: #ff6f9b;
+  font-family: GothamMedium;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 72px 0px 54px 0px;
+}
+
+.eventGalleryDescription{
+  width: 857px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 16px;
+}
+
+.carouselContainer {
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url("https://hiddenfigure.evestemptation.com/BG.jpg");
+  background-position-y: 30%;
+  background-repeat: no-repeat;
+}
+
+.carouselContainer :global(.carousel-control.left) {
+ background-image: none;
+}
+
+.carouselContainer :global(.carousel-control.right) {
+  background-image: none;
+ }
+
+
+@media screen and (max-width: 767px) {
+  .carouselContainer{
+    background-position-y: 10%;
+    background-repeat: no-repeat;
+  }
+}
+
+.galleryCellContainer{
+  height: 485px;
+  width: 524px;
+}
+
+.galleryCellContainer img {
+  box-shadow: 5px 6px 7px 0px #00000044;
+  transition: all .2s;
+}
+
+@media screen and (min-width: 991px) {
+  .galleryCellContainer img:hover{
+    transform: scale(1.5);
+    cursor: pointer;
+  }
+}
+
+.carouselItemContainer{
+  display: flex;
+  width: 1048px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.poundSign{
+  font-family:BodoniStd;
+  font-size: 64px;
+  color: #FC2672;
+  margin-right: -16px;
+  margin-left: 16px;
+  display: inline;
+  line-height: 48px;
+}
+
+.title{
+  font-size: 64px;
+  font-weight: bold;
+  font-family: Didot;
+  color: #FC2672;
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  letter-spacing: 0.02px;
+  display: inline;
+  line-height: 48px;
+}
+
+.palm{width: 39px;}
+
+.subTitile{
+  font-size: 20px;
+  font-family: GothamBook;
+  color: #FC2672;
+  border-top: 2px solid #FC2672;
+  margin-left: 16px;
+  width:578px;
+  padding-left: 48px;
+  padding-right: -4px;
+  padding-top: 5px;
+  letter-spacing: 3.52px;
+}
+
+.linkBlock{
+  font-size: 20px;
+  font-family: GothamBook;
+  width: 1000px;
+  margin-top: 209px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 695px;
+}
+
+.singleLink{
+  margin-left: 24px;
+  width: 100%;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.singleLink a{
+  color: black;
+  text-decoration: none;
+}
+
+.wordingBox{
+  background-color: #fafafa;
+}
+
+.wordingContainner{
+  max-width: 1128px;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.topWording{
+  padding: 32px 0px;
+  display: flex;
+  justify-content: space-between;
+  font-family: Gotham;
+  font-size: 16px;
+}
+
+.wordingBlock{
+  width: 47%;
+  line-height: 32px;
+}
+
+.rewardPointsBox{
+  background-color: rgba(255,177,201,0.3);
+  padding: 64px 0px;
+}
+
+.rewardPointsTitle{
+  font-family: GothamMedium;
+  font-size: 32px;
+  color: #ff6f9b;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 48px;
+  text-align: center;
+}
+
+.socialMediaContainer{
+  background-color: white;
+  padding: 64px 0px;
+  width: 80%;
+  max-width: 1128px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.socialMediaBlock{
+  font-size: 14px;
+  background-color: white;
+  width: 47%;
+  padding: 32px 24px 16px 24px;
+  border: 1px solid #ff6f9b;
+  line-height: 24px;
+}
+
+.pinkHeart{
+  width: 48px;
+}
+
+.rewardPointsBar{
+  display: flex;
+  justify-content: space-between;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.noticeBar{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 24px;
+  text-align: center;
+  line-height: 21px;
+}
+
+.infoOutline{
+  width: 16px;
+  margin-left: 8px;
+  cursor: pointer;
+}
+
+.popupWindow{
+  margin-top: 240px;
+  width: 549px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+
+.popupWindow > div{
+  width: 100%;
+  height: 100%;
+  border-radius: 0px;
+  padding: 24px;
+}
+
+.RPTextBlock{
+  font-size: 14px;
+  line-height: 21px;
+  color: rgba(0,0,0,0.54);
+  display: flex;
+}
+
+.windowClose{
+  font-size: 18px;
+  color: black;
+}
+
+.productCard{
+  width: 24%;
+  height: 40%;
+  margin-bottom: 4%;
+  cursor: pointer;
+}
+
+.smallBlockProductCard{
+  width: 49%;
+  margin-bottom: 8%;
+  cursor: pointer;
+}
+
+.productPicture{
+  position: relative;
+}
+
+.productMask{
+  height: 40px;
+  width: 100%;
+  background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,1));
+  margin-top: -40px;
+  z-index: 1;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  padding: 0px 10px;
+  padding-top: 8px;
+}
+
+.productName{
+  font-size: 14px;
+  font-family: GothamMedium;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.price{
+  color: white;
+  font-size: 18px;
+  font-family: GothamMedium;
+}
+
+.oringinalPrice{
+  color:white;
+  font-size: 12px;
+  text-decoration: line-through;
+  margin-left: 10px;
+}
+
+.productStyle{
+  color: white;
+  border: 1px solid white;
+  height: 16px;
+  font-size: 12px;
+  padding: 0px 4px;
+  border-radius: 3px;
+  margin-right: 0px;
+}
+
+.starBox{
+  margin-right: 5px;
+  margin-left: auto;
+  width: 56px;
+}
+
+.stars{
+  font-size: 12px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.productListTitle{
+  font-size: 40px;
+  color: #ff6f9b;
+  font-family: GothamMedium;
+  text-align: center;
+  margin-top: 120px;
+  margin-bottom: 80px;
+}
+
+.styleBox{
+  margin-right: 0px;
+  margin-left: auto;
+}
+
+.albumFrameWireless{
+  width: 100%;
+  height: 100%;
+  background-image:url("https://storage.googleapis.com/evesetus/email/NBCAM/Wireless_bg.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  align-items: center;
+  display: flex;
+}
+
+.albumFrameUnlined{
+  width: 100%;
+  height: 100%;
+  background-image:url("https://storage.googleapis.com/evesetus/email/NBCAM/Unlined_bg.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  align-items: center;
+  display: flex;
+}
+
+.albumBox{
+  width:83%;
+  height:90%;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(0,0,0,0);
+  padding-top: 32%;
+  padding-bottom: 1%;
+}
+
+.descriptionNum{
+  font-size: 48px;
+  font-family: GothamMedium;
+  color: #c3c3c3;
+  text-align: center;
+  height: 36px;
+  width: 40%;
+}
+
+.description{
+  font-size: 16px;
+  font-family: GothamBook;
+  line-height: 32px;
+}
+
+.descriptionBox{
+  display: flex;
+  margin: 0px 3%;
+  min-height: 100px;
+}
+
+.albumBlock{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  font-size: 24px;
+  margin-top: 5%;
+}
+
+.albumPictures{
+  width: 70%;
+  height: 100%;
+}
+
+.pageChange{
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.productAlbumPicture{
+  width: 100%;
+}
+
+.productBlock{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.productBlockSmallBlock{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 49.4%;
+}
+
+.productAndAlbumBlock{
+  display: flex;
+}
+
+.albumContainer{
+  width: 49.2%;
+  padding-bottom: 4%;
+}
+
+.albumSubtilte{
+  font-size: 48px;
+  margin-top: -30px;
+  text-align: center;
+}
+
+.albumContainerMobile{
+  margin-bottom: 10%;
+}
+
+.clipboardContainer{
+  padding-top: 120px;
+}
+
+.clipboardTitle{
+  font-family: GothamMedium;
+  font-size: 40px;
+  text-align: center;
+}
+
+.clipboardSubtitle{
+  font-size: 20px;
+  font-family: GothamMedium;
+  margin-top: 2%;
+  margin-bottom: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.popUpImageBackdrop {
+  opacity: 0.6 !important;
+}
+
+@media screen and (max-width: 1439px) {
+  .rewardPointsTitle{
+    font-size: 28px;
+  }
+
+  .pinkHeart{
+    width: 40px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .rewardPointsTitle{
+    font-size: 28px;
+  }
+
+  .pinkHeart{
+    width: 36px;
+  }
+
+  .productListTitle{
+   font-size: 36px;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .backGroundVideoContainer{
+    height: 100%;
+    width: auto;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    overflow: hidden;
+  }
+}
+
+@media screen and (max-width: 1047px) {
+  .carouselItemContainer{
+    display: flex;
+    width: 524px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .bannerPic{
+    width: 992px;
+  }
+
+  .textBlock{
+    margin-top: -395px;
+  }
+
+  .titleBlock{
+    margin-top: 48px;
+    width: 635px;
+  }
+
+  .eventGalleryTitleAndDescription{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .eventGalleryTitle{
+    font-size: 28px;
+    color: #ff6f9b;
+    font-family: GothamMedium;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .eventGalleryDescription{
+    width: 517px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 16px;
+  }
+
+  .backGroundVideoContainer{
+    height: auto;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    overflow: hidden;
+  }
+
+  .popUpVideo{
+    width: 640px;
+    height: 360px;
+  }
+
+  .popUpVideoContainer{
+    width: 640px;
+    height: 360px;
+    margin-top: calc(50vh - 180px)
+  }
+
+  .popUpImage{
+    width: 540px;
+    height: 360px;
+  }
+
+  .popUpImageContainer{
+    width: 540px;
+    height: 360px;
+    margin-top: calc(50vh - 180px)
+  }
+
+  .bannerContainer {
+    height: 435px;
+  }
+
+  .bannerBlockWithCursor{
+    margin-top: 30px;
+    width: 276px;
+    height: 124px;
+    font-size: 16px;
+  }
+
+  .bannerContainer {
+    height: 435px;
+  }
+
+  .buttonGroups{
+    margin-top: 338px;
+  }
+
+  .palm{
+    width: 25px;
+  }
+
+  .linkBlock{
+    font-size: 14px;
+    font-family: GothamMedium;
+    width: 300px;
+    margin-top: 125px;
+    padding-left: 110px;
+  }
+
+  .singleLink{
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .topWording{
+    padding: 24px 0px;
+    font-size: 14px;
+  }
+
+  .wordingBlock{
+    width: 100%;
+    line-height: 28px;
+  }
+
+  .socialMediaContainer{
+    background:none;
+    padding: 0px;
+    width: 86%;
+  }
+
+  .rewardPointsBar{
+    width: 100%;
+  }
+
+  .socialMediaBlock{
+    border: none;
+    padding: 24px 24px 12px 24px;
+  }
+
+  .rewardPointsTitle{
+    font-size: 28px;
+  }
+
+  .rewardPointsBox{
+    padding: 72px 0px;
+  }
+
+  .wordingContainner{
+    width: 80%;
+  }
+
+  .noticeBar{
+    margin-top: 16px;
+    font-size: 12px;
+  }
+
+  .infoOutline{
+    width: 12px;
+  }
+
+  .productListTitle{
+    margin-top: 72px;
+    font-size: 28px;
+    margin-bottom: 48px;
+  }
+
+  .productMask{
+    height: 32px;
+    margin-top: -32px;
+  }
+
+  .price{
+    font-size: 16px;
+  }
+
+  .oringinalPrice{
+    font-size: 10px;
+  }
+
+  .starBox{
+    width: 90%;
+    height: 8px;
+    margin-right: 0px;
+    margin-top: -10px;
+    margin-bottom: 5px;
+  }
+
+  .stars{
+    font-size: 10px;
+  }
+
+  .productStyle{
+    font-size: 10px;
+  }
+
+  .description{
+    font-size: 14px;
+  }
+
+  .albumSubtilte{
+    margin-top: -30px;
+  }
+
+  .clipboardContainer{
+    padding-top: 72px;
+  }
+
+  .clipboardSubtitle{
+    margin-bottom: 48px;
+    font-size: 14px;
+  }
+
+  .clipboardTitle{
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .titleBlock{
+    margin: auto;
+    margin-top: 18px;
+    padding-top: 20px;
+    width: 357px;
+    height:85px;
+    float: none;
+  }
+
+  .poundSign{
+    line-height: 25px;
+  }
+
+  .title{
+    line-height: 25px;
+  }
+
+  .eventGalleryTitleAndDescription{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 100%;
+    /* height: 140px; */
+  }
+  
+  .eventGalleryTitle{
+    font-size: 24px;
+    color: #ff6f9b;
+    font-family: GothamMedium;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .eventGalleryDescription{
+    width: 325px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 14px;
+  }
+
+  .popUpVideo{
+    width: 320px;
+    height: 180px;
+  }
+
+  .popUpVideoContainer{
+    width: 320px;
+    height: 180px;
+    margin-top: calc(50vh - 90px);
+  }
+
+  .popUpImage{
+    width: 100%;
+    height: auto;
+  }
+
+  .popUpImageContainer{
+    width: 92%;
+    height: auto;
+    margin-top: calc(50vh - 90px);
+  }
+
+  .backGroundVideoContainer{
+    height: 100%;
+    width: auto;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    overflow: hidden;
+  }
+
+  .bannerContainer {
+    height: 400px;
+  }
+
+  .bannerBlockWithCursor{
+    margin-top: 24px;
+    width: 233px;
+    height: 110px;
+    font-size: 14px;
+  }
+
+  .singleLink{
+    margin-left: 16px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+
+  .buttonGroups{
+    width: 336px;
+    margin-left: calc(50% - 168px);
+    margin-top: 316px;
+  }
+
+  .nbButton{
+    width: 160px;
+    height: 44px;
+    background: black;
+    color: white;
+    position: relative;
+    font-family: GothamMedium;
+    display: inline-flex;
+    cursor: pointer;
+    vertical-align: middle;
+  }
+
+  .nbButtonIconImage{
+    color: white;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: '0px';
+    left: 8px;
+  }
+
+  .nbButtonText1{
+    font-size: 14px;
+    position: absolute;
+    top: 12px;
+    left: 60px;
+  }
+
+  .nbButtonText2{
+    font-size: 14px;
+    position: absolute;
+    top: 12px;
+    left: 50px;
+  }
+
+  .carouselItemContainer{
+    display: flex;
+    width: 250px;
+    height: 237px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .galleryCellContainer{
+    height: 100%;
+    width: 100%;
+  }
+
+  .poundSign{
+    font-size: 36px;
+  }
+
+  .title{
+    font-size: 36px;
+  }
+
+  .subTitile{
+    font-size: 14px;
+    margin-left: 16px;
+    width: 326px;
+    padding-left: 6px;
+    padding-right: -4px;
+    padding-top: 5px;
+    letter-spacing: 0.92px;
+  }
+
+  .rewardPointsBox{
+    padding: 64px 0px;
+  }
+
+  .socialMediaContainer{
+    padding: 8px 0px;
+    background: None;
+    width: 90%;
+  }
+
+  .rewardPointsBar{
+    margin-top: -24px;
+    display: block;
+  }
+
+  .rewardPointsTitle{
+    font-size: 24px;
+  }
+
+  .socialMediaBlock{
+    width: 100%;
+    margin-top: 16px;
+  }
+
+  .wordingContainner{
+    width: 85%;
+  }
+
+  .popupWindow{
+    margin-top: 100px;
+    width: 90%;
+  }
+
+  .windowClose{
+    font-size: 18px;
+  }
+
+  .productListTitle{
+    font-size: 24px;
+    margin-top: 64px;
+    margin-bottom: 40px;
+  }
+
+  .topWording{
+    padding: 32px 0px;
+  }
+
+  .albumBox{
+    padding-bottom: 8%;
+    padding-top: 40%;
+  }
+
+  .clipboardContainer{
+    padding-top: 64px;
+  }
+
+  .clipboardSubtitle{
+    margin-bottom: 40px;
+  }
+
+  .clipboardTitle{
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 374px) {
+  .descriptionBox{
+    min-height: 130px;
+  }
+}

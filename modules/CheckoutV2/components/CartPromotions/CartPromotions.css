@@ -1,0 +1,39 @@
+.CartPromotions {
+  background: #F7F5F0;
+  border: 1px #EEEAE1 solid;
+  color: black;
+  padding: 10px;
+  font-size: 12px;
+  line-height: 17px;
+  font-family: GothamBook;
+  padding: 8px 17px 15px 17px;
+  margin-bottom: 30px;
+}
+
+.CartPromotions p {
+  margin: 10px 5px 0 0;
+}
+
+.detailsContent {
+  padding: 40px 30px;
+  display: block;
+}
+
+.detailsBtn, .brief {
+  display: inline-block;
+}
+
+.detailsBtn {
+  font-family: GothamBook;
+  background: none;
+  text-decoration: underline;
+  border: none;
+  cursor: pointer;
+  font-weight: lighter;
+  line-height: 17px;
+  padding: 0;
+}
+
+.detailsBtn:focus {
+  outline: none;
+}

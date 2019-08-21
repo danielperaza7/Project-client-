@@ -1,0 +1,108 @@
+
+.typeCarousel {
+  width: 670px;
+  margin: auto;
+}
+
+.singleWrapper {
+  width: 670px;
+  height: 124px;
+  display: inline-flex;
+}
+
+.singleWrapper .image {
+  width: 120px;
+  height: 120px;
+  margin-left: 50px;
+}
+
+.singleWrapper .texts {
+  width: 220px;
+  margin: 0 45px 0 45px;
+}
+
+.singleWrapper .texts .title {
+  width: 100%;
+  margin-top: 10px;
+  border-bottom: 1px solid #000;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.singleWrapper .texts .conclusion {
+  width: 100%;
+  font-size: 14px;
+  margin-top: 15px;
+  font-weight: bold;
+  line-height: 20px;
+}
+
+.singleWrapper button.seeThisType {
+  width: 140px;
+  margin-right: 50px;
+  margin-top: 40px;
+  height: 40px;
+  background: #000;
+  color: #fff;
+  border: none;
+  font-size: 16px;
+}
+
+.singleWrapper button.seeThisType:hover {
+  opacity: 0.8;
+}
+
+.singleWrapper button.seeThisType:focus {
+  outline: none;
+}
+
+/* arrow */
+.typeCarousel :global(.slick-prev), .typeCarousel :global(.slick-next) {
+  position: absolute;
+  width: 25px;
+  text-align: center;
+  height: initial;
+}
+.typeCarousel :global(.slick-prev) {
+  left: -25px;
+}
+.typeCarousel :global(.slick-next) {
+  right: -25px;
+}
+
+.typeCarousel :global(.slick-prev):hover , .typeCarousel :global(.slick-next):hover {
+  opacity: 0.8;
+}
+
+@media screen and (min-width: 992px) {
+
+  .typeCarousel {
+    width: 870px;
+  }
+
+  .singleWrapper {
+    width: 870px;
+    height: 140px;
+  }
+
+  .singleWrapper .image {
+    width: 140px;
+    height: 140px;
+    margin-left: 70px;
+  }
+
+  .singleWrapper .texts {
+    width: 290px;
+    margin: 0 60px 0 60px;
+  }
+
+  .singleWrapper .texts .title {
+    margin-top: 24px;
+  }
+
+  .singleWrapper button.seeThisType {
+    width: 200px;
+    margin-right: 70px;
+    margin-top: 48px;
+  }
+}

@@ -1,0 +1,155 @@
+.pageTitle{
+  font-size: 22px;
+  text-align: center;
+}
+.pageSubTitle{
+  font-size: 18px;
+  text-align: center;
+}
+.button-style{
+  height: 40px;
+  width: 100%;
+  border: none;
+  background: #000;
+  color: #FFF;
+  border-radius: 0;
+  text-shadow: none;
+  outline: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-family: GothamMedium;
+  font-size: 12px;
+}
+.button-style:hover{
+  background: #C1B497;
+}
+
+.button-style[disabled]:hover{
+  background: #e0e0e0;
+}
+.button-style:focus{
+  outline: none;
+}
+
+.errorWrapper{
+  margin-top: 5px;
+  color: red;
+  text-align: center;
+}
+
+.button-oppsoite {
+  margin-top: 10px;
+  color: black;
+  background: white;
+}
+.questRoot{
+  margin-top: 30px;
+}
+.guest-return-title{
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  padding-bottom: 30px;
+}
+
+.guest-form {
+  width: 80%;
+  margin: auto;
+  max-width: 420px;
+}
+.guest-form input {
+  border-radius: 0;
+  box-shadow: none;
+  border: 1px solid #e0e0e0;
+}
+.guestOrderOptionWrapper {
+  margin: 10px 0 20px 20px;
+}
+.guestOrderOptionWrapper :global(.react-datepicker-wrapper input) {
+  width: 100%;
+  height: 34px;
+  padding: 6px 12px;
+}
+.guest-form  :global(.row) {
+  margin-top: 20px;
+}
+.ebe-form-control {
+  border-radius: 0;
+  padding: 0 20px;
+}
+.submit-btn {
+  width: 100%;
+  height: 2em;
+  background: black;
+  border: 1px solid #333;
+  text-align: center;
+  margin-top: 20px;
+  color: white;
+  letter-spacing: 1px;
+  font-weight: lighter;
+}
+
+.submit-btn:active{
+  outline: none;
+  background: #ADA082;
+  border: none;
+}
+
+.submit-err {
+  text-align: center;
+  margin-top: 10px;
+  color: red;
+}
+
+.continueBTN{
+  width: 50%;
+  height: 3em;
+  background: black;
+  border: 1px solid #333;
+  text-align: center;
+  margin-top: 5px;
+  color: white;
+  letter-spacing: 1px;
+  font-weight: lighter;
+}
+
+.inputEmail{
+  width: 100%;
+  border: 1px solid black;
+  padding: 15px;
+  font-size: 12px;
+  font-family: GothamBook;
+  height: 3em;
+  margin-bottom: 10px;
+}
+
+.useNew{
+  width: 50%;
+  border: 1px solid black;
+  padding: 15px;
+  font-size: 12px;
+  font-family: GothamBook;
+  height: 50px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.useOld{
+  width: 50%;
+  border: 1px solid black;
+  padding: 15px;
+  font-size: 12px;
+  font-family: GothamBook;
+  height: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.pull-right{
+  cursor: pointer !important;
+}

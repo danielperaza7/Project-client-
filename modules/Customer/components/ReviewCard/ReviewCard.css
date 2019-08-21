@@ -1,0 +1,278 @@
+.review-items-productInfo-container{
+  background-color: #F2F2F2;
+  overflow: auto;
+  padding-bottom: 10px;
+}
+
+.review-items-productInfo-container img{
+  margin-top:19px;
+  margin-left:35px;
+}
+
+.review-items-name-attr{
+  font-size:16px;
+  font-family: GothamMedium;
+  margin-top:20px;
+  margin-bottom:10px;
+}
+
+.review-items-attr{
+  font-size:10px;
+  font-family: GothamBook;
+  margin-bottom:5px;
+}
+
+.review-items-starRate-container{
+  margin-bottom:20px;
+  margin-top:20px;
+  font-size: 12px;
+  font-family: GothamMedium;
+}
+
+.review-items-text-container{
+  margin-left:50px;
+}
+
+.review-items-starRate-container button{
+  border: none;
+}
+
+.ion-android-star-outline{
+  font-size:28px;
+  color:#E0E0E0;
+  vertical-align: middle;
+  margin-left: 10px;
+}
+
+.ion-android-star{
+  font-size:28px;
+  color:#F5C86A;
+  vertical-align: middle;
+  margin-left: 10px;
+}
+
+.ion-android-star-outline-reviewed{
+  font-size:20px;
+  color:#E0E0E0;
+  vertical-align: middle;
+  margin-left: 3px;
+}
+
+.ion-android-star-reviewed{
+  font-size:20px;
+  color:#F5C86A;
+  vertical-align: middle;
+  margin-left: 3px;
+}
+
+.review-items-fitIt-container{
+  margin-bottom:20px;
+}
+
+.review-items-recommendation-container{
+  margin-bottom:20px;
+}
+
+.title{
+  font-size: 12px;
+  font-family: GothamMedium;
+  display: inline-flex;
+}
+
+.keywords{
+  font-size: 12px;
+  font-family: GothamMedium;
+}
+
+.keywords span{
+  font-size: 12px;
+  font-family: GothamBook;
+}
+
+.submission{
+  border-radius: 0px;
+  border: none;
+  height:40px;
+  width: 100%;
+  color: white;
+  font-size:14px;
+  font-family: GothamMedium;
+  background: black !important;
+  margin-top:20px;
+  float: right;
+}
+
+.submissionResponse{
+  margin-top:20px;
+  font-size:14px;
+  font-family: GothamMedium;
+  color: #63D270;
+}
+
+.submission:disabled{
+  background:#E0E0E0 !important;
+}
+
+.review-items-collapsedPanel-container{
+  background-color: #F2F2F2;
+  overflow: auto;
+  margin-left:-15px;
+  margin-right:-15px;
+  padding-bottom:10px;
+}
+
+.review-items-collapsedPanel-container img{
+  margin-top:19px;
+  margin-left:20px;
+}
+
+.review-items-name-attr-mobile{
+  font-size:14px;
+  font-family: GothamMedium;
+  margin-top:15px;
+  margin-bottom:10px;
+}
+
+.ion-checkmark-circled{
+  color:#ADA082;
+  font-size: 30px;
+  margin-top:15px;
+}
+
+.review-items-openedPanel-container{
+  margin-left: 15px;
+}
+
+.review-items-openedPanel-container button{
+  background: white;
+}
+
+.review-items-openedPanel-container textarea{
+  width:calc( 100% - 30px);
+  border:1px solid #E0E0E0;
+  outline: none !important;
+  line-height: 20px;
+}
+
+textarea::placeholder {
+   color: #9B9B9B !important;
+   line-height: 20px;
+}
+
+.reviewStatus{
+  color:#FC2674;
+  font-family: GothamBook;
+  margin-left:-15px;
+  margin-top: 20px;
+}
+
+.ios-arrow-down, .ios-arrow-up{
+  font-size:30px;
+  color:#ADA082;
+  margin-left: 18px;
+}
+
+.image-col button{
+  outline: none !important;
+  background: inherit;
+}
+
+.reviews_attr{
+  font-size:12px;
+  font-family: GothamBook;
+  margin-left: 12px;
+  margin-top:5px;
+}
+
+.reviews_attr span{
+  font-family: GothamMedium;
+  margin-right: 10px;
+}
+
+.reviews_title{
+  font-size:16px;
+  font-family: GothamMedium;
+  margin-left:12px;
+  margin-right:12px;
+  margin-top:30px;
+}
+
+.reviews_details{
+  font-size:14px;
+  font-family: GothamBook;
+  margin-left:12px;
+  margin-right:12px;
+  margin-top:15px;
+}
+
+.reviews_keywords{
+  font-size:14px;
+  font-family: GothamBook;
+  margin-left:12px;
+  margin-top:20px;
+}
+
+.keywords{
+  font-size:12px;
+  font-family: GothamMedium;
+  margin-right: 10px;
+}
+
+.review-items-reviewed{
+  margin-left:10px;
+  display: inline-block;
+  font-size:14px;
+}
+
+.review-items-text-reviewed-header{
+  font-size: 14px;
+  font-family: GothamMedium;
+}
+
+.review-items-text-reviewed-header span{
+  font-size: 14px;
+  font-family: GothamBook;
+  margin-left:10px;
+}
+
+.review-items-text-reviewed{
+  font-size: 14px;
+  font-family: GothamBook;
+  margin-top: 15px;
+}
+
+
+
+@media screen and (max-width: 767px) {
+  .submission{
+    border-radius: 0px;
+    width:calc( 100% - 30px);
+    float: none;
+    color: white;
+    background: black !important;
+  }
+
+  .review-items-starRate-container{
+    margin-bottom: 0px;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .review-items-name-attr{
+    font-size:14px;
+  }
+
+  .review-items-productInfo-container img{
+    margin-left:25px;
+  }
+}
+
+@media screen and (max-width: 993px) {
+  .review-items-text-container{
+    margin-left:0px !important;
+  }
+
+  .review-items-productInfo-container img{
+    margin-left:35px;
+  }
+}

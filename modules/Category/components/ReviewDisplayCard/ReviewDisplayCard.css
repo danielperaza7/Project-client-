@@ -1,0 +1,185 @@
+.reviewCard-display-container{
+  padding: 10px;
+  background: #FAFAFA;
+  overflow: hidden;
+  height: auto;
+  border-top: 1px solid #E0E0E0;
+}
+
+.starList{
+  margin-top: 5px;
+}
+
+.starList span{
+  margin-left: 20px;
+  font-size:10px;
+  font-family: GothamBook;
+}
+
+.customerName{
+  font-size:12px;
+  font-family: GothamMedium;
+  margin-top:20px;
+  margin-bottom:20px;
+}
+
+.VIPMember{
+  color: #ADA082;
+  font-size:12px;
+  font-family: GothamMedium;
+  margin-bottom:20px;
+}
+
+.customerAddress{
+  font-size:10px;
+  font-family: GothamBook;
+}
+
+.ion-android-star-outline{
+  font-size:16px;
+  color:#E0E0E0;
+  vertical-align: middle;
+  margin-left: 2px;
+}
+
+.ion-android-star{
+  font-size:16px;
+  color:#F5C86A;
+  vertical-align: middle;
+  margin-left: 2px;
+}
+
+.purchaseStatus{
+  font-size:14px;
+  font-family: GothamMedium;
+  margin-bottom: 10px;
+  color:#63D270;
+}
+
+.ion-android-done, .ion-checkmark-circled{
+  font-size: 20px;
+  vertical-align: middle;
+  margin-right: 10px;
+  color:#63D270
+}
+
+.attr{
+  font-size: 12px;
+  font-family: GothamBook;
+  margin-bottom: 5px;
+}
+
+.attr span{
+  font-family: GothamMedium;
+}
+
+.recommend{
+  font-size:12px;
+  font-family: GothamBook;
+}
+
+
+.reviewCard-display-right-container{
+  margin-left:20px;
+}
+
+.reviewTitle{
+   font-size: 16px;
+   font-family: GothamMedium;
+   margin-bottom: 20px;
+   margin-top: 5px;
+}
+
+.reviewDetails{
+  font-size: 14px;
+  font-family: GothamBook;
+  word-break: normal;
+  width: calc( 100% - 15px );
+  margin-bottom: 20px;
+}
+
+.mobileTop{
+  margin-bottom: 20px;
+}
+
+.clickResponse{
+  margin-top:30px;
+}
+
+.ion-thumbsup,.ion-thumbsdown{
+  font-size:20px;
+  color:#E0E0E0;
+  margin-right:10px;
+}
+
+.thumb{
+  display: inline-flex;
+  margin-right: 15px;
+  vertical-align: top;
+  cursor:pointer;
+  color: #E0E0E0;
+}
+
+.thumb_note{
+  display: inline-flex;
+  margin-right: 15px;
+  vertical-align: top;
+  color:rgb(253, 79, 87);
+  font-size:10px;
+  font-family: GothamBook;
+  vertical-align: middle;
+}
+
+.report{
+  display: inline-flex;
+  font-size:14px;
+  color: #9B9B9B;
+  font-family: GothamBook;
+}
+
+
+@media screen and (max-width: 767px) {
+   .reviewCard-display-container{
+     overflow: hidden;
+     height: auto;
+     margin-top:0px;
+   }
+
+   .reviewCard-display-right-container{
+     margin-left:0px;
+   }
+
+   .reviewTitle{
+     margin-top:25px;
+     margin-bottom: 10px;
+   }
+
+   .clickResponse{
+     margin-top:10px;
+   }
+
+   .ion-android-star-outline{
+     margin-left: 0px;
+   }
+
+   .ion-android-star{
+     margin-left: 0px;
+   }
+
+   .starList span{
+     margin-left: 6px;
+   }
+
+   .attr{
+     font-size: 10px;
+   }
+
+   .recommend{
+     font-size:10px;
+   }
+
+   .reviewDetails{
+     margin-bottom:5px;
+   }
+
+}

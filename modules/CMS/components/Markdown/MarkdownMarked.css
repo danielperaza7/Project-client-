@@ -1,0 +1,101 @@
+@media screen and (min-width: 767px){
+  .markdown-style{
+    padding-left: 0px;
+    padding-right: 50px;
+    margin-top: 42px;
+  }
+}
+@media screen and (min-width: 992px){
+  .markdown-style{
+    padding-left: 100px;
+    padding-right: 50px;
+    margin-top: 42px;
+  }
+}
+@media screen and (min-width: 1440px){
+  .markdown-style{
+    width: 100%;
+    padding-left: 100px;
+    padding-right: 50px;
+    margin-top: 42px;
+  }
+
+}
+@media screen and (max-width: 767px){
+  .markdown-style{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .markdown-style img[src$="extendme"]{
+    width: calc(100% + 20px);
+    margin-left: -10px;
+    margin-right: -10px;
+  }
+
+
+}
+
+.markdown-style ul, ol{
+   margin-left: 15px;
+}
+
+.markdown-style ol{
+   padding-left: 25px;
+   padding-right: 25px;
+}
+
+.markdown-style td, .markdown-style th{
+    padding: 8px 20px 8px 16px !important;
+    font-size: 14px;
+    vertical-align:center;
+}
+
+.markdown-style th{
+  line-height: 21px;
+  padding: 8px 16px 8px 16px !important;
+  border-top: solid 1px black;
+  border-bottom: solid 1px rgb(0,0,0, .08);
+  font-size: 14px;
+}
+
+.markdown-style tr:last-child{
+  margin-bottom: 12px;
+  border-bottom: solid 1px black;
+}
+
+.markdown-style td:first-child{
+  font-weight: bold
+}
+
+.markdown-style li{
+  margin-bottom: 10px;
+  text-align: justify;
+}
+
+.markdown-style p{
+  margin-bottom: 15px;
+  /*text-align: justify;*/
+}
+
+.markdown-style a{
+  color: #0086CA;
+  text-decoration: none;
+}
+
+.markdown-style img{
+  padding-bottom: 30px;
+  width: 100%;
+}
+
+.markdown-style img[src$="centerme"]{
+  display:block;
+  margin: 0 auto;
+  max-width: 900px;
+}
+
+.markdown-style img[src$="extendme"]{
+  width: calc(100% + 100px);
+  margin-left: -50px;
+  margin-right: -50px;
+}

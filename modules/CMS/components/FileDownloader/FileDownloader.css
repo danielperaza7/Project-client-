@@ -1,0 +1,11 @@
+.docLink{
+  font-size: 14px;
+  color:#007bc3;
+  margin-left: 50px;
+}
+
+@media screen and (max-width:991px) {
+  .docLink{
+    margin-left: 10px;
+  }
+}

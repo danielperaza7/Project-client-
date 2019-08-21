@@ -1,0 +1,155 @@
+.stepWrapper {
+  margin-bottom: 50px;
+}
+
+.stepWrapper:last-child {
+  margin-bottom: 0;
+}
+
+.title {
+  height: 70px;
+  display: inline-flex;
+  vertical-align: bottom;
+}
+
+@font-face {
+    font-family: Bodoni;
+    src: url("https://hiddenfigure.evestemptation.com/fonts/BodoniStd-Book.otf") format("opentype");
+}
+
+.title .titleNumber {
+  width: 50px;
+  margin-right: 10px;
+  font-size: 100px;
+  color: #E4D8BF;
+  font-family: Bodoni;
+  margin-top: -21px;
+  vertical-align: top;
+}
+
+.title h3.titleText {
+  width: 600px;
+  height: 70px;
+  font-size: 24px;
+  font-family: GothamBook;
+  border-bottom: 1px solid #E4D8BF;
+  margin: 0;
+  display: block;
+  padding: 22px 0;
+}
+
+.images {
+  display: inline-flex;
+  margin-left: 60px;
+}
+
+.images .leftCard {
+  width: 400px;
+}
+
+.images img.rightImg {
+  height: 200px;
+  width: 200px;
+  margin-top: 0;
+}
+
+.bottomBar {
+  margin-left: 60px;
+  height: 55px;
+  border: 1px solid #ADA082;
+  margin-top: 20px;
+  width: initial;
+  display: inline-flex;
+}
+
+.bottomImg {
+  width: 110px;
+}
+
+.bottomText {
+  height: 55px;
+  width: inherit;
+  font-size: 13px;
+  font-family: GothamBook;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.bottomText > p {
+  vertical-align: middle;
+  padding-top: 19px;
+}
+
+.stepCardTitle {
+  height: 50px;
+  font-size: 14px;
+  display: table;
+}
+
+.stepCardTitle > p {
+  vertical-align: middle;
+  display: table-cell;
+  word-wrap: break-word;
+  font-family: GothamBook;
+}
+
+.stepCard {
+  display: inline-flex;
+}
+
+.Card_img{
+  width:150px;
+  height:150px;
+  margin-right:10px;
+  border: 1px solid #fff;
+}
+
+.Card_img:hover {
+  border: 1px solid #eee;
+}
+
+.Card_seeMore{
+  width:80px;
+  height:150px;
+  font-size: 14px;
+  color:#ADA082;
+  line-height: 150px;
+  margin-right: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: GothamBook;
+}
+
+.Card_seeMore:hover{
+  text-decoration:underline;
+}
+
+@media screen and (min-width: 992px)  {
+  .title h3.titleText {
+    width: 780px;
+  }
+  .images .leftCard {
+    width: 520px;
+  }
+
+  .images img.rightImg  {
+    width: 260px;
+    height: 260px;
+  }
+
+  .stepCardTitle {
+    height: 65px;
+  }
+
+  .Card_img{
+    width:195px;
+    height:195px;
+    margin-right:20px;
+  }
+
+  .Card_seeMore{
+    height:195px;
+    line-height: 195px;
+    margin-right: 20px;
+  }
+}

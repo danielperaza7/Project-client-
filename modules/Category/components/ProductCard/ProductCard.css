@@ -1,0 +1,262 @@
+.discount {
+  font-weight:bold;
+  margin-left:10px;
+}
+.coupon_code {
+  text-align: left;
+  color: #ADA082;
+  font-weight: bold;
+}
+
+.coupon_code p{
+  margin:0;
+  font-size:12px;
+}
+
+.product_name {
+  clear:both;
+  margin-top: 10px;
+  font-size: 13px;
+  font-family: GothamMedium;
+}
+
+.product_name h3{
+   color: black;
+   font-size: 12px;
+   font-family: GothamBook;
+   margin-top: 10px;
+   margin-bottom: 0;
+}
+
+.product_name h3:hover,.product_name a:hover{
+   text-decoration: none;
+   color: #ADA082;
+}
+
+.price_box {
+  font-size: 14px;
+  font-family:GothamMedium;
+}
+.info_section{
+  margin-top: 10px;
+  text-align:left;
+}
+.info_section>div{
+  margin-bottom: 0;
+}
+
+.hoverImage{
+  position:absolute;
+  left:0;
+  top:0;
+  /* padding: 0 8px; */
+}
+
+.soldOut {
+  width: calc(100% - 16px);
+  position: absolute;
+  height: 45px;
+  transform: translateY(-45px);
+  background: rgba(255,255,255,0.8);
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+}
+.soldOut > span {
+  margin: auto;
+  line-height: 45px;
+  text-align: center;
+  font-size: 13px;
+  vertical-align: middle;
+  color: black;
+}
+
+.ion-android-star-outline{
+  font-size:16px;
+  color:#E0E0E0;
+  vertical-align: middle;
+  margin-left: 2px;
+}
+
+.ion-android-star{
+  font-size:16px;
+  color: black;
+  vertical-align: middle;
+  margin-left: 2px;
+}
+
+
+.starList_mainProduct{
+  margin-left: -2px;
+  margin-top: 5px;
+}
+
+.starList_mainProduct span{
+  margin-left:10px;
+  font-size:12px;
+  font-family: GothamBook;
+  color:#9B9B9B;
+}
+
+.menuProductCard_container{
+  width: 180px;
+  height: 270px;
+  border: 1px solid #ADA081;
+  background: white;
+}
+
+
+.menuProductCard_img{
+  padding:20px;
+}
+
+.menuProductCard_img img{
+  width: 140px;
+  height: 140px;
+}
+
+.menuProductCard_name{
+  max-width: 140px;
+  font-size:13px;
+  font-family: GothamMedium;
+  margin:auto;
+  text-align: left;
+  margin-top:10px;
+}
+
+.menuProductCard_name a{
+  color:black;
+  text-decoration: none;
+  cursor:pointer;
+}
+
+.mobileProductCard_container{
+  width: 100px;
+  background: white;
+  margin-right: 5px;
+  margin-bottom:20px;
+}
+
+
+.mobileProductCard_img img{
+  width: 100px;
+  height: 100px;
+}
+
+.mobileProductCard_name{
+  max-width: 140px;
+  font-size:10px;
+  font-family: GothamMedium;
+  margin:auto;
+  text-align: left;
+  margin-top:10px;
+}
+
+.mobileProductCard_name a{
+  color:black;
+  text-decoration: none;
+  cursor:pointer;
+}
+
+.topBar_img img{
+  width: 120px;
+  height: 120px;
+}
+
+.topBar_info{
+  margin-left: 15px;
+}
+
+.topBar_rate{
+  font-size: 16px;
+  font-family: GothamMedium;
+  letter-spacing: .05em;
+}
+
+.topBar_card{
+  width: 270px;
+  display:inline-flex;
+  margin-left: 40px;
+}
+
+.topBar_productName{
+  margin-top: 10px;
+  font-size: 12px;
+  font-family: GothamBook;
+  line-height: 150%;
+  letter-spacing: .05em;
+}
+
+
+.topBar_productName a{
+  color: inherit;
+  text-decoration: none;
+}
+
+.topBar_starRate{
+  margin-top:5px;
+}
+
+.ion-android-star-outline{
+  color:#E0E0E0;
+  vertical-align: middle;
+  margin-left: 2px;
+}
+
+.ion-android-star{
+  color:#F5C86A;
+  vertical-align: middle;
+  margin-left: 2px;
+}
+
+.topBar_price{
+  margin-top:5px;
+  font-size:12px;
+  font-family: GothamMedium;
+}
+
+.discountCard{
+  margin-top: 8px;
+  width: 65px;
+  height: 20px;
+  background: transparent;
+  position: absolute;
+  z-index: 1;
+  color: white;
+  font-family:GothamBook ;
+}
+
+.imageContainer{
+  position: relative;
+  border: 1px;
+}
+
+.tagContainer{
+  position: absolute;
+  width: 53px;
+  height: 20px;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  font-family: GothamBook;
+  color: white;
+  font-size: 12px;
+  line-height: 20px;
+  text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+  .soldOut {
+    height: 35px;
+    transform: translateY(-35px);
+  }
+  .soldOut > span {
+    line-height: 35px;
+    font-size: 11px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .discountCard{
+    margin-top: 8px;
+  }
+}

@@ -1,0 +1,62 @@
+.contentBox{
+  padding: 30px 0px;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  display: flex;
+}
+
+.signInBox{
+  width: 60%;
+  padding: 0 8%;
+}
+
+.textBox{
+  width: 40%;
+  height: 280px;
+  margin-top: 56px;
+  padding-left: 6%;
+  border-left: 1px solid rgba(151,151,151,100);
+  word-wrap:break-word;
+}
+
+.contact-us-link{
+  margin-top: 40px;
+}
+
+.contact-us-link:hover{
+  cursor: pointer;
+}
+
+@media screen and (max-width: 991px){
+  .signInBox{
+    width: 100%;
+    padding-left: 21%;
+    padding-right: 21%;
+    padding-top: 40px;
+  }
+
+  .contentBox{
+    display: initial;
+  }
+
+  .textBox{
+    border: None;
+    width: 100%;
+    padding-left: 25%;
+    padding-right: 25%;
+    margin-top: 70px;
+  }
+}
+
+@media screen and (max-width: 500px){
+  .signInBox{
+    padding-left: 8%;
+    padding-right: 8%;
+  }
+  .textBox{
+    padding-left: 8%;
+    padding-right: 8%;
+  }
+}

@@ -1,0 +1,287 @@
+.allguide {
+  margin-left: 40px;
+  margin-right: 40px;
+  font-size: 12px;
+  font-weight: lighter;
+}
+
+/* guide menu horizontal */
+.menusWrapper{
+  margin: 20px 1px 30px 1px;
+  list-style-type: none;
+
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-justify-content: space-between;
+  -ms-box-orient: horizontal;
+
+}
+
+.menu-btn{
+  border: none;
+  padding: 0;
+  font-size: 16px;
+  margin: 0;
+  font-family: GothamBook,NS-Display,sans-serif;
+  color: #000;
+  -webkit-transition: color .3s;
+  transition: color .3s;
+  text-transform: capitalize;
+}
+
+.menu-current{
+  border-bottom: 2px solid #000;
+  font-weight: bold;
+  letter-spacing: -0.12px;
+}
+
+
+.menu-btn:hover{
+  font-weight: bold;
+  cursor: pointer;
+  letter-spacing: -0.12px;
+}
+
+
+/* guide panels*/
+.allguide :global(div.panel), .allguide :global(.panel-group .panel+.panel){
+  border: none;
+  box-shadow: none;
+  border-radius: 0;
+  margin-top: 0;
+}
+.allguide :global(div.panel-group) {
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.allguide :global(div.panel-group .panel-heading+.panel-collapse>.panel-body),  .allguide :global(div.collapse.in){
+  border: none;
+}
+
+
+.allguide :global(div.panel-heading) {
+  padding: 0;
+  background: #fff;
+  border-top: 1px solid #e0e0e0;
+  font-family: GothamMedium;
+}
+.allguide :global(div.panel-heading) a {
+  padding: 20px 0 20px 0;
+}
+.allguide :global(div.panel-heading):hover {
+  color: #ADA082;
+  cursor: pointer;
+}
+
+.allguide :global(div.panel-body){
+  padding: 10px 0 10px 0;
+}
+
+.allguide :global(div.panel-heading a:after) {
+  font-family: "Ionicons";
+  content: '\f2f4';
+  float: right;
+  width: 20px;
+  text-align: center;
+  font-size: 18px;
+}
+.allguide :global(div.panel-heading a.collapsed:after) {
+  content: '\f2c7';
+}
+
+.allguide :global(div.RadioBox){
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.listWrapper{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.listWrapper > div {
+  padding-left: 0;
+  padding-right: 20px;
+}
+
+.showtypePanel div.itemImg{
+  text-align: center;
+}
+
+.listWrapper .itemImg img {
+  width: 90px;
+}
+
+.listWrapper .itemName {
+  font-family: GothamMedium;
+  padding: 10px 0 5px 0;
+  text-transform: capitalize;
+}
+
+
+
+/* chart table */
+.showChartPanel {
+  font-size: 14px;
+}
+
+.showChartPanel table {
+  margin-bottom: 20px;
+}
+
+.showChartPanel div.tableDescription {
+  padding: 0 0 18px 20px;
+  line-height: 1.5;
+  vertical-align: top;
+}
+
+.showChartPanel div.tableName {
+  font-family: GothamMedium;
+  padding: 9px 0 19px 0;
+  text-transform: capitalize;
+  line-height: normal;
+}
+
+.showChartPanel .showTable th, .showChartPanel .showTable td {
+  width: auto;
+  font-weight: normal;
+  font-family: GothamBook;
+  padding: 10px 10px 10px 20px;
+  vertical-align: middle;
+  border-top: none;
+  border-bottom: 1px solid #fafafa;
+  text-transform: uppercase;
+}
+.showChartPanel .showTable thead {
+  background: #fafafa;
+}
+.showChartPanel .showTable thead > tr > th {
+  border: none;
+  text-transform: capitalize;
+  padding: 20px 10px 20px 20px;
+}
+
+.showChartPanel .showTable tr:hover{
+  background: #f7f5f0;
+  cursor: pointer;
+}
+
+.showChartPanel td.hoverCol, .showChartPanel th.hoverCol {
+  background: #f7f5f0;
+}
+
+.showTable td.boldCell, .showTable th.boldCell {
+  font-family: GothamMedium;
+}
+
+.unitToggle > div {
+  display: inline-block;
+  padding-right: 20px;
+}
+
+.unitToggle > div .unitName{
+  font-size: 14px;
+  vertical-align: top;
+  line-height: normal;
+}
+
+.unitToggle label {
+  font-weight: normal;
+}
+
+/* for mobile */
+.dropdown {
+  height: 45px;
+}
+
+.dropdown > div {
+  display: inline-block;
+  text-transform: capitalize;
+}
+
+.dropdown > div.mobileMenu {
+  line-height: 2;
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+.dropdown > :global(div.dropdown){
+  float: right;
+}
+
+.dropdown > :global(div.dropdown button.btn){
+  background: #fff;
+  border: none;
+  text-decoration: underline;
+  box-shadow: none;
+  font-family: GothamBook,NS-Display,sans-serif;
+  padding-right: 0;
+}
+
+.dropdown > :global(div.dropdown button.btn>span){
+  margin-left: 3px;
+  margin-right: 1px;
+}
+
+.dropdown > :global(.open>.dropdown-toggle.btn-default:hover) {
+  background: #fff;
+}
+
+.dropdown :global(.dropdown-menu){
+  text-transform: capitalize;
+  border-radius: 0;
+  padding: 5px 0;
+  left: 8px;
+}
+
+.dropdown :global(.dropdown-menu) li {
+  padding: 5px 0;
+}
+
+.dropdown :global(.dropdown-menu) li:hover{
+  background: #f7f5f0;
+}
+
+.dropdown :global(.dropdown-menu) li a:hover{
+  background: none;
+}
+
+.showTypesPanel :global(a), .showGuidePanel :global(a), .showChartPanel :global(a){
+  display:block;
+  text-decoration: none !important;
+  outline: none !important;
+}
+
+@media screen and (max-width: 767px){
+  .showChartPanel div.tableDescription {
+    padding-left: 10px;
+  }
+
+  .allguide{
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .showChartPanel :global(div.table-responsive){
+    overflow-x: hidden;
+    border: none;
+    margin-bottom: 20px;
+  }
+  .showChartPanel :global(.table-responsive>.table>tbody>tr>td), .showChartPanel :global(.table-responsive>.table>thead>tr>th){
+    padding: 8px 5px 8px 20px;
+    white-space: nowrap;
+    font-size: 12px;
+  }
+  .showChartPanel :global(.table-responsive>.table>thead>tr>th){
+    padding: 20px 5px 20px 20px;
+  }
+  .showChartPanel :global(.table-responsive>.table>thead>tr>th){
+    white-space: pre-wrap;
+  }
+}

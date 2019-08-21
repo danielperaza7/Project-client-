@@ -1,0 +1,75 @@
+.title{
+  font-size:12px;
+  font-family: GothamMedium;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+
+.Method_content_Responsive{
+  float: left;
+  font-size:12px;
+  font-family: GothamMedium;
+  width:30%;
+  display: block;
+  vertical-align: top;
+}
+
+.Method_content_medium{
+  float: left;
+  font-size:12px;
+  font-family: GothamBook;
+  width:40%;
+  display: block;
+  margin-left:30px;
+}
+
+.Method_content{
+  float: left;
+  font-size:12px;
+  font-family: GothamMedium;
+  width:20%;
+  display: block;
+  text-align: right;
+  vertical-align: top;
+}
+
+@media screen and (max-width: 767px) {
+   .Method_content_Responsive{
+     display: block;
+     width:100%;
+     margin-bottom:10px;
+   }
+
+   .Method_content_medium{
+    width:75%;
+    margin-left:0px;
+  }
+
+   .Method_content{
+     width:20%;
+     vertical-align: inherit;
+   }
+}
+
+
+
+.shippingMethod_list_item{
+  border: 1px #E0E0E0 solid;
+  border-radius: 0px;
+  margin-top: 15px;
+  padding: 10px;
+  width: 100%;
+}
+
+.shippingMethod_list_item:hover{
+  border: 1px black solid;
+  cursor: pointer;
+}
+
+.shippingMethod_list_item:focus{
+  border: 2px black solid !important;
+}
+
+.shippingMethod_list_item span{
+  display: none !important;
+}

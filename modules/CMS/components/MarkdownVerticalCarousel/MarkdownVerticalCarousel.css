@@ -1,0 +1,93 @@
+.rowWrapper{
+  width: calc( 100% - 72px );
+  text-align: center;
+  height: 48px;
+  padding: 6px;
+  border-top: 1px solid #4d483c;
+  margin-left: 36px;
+  margin-right: 36px;
+}
+.header{
+  width: 100%;
+  height: 48px;
+  text-align: center;
+  padding: 6px;
+}
+.leftblock,
+.rightblock{
+  height: 36px;
+  width: 36px;
+  color: #E4D8BF;
+  line-height: 36px;
+}
+.leftblock{
+  float: left;
+}
+.rightblock{
+  float: right;
+}
+.content{
+  display: inline-block;
+  width: auto;
+  height: 36px;
+  max-width: calc( 100% - 72px );
+  color: #C1B495;
+  overflow: hidden;
+}
+.panel{
+  background: black;
+  /*padding: 6px;*/
+}
+.markdownWrapper{
+  height: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.markdownWrapper p{
+  margin: 0;
+  font-size: 12px;
+  line-height: 14px;
+  white-space: pre-line;
+  text-align: center;
+}
+.markdownWrapper strong{
+  font-size: 12px;
+  color: #E4D8BF;
+}
+.fadeMD-enter {
+  opacity: 0.01;
+}
+
+.fadeMD-enter.fadeMD-enter-active {
+  opacity: 1;
+  transition: all 200ms ease-in;
+}
+
+.fadeMD-leave {
+  opacity: 1;
+}
+
+.fadeMD-leave.fadeMD-leave-active {
+  opacity: 0.01;
+  transition: all 100ms ease-in;
+}
+
+.modalContent{
+  padding: 40px 30px 40px 30px;
+}
+.modalContent strong {
+  color: black !important;
+  font-size: 12px;
+}
+.modalContent p {
+  line-height: normal !important;
+  font-size: 12px;
+}
+.clickable {
+  cursor: pointer;
+}
+.total-indicator {
+  letter-spacing: 1px;
+  font-size: 10px;
+}

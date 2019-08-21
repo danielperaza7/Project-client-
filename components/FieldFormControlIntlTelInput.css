@@ -1,0 +1,19 @@
+.intl-tel-input-container {
+  display: block;
+}
+
+.intl-tel-input-text {
+  width: 100%;
+  line-height: 30px;
+}
+
+.intl-tel-input-text-addr {
+  width: 100%;
+  border: 1px solid #9b9b9b;
+  line-height: 3;
+  outline: none;
+}
+
+.intl-tel-input-text-addr:focus {
+  border: 1px solid #000000;
+}

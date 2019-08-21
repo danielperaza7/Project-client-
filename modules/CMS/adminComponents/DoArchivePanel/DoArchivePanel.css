@@ -1,0 +1,50 @@
+
+.wrapper {
+  border: 1px solid #e0e0e0;
+  padding: 20px;
+  margin-bottom: 60px;
+}
+
+.wrapper h3.title {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  color: red;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+
+.wrapper div.instruction {
+  padding-bottom: 20px;
+}
+
+.doArchive {
+  margin-top: 10px;
+}
+
+.doArchive button{
+  color: red;
+  padding: 8px;
+  border-radius: 0;
+  background: none;
+  border: 1px solid red;
+  outline: none;
+  text-decoration: none;
+  vertical-align: middle;
+  float: right;
+}
+
+.doArchive button:disabled {
+  color: #e0e0e0;
+  border-color: #e0e0e0;
+  cursor: not-allowed;
+}
+
+.doArchive > * {
+  display: inline-block;
+  margin: 10px;
+}
+
+.selectCMSID select {
+  width: 200px;
+}

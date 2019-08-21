@@ -1,0 +1,162 @@
+@media screen and (min-width: 992px){
+  .panels div.single-panel{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid rgb(0,0,0, .08);
+    border-radius: 0;
+    box-shadow: none;
+    margin-top: 0 !important;
+    margin-bottom: 0;
+    margin-left: 100px;
+    margin-right: 200px;
+  }
+
+  .panels div.single-panel table{
+    margin-left: 72px
+  }
+
+  .panels div.single-panel td{
+    padding: 8px 20px 8px 16px !important;
+    font-size: 14px;
+    vertical-align:center;
+  }
+
+  .panels div.single-panel th{
+    line-height: 21px;
+    padding: 8px 16px 8px 16px !important;
+    border-top: solid 1px black;
+    border-bottom: solid 1px rgb(0,0,0, .08);
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 768px){
+  .panels div.single-panel{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid rgb(0,0,0, .08);
+    border-radius: 0;
+    box-shadow: none;
+    margin-top: 0 !important;
+    margin-bottom: 0;
+    margin-right: 16px;
+  }
+
+  .panels div.single-panel td{
+    padding: 8px 16px 8px 16px !important;
+    font-size: 14px;
+  }
+
+  .panels div.single-panel th{
+    line-height: 21px;
+    padding: 8px 16px 8px 16px !important;
+    border-top: solid 1px black;
+    border-bottom: solid 1px rgb(0,0,0, .08);
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 767px){
+  .panels div.single-panel{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid rgb(0,0,0, .08);
+    border-radius: 0;
+    box-shadow: none;
+    margin-top: 0 !important;
+    margin-bottom: 0;
+    margin-left: 10px;
+  }
+
+  .panels div.single-panel td{
+    padding: 8px 16px 8px 16px !important;
+    font-size: 14px;
+  }
+
+  .panels div.single-panel th{
+    padding: 10px 5px 10px 16px !important;
+    border-top: solid 1px black;
+    border-bottom: solid 1px rgb(0,0,0, .08);
+    font-size: 14px;
+  }
+}
+
+.panels div.single-panel tr:last-child{
+  margin-bottom: 12px;
+  border-bottom: solid 1px black;
+}
+
+.panels div.single-panel td:first-child{
+  font-weight: bold
+}
+
+.product div.panels{
+  margin-bottom: 0;
+}
+
+.panels div.single-panel:first-child{
+  border-top: 1px solid rgb(0,0,0, .08);
+  border-radius: 0;
+}
+
+.single-panel>div{
+  background: white !important;
+  padding-left: 1px;
+  padding-right: 1px;
+  padding-top: 9px;
+  padding-bottom: 0px;
+}
+
+.single-panel :global(.panel-heading){
+  padding: 0 1px;
+}
+
+.single-panel :global(.panel-heading):hover{
+  cursor: pointer;
+}
+
+.single-panel :global(.panel-heading) a{
+  text-decoration: none;
+  font-size: 14px;
+  font-family: GothamMedium;
+  padding: 15px 5px 15px 0px;
+  display: block;
+}
+
+.single-panel :global(.panel-collapse){
+  padding-top: 0;
+}
+
+.single-panel :global(.panel-collapse) :global(.panel-body){
+  padding-top: 0;
+  border-top: none !important;
+  font-size: 12px;
+  font-family: GothamBook;
+  padding-left: 1px;
+}
+.single-panel :global(.panel-collapse) :global(.panel-body ul){
+  padding-left: 15px;
+}
+
+.single-panel :global(.panel-heading):active, .single-panel :global(.panel-heading):visited{
+  border-bottom: none;
+}
+
+.single-panel p{
+  white-space: pre-line;
+}
+
+.panels div.single-panel ul, ol{
+  margin-left: 15px;
+}
+
+.panels p{
+  font-size: 14px;
+}
+
+.single-panels span{
+  font-size: 14px;
+}

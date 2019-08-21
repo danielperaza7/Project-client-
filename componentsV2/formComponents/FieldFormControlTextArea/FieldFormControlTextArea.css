@@ -1,0 +1,12 @@
+.textAreaTitle{
+  font-size:12px;
+  font-family: GothamMedium;
+  margin-bottom: 20px;
+}
+
+.FieldFormControl textarea{
+  width: 100%;
+  font-size:12px;
+  font-family: GothamBook;
+  padding: 20px;
+}

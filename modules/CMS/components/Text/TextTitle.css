@@ -1,0 +1,15 @@
+.title-xl, .title-lg , .title-md {
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.5em;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.title-sm, .title-xs {
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.3em;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}

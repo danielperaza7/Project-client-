@@ -1,0 +1,196 @@
+
+/* ----- general styling ----- */
+.background-mask, .go-down {
+  position: fixed;
+  background-color: rgba(0,0,0, 0.5);
+  width: 100%;
+  height: 100%;
+  top: 0;
+  -webkit-transition: background-color 1s;
+  -moz-transition: background-color 1s;
+  -o-transition: background-color 1s;
+  -ms-transition: background-color 1s;
+  transition: background-color 1s;
+}
+
+.go-down {
+  background-color: rgba(0,0,0,0);
+}
+
+.TodaysOffers-wrapper-mask {
+  /*background-color: rgba(0,0,0, 0.5);*/
+  z-index: 1000;
+  width: 100%;
+  height: calc(100vh - 720px);
+  min-height: 164px;
+}
+
+.TodaysOffers-wrapper {
+  position: fixed;
+  bottom: 0;
+  z-index: 1000;
+  width: 100%;
+}
+
+/* buttons */
+.TodaysOffers-btn, .close-btn {
+  cursor: pointer;
+  height: 44px;
+  text-align: center;
+  margin: auto;
+  line-height: 44px;
+  font-weight: bold;
+}
+
+/* SALE button */
+.TodaysOffers-btn {
+  width: 120px;
+  -webkit-transform: translate3d(0,-45px,0);
+  -moz-transform: translate3d(0,-45px,0);
+  transform: translate3d(0,-45px,0);
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+.TodaysOffers-btn > span {
+  display: inline-block;
+}
+
+.TodaysOffers-btn > span:first-child {
+  width: 44px;
+  color: #fff;
+  background: #ADA082;
+  font-size: 22px;
+  vertical-align: bottom;
+  border-top-left-radius: 3px;
+  border: 1px solid #ADA082;
+  border-bottom: none;
+}
+
+.TodaysOffers-btn > span:last-child {
+  width: 74px;
+  border-top-right-radius: 3px;
+  border: 1px solid #e0e0e0;
+  border-bottom: none;
+  background-color: #fff;
+}
+
+/* close button */
+.close-btn {
+  background: #fff;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  border-top: 1px solid #e0e0e0;
+}
+
+.close-btn > i {
+  padding-left: 10px;
+  font-size: 30px;
+  vertical-align: middle;
+}
+
+/* content container panel */
+.content-wrapper {
+  border: none;
+  background: #fff;
+  width: 100%;
+  height: calc( 100vh - 164px );
+  max-height: 720px;
+  padding: 15px 10px;
+  padding-bottom: 59px;
+  overflow: auto;
+}
+
+
+
+.top-bar{
+  width: 100%;
+  height: 30px;
+  position: absolute;
+  top: 0;
+  z-index: 1000;
+  background: #fff;
+}
+
+/* animation */
+@-webkit-keyframes goUp {
+  0%{
+    -webkit-transform: translateY(100%);
+    -ms-transform: translateY(100%);
+    transform: translateY(100%);
+  } 100% {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+@keyframes goUp {
+  0%{
+    -webkit-transform: translateY(100%);
+    -ms-transform: translateY(100%);
+    transform: translateY(100%);
+  } 100% {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+@-webkit-keyframes goDown {
+  	0%{
+  		-webkit-transform: translateY(0);
+      -ms-transform: translateY(0);
+      transform: translateY(0);
+    } 100% {
+  		-webkit-transform: translateY(calc(100%));
+      -ms-transform: translateY(calc(100%));
+      transform: translateY(calc(100%));
+    }
+}
+
+@keyframes goDown {
+  	0%{
+  		-webkit-transform: translateY(0);
+      -ms-transform: translateY(0);
+      transform: translateY(0);
+    } 100% {
+  		-webkit-transform: translateY(calc(100% ));
+      -ms-transform: translateY(calc(100% ));
+      transform: translateY(calc(100% ));
+    }
+}
+
+.background-mask .TodaysOffers-wrapper {
+  -webkit-animation:goUp 1s;
+  -moz-animation:goUp 1s;
+  animation:goUp 1s;
+}
+
+.go-down .TodaysOffers-wrapper {
+  -webkit-animation:goDown 1s;
+  -moz-animation:goDown 1s;
+  animation:goDown 1s;
+}
+
+@media screen and (min-width: 992px) {
+  .content-wrapper {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+/* ----- Mobile ----- ipad width: 768px */
+@media screen and (max-width: 767px) {
+  .content-wrapper {
+    height: calc( 100vh - 140px );
+    padding: 5px 20px;
+    padding-bottom: 49px;
+  }
+  .top-bar {
+    height: 20px;
+  }
+}

@@ -1,0 +1,31 @@
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 0;
+}
+
+.product-list li {
+    list-style: none;
+    text-align:center;
+    margin-bottom: 30px;
+    padding: 0 8px;
+}
+
+@media (min-width: 1024px){
+	.product-list li {
+	    width: 20%;
+	}
+}
+
+.product-list li img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}
+
+.select-arrow-icon{
+    color: #ADA082;
+    font-size: 14px;
+}
+

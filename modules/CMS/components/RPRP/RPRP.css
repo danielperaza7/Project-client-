@@ -1,0 +1,332 @@
+.listHeader {
+  border-bottom: 1px solid #d8d8d8;
+  font-family: GothamMedium;
+  font-size: 24px;
+  padding-bottom: 16px;
+  margin-top: 48px;
+}
+
+.listHeaderContainer {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.productWithRPList {
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.productWithRPContainer {
+  padding-top: 30px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.imageContainer {
+  position: relative;
+  width: 100%;
+}
+
+.hoverImage {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.productInfoSection {
+  padding-top: 10px;
+  height: 50%;
+}
+
+.productRewardPoint {
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: center;
+}
+
+.productName {
+  margin-top: 4px;
+  font-size: 14px;
+  font-family: GothamMedium;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.productName > h3 {
+  color: black;
+  font-size: 14px;
+  font-family: GothamBook;
+  font-weight: normal;
+}
+
+.productName > h3:hover {
+  color: #ada082;
+}
+
+.productExtraInfo {
+  margin-top: 4px;
+  font-size: 14px;
+  font-family: GothamMedium;
+  color: #b39350;
+}
+
+.productExpirationDate {
+  margin-top: 4px;
+  font-size: 12px;
+  color: #fc2672;
+}
+
+.redeemButton,
+.buttonDisabled {
+  margin-top: 17px;
+  width: 140px;
+  height: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 2px;
+  color: white;
+  text-align: center;
+  line-height: 40px;
+  font-weight: bold;
+  background-color: black;
+}
+
+.redeemButton {
+  opacity: 0.78;
+  cursor: pointer;
+}
+
+.buttonDisabled {
+  opacity: 0.08;
+  cursor: pointer;
+}
+
+.listFooter {
+  margin-top: 50px;
+  font-family: GothamBook;
+  font-size: 14px;
+}
+
+.RPRPBanner {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  margin: auto;
+}
+
+.signin {
+  color: #a38547;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.maximizeYourRewardPointsValue,
+.redeemablePoints,
+.signin {
+  font-family: GothamMedium;
+}
+
+.redeemablePointsText {
+  font-family: GothamBook;
+  font-size: 12px;
+}
+
+.redeemablePoints,
+.signin {
+  font-size: 16px;
+}
+
+.redeemablePointsContainer,
+.signInContainer {
+  width: 254px;
+  height: 60px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  background-color: #ffffff;
+  line-height: 1.5;
+}
+
+.redeemablePointsContainer {
+  padding: 10px;
+}
+
+.signInContainer {
+  padding: 8px;
+}
+
+.signInModalContainer {
+  width: 60%;
+}
+
+.textContainer {
+  width: 40%;
+  padding: 0px 6%;
+}
+
+.dialog {
+  margin-top: 50%;
+  width: 90%;
+  max-width: 466px;
+  height: 263px;
+  position: absolute !important;
+  top: 50%;
+  left: 50%;
+  margin: 0 !important;
+  transform: translate(-50%, -50%) !important;
+}
+
+.dialog > div {
+  border-radius: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+.cross {
+  font-size: 30px;
+  text-align: right;
+  cursor: pointer;
+}
+
+.contentBox {
+  width: 100%;
+  height: 100%;
+  padding: 16px 24px;
+}
+
+.textBox {
+  height: 54%;
+  line-height: 32px;
+}
+
+.textDescription {
+  font-family: GothamBook;
+  font-size: 14px;
+  margin-bottom: 24px;
+  line-height: 24px;
+}
+
+.buttonBox {
+  display: flex;
+}
+
+.buttonBox div a {
+  background-color: black;
+  color: white;
+}
+
+.singleButton {
+  text-align: center;
+  font-family: GothamMedium;
+  font-size: 14px;
+  padding: 10px;
+  height: 40px;
+  margin: 5px;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.singleButtonSignin {
+  background-color: black;
+}
+
+.hrInModal {
+  width: auto;
+  margin: 10px -24px;
+}
+
+@media only screen and (max-width: 767px) {
+  .RPRPBanner {
+    top: -137px;
+    height: 64px;
+    width: 304px;
+  }
+
+  .maximizeYourRewardPointsValue {
+    font-size: 24px;
+  }
+
+  .redeemablePointsContainer,
+  .signInContainer {
+    top: -48px;
+  }
+
+  .listHeader {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .RPRPBanner {
+    top: -194px;
+    height: 90px;
+    width: 362px;
+  }
+
+  .maximizeYourRewardPointsValue {
+    font-size: 30px;
+  }
+
+  .redeemablePointsContainer,
+  .signInContainer {
+    top: -76px;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1439px) {
+  .RPRPBanner {
+    top: -194px;
+    height: 30px;
+    width: 546px;
+  }
+
+  .maximizeYourRewardPointsValue {
+    font-size: 30px;
+  }
+
+  .redeemablePointsContainer,
+  .signInContainer {
+    top: -76px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .RPRPBanner {
+    top: -194px;
+    height: 36px;
+    width: 655px;
+  }
+
+  .maximizeYourRewardPointsValue {
+    font-size: 36px;
+  }
+
+  .redeemablePointsContainer,
+  .signInContainer {
+    top: -76px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .listHeader {
+    width: 65%;
+  }
+}
+
+@media only screen and (max-width: 1199px) {
+  .listHeader {
+    width: 90%;
+  }
+}

@@ -1,0 +1,63 @@
+.sidebar-title {
+  font-family: Gotham;
+  font-size: 30px;
+  padding-bottom: 20px;
+  position: relative;
+  margin-top: 20px;
+}
+
+.sidebar-title:after {
+  content: "";
+  left: 0;
+  bottom: 0;
+  width: 50%;
+  height: 1px;
+  position: absolute;
+}
+
+.sidebar-nav {
+  border: none !important;
+  margin-top: 25px;
+  width: 75%;
+  min-width: 200px;
+}
+
+
+.sidebar-nav-item{
+  padding-bottom:15px;
+}
+
+.sidebar-nav-item_bottom{
+  padding-bottom:15px !important;
+  border-bottom: 1px solid #e9ebee;
+}
+
+.sidebar-nav-item_top{
+  padding-top:15px !important;
+  padding-bottom:10px;
+}
+
+.sidebar-nav  a {
+  padding: 5px 0 5px 0 !important;
+  border: none !important;
+  color: black
+}
+
+.sidebar-nav  a:hover {
+  border: none !important;
+  background-color: white !important;
+  outline: none;
+  color: #ADA082;
+}
+
+.sidebar-nav  a:focus {
+  border: none !important;
+  background-color: white !important;
+  outline: none;
+}
+
+.sidebar-nav:global(.active)  a{
+  border: none !important;
+  color: black !important;
+  font-family: GothamMedium;
+}

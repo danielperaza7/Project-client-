@@ -1,0 +1,13 @@
+.image-wrapper {
+  position: relative;
+  overflow: hidden;
+  height: 200px;
+}
+
+.image {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  /* max-height: 100%; */
+  width: 100%;
+}

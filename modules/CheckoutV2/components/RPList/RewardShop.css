@@ -1,0 +1,24 @@
+.rewardsShopTitle {
+}
+
+.rewardPoints {
+}
+
+.signin {
+  color: #a38547;
+  cursor: pointer;
+}
+
+.signinContainer {
+  padding: 25px 0px;
+}
+
+.myRewardsText {
+  font-family: GothamMedium;
+  font-size: 16px;
+}
+
+.signinText {
+  font-family: GothamBook;
+  font-size: 14px;
+}

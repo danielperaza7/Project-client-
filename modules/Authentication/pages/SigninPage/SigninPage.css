@@ -1,0 +1,153 @@
+.signInLabel{
+  font-size: 30px;
+  margin-bottom: 16px;
+}
+
+.contentBox{
+  padding-top: 60px;
+  width: 90%;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+
+.linkContainer{
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.creatAccountLink{
+  color: black !important;
+  text-decoration: underline !important;
+  font-family: GothamMedium;
+  font-size: 12px !important;
+  margin-top: 24px;
+}
+
+.signInBox{
+  width: 60%;
+  padding-left: 8%;
+  padding-right: 8%;
+  display: inline-block;
+}
+
+.textBox{
+  width: 40%;
+  height: 280px;
+  margin-top: 56px;
+  padding-left: 6%;
+  border-left: 1px solid rgba(151,151,151,100);
+  word-wrap:break-word;
+}
+
+.contact-us-link {
+  margin-top: 20px;
+  text-decoration: underline;
+  font-size: 12px;
+  font-family: GothamMedium;
+}
+
+.contact-us-link:hover{
+  cursor: pointer;
+}
+
+.new-customer-container{
+  margin-top:20px
+}
+
+.new-customer-container > div >div{
+  margin-bottom: 20px;
+}
+
+.new-customer-container div.newCustomerInfoText {
+  min-height: 210px;
+}
+
+/* ============= new customer link ============= */
+.new-customer-link {
+  border: 1px solid black;
+  width: 200px;
+  margin: 60px auto 0 auto;
+  padding: 6px 0;
+}
+
+.new-customer-link a{
+  color: black;
+}
+
+.new-customer-link a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+
+
+.new-customer-link-container{
+  margin-top: -10px;
+  text-align: center;
+}
+
+.another-section{
+  padding: 10px 30px;
+  border-top: 1px solid rgba(247,245,240,100)
+}
+
+.headline{
+  margin: 10px 0 11px;
+  color: #ccc;
+  text-transform: uppercase;
+  text-align: center;
+  border-top: 1px solid #dbdddd;
+  line-height: 14px;
+  font-size: 14px;
+}
+
+.headline span{
+  background: none repeat scroll 0 0 #fff;
+  padding: 0 20px;
+  position: relative;
+  top: -5px;
+  max-width: 300px;
+  margin: 0 auto;
+  display: inline-block;
+}
+
+@media screen and (max-width: 767px){
+  .new-customer-container {
+    margin-top:30%;
+    padding: 0 30px;
+  }
+}
+
+@media screen and (max-width: 991px){
+  .signInBox{
+    width: 100%;
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-top: 40px;
+  }
+
+  .contentBox{
+    display: initial;
+  }
+
+  .textBox{
+    border: None;
+    width: 100%;
+    padding-left: 25%;
+    padding-right: 25%;
+    margin-top: 70px;
+  }
+}
+
+@media screen and (max-width: 500px){
+  .signInBox{
+    padding-left: 8%;
+    padding-right: 8%;
+  }
+  .textBox{
+    padding-left: 8%;
+    padding-right: 8%;
+  }
+}

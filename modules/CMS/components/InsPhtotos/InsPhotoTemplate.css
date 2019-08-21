@@ -1,0 +1,30 @@
+.templateContainer{
+}
+
+.template_p2{
+  width: 50%;
+}
+
+.template_p1{
+  display: flex;
+}
+
+.mainPhoto{
+  width: 50%;
+}
+
+@media screen and (max-width: 991px) {
+  .mainPhoto{
+    width: 66.67%;
+  }
+
+  .template_p2{
+    width: 33.33%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .mainPhoto{
+    width: 100%;
+  }
+}

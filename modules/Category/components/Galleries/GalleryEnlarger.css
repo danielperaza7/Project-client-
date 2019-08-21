@@ -1,0 +1,12 @@
+.enlargeWrapper{
+  text-align: center;
+  font-size: 12px;
+}
+.enlargeWrapper i{
+  margin-right: 10px;
+}
+
+.customModal div.modalGalleryWrapper{
+  margin-left: auto;
+  margin-right: auto;
+}

@@ -1,0 +1,19 @@
+.cardWrapper{
+  border: 2px solid black;
+  margin-top: 20px;
+}
+
+.newFormTitle{
+  font-size:12px;
+  font-family: GothamMedium;
+  margin-top:15px;
+  margin-bottom:15px;
+  margin-left: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .cardWrapper{
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+}

@@ -1,0 +1,83 @@
+
+.product-wrapper{
+  padding: 0 8px;
+  position: relative;
+}
+.product-wrapper img{
+  width: 100%;
+}
+
+.dotsClass{
+  color: black;
+}
+.slider{
+  margin-bottom: 30px;
+}
+.slider :global(.slick-arrow){
+  cursor: pointer;
+  height: 100%;
+  width: 50px;
+  z-index: 1;
+}
+.slider :global(.slick-arrow.slick-prev){
+  /*margin-left: -15px;*/
+}
+.slider :global(.slick-arrow.slick-next){
+  /*margin-right: -15px;*/
+}
+.slider :global(.slick-list){
+  margin-right:10px;
+}
+
+.slider :global(.slick-arrow)::before,
+.slider :global(.slick-arrow)::after{
+  font-size: 20px;
+  display: inline-block;
+  font-family: "Ionicons";
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  text-rendering: auto;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.slider :global(.slick-arrow.slick-prev)::before{
+  color: black;
+  content: "\f124";
+
+}
+.slider :global(.slick-arrow.slick-next)::before{
+  color: black;
+  content: "\f125";
+
+}
+.slider :global(.slick-arrow.slick-prev)::after{
+  color: white;
+  content: "\f124";
+  margin-left: -6px;
+}
+.slider :global(.slick-arrow.slick-next)::after{
+  color: white;
+  content: "\f125";
+  margin-left: -14px;
+}
+
+.menuProductCard_container{
+  width: 180px;
+  height: 270px;
+  border: 1px solid #ADA081;
+  background: white;
+  margin-right: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .slider :global(.slick-arrow.slick-prev){
+    margin-left: -15px;
+  }
+  .slider :global(.slick-arrow.slick-next){
+    margin-right: -15px;
+  }
+}

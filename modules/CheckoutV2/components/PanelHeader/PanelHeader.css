@@ -1,0 +1,39 @@
+.editBtn{
+  font-size: 12px;
+  font-family: GothamMedium;
+  color: #ADA082;
+  float: right;
+  cursor: pointer;
+}
+
+.editBtn:hover{
+  cursor: pointer;
+}
+
+.panelHeader{
+  font-family: GothamMedium;
+  font-size: 16px;
+  color: #9B9B9B;
+}
+
+.currentHeader {
+  color: black;
+}
+
+.currentHeader::before{
+  content: "";
+  display: block;
+  width: calc(100% + 2px);
+  border-top: 4px solid #4C9F67;
+  position: absolute;
+  left: -1px;
+  top: -4px;
+}
+
+.requiredSign{
+  font-family: GothamBook;
+  font-size: 10px;
+  float: right;
+  vertical-align: bottom;
+  line-height: 20px;
+}

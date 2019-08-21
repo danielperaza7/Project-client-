@@ -1,0 +1,37 @@
+.searchPageWrapper :global(div.modal-dialog) {
+  margin: 0;
+}
+
+.searchPageWrapper :global(div.modal-dialog div.modal-content) {
+  position: relative;
+  background-color: #fff;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+  height: 100vh;
+}
+
+.searchPageWrapper :global(div.modal-dialog div.modal-body) {
+  padding: 0;
+}
+
+.topPart {
+  padding: 20px 15px;
+  border: 1px solid #e0e0e0;
+  box-shadow: 0 2px 4px 0 #e0e0e0;
+}
+
+.topPart > p {
+  font-size: 10px;
+  color: #9B9B9B;
+  line-height: 14px;
+  margin-bottom: 20px;
+}
+
+.topPart .closeBtn {
+  font-size: 24px;
+  line-height: 1;
+  position: absolute;
+  right: 15px;
+  top: 15px;
+}

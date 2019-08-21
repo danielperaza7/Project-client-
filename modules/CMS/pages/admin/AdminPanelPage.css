@@ -1,0 +1,74 @@
+.options-header{
+  padding: 15px 0;
+  text-align: center;
+}
+
+.action-bar{
+  padding: 15px 0;
+  text-align: right;
+}
+
+/* single list */
+.single-list {
+  position: relative;
+}
+
+.single-list table {
+  border: 1px solid #e0e0e0;
+}
+
+.single-list th, .single-list tr {
+  cursor: pointer;
+}
+
+.single-list p.hints {
+  margin-top: -15px;
+  margin-bottom: 20px;
+}
+
+.selectedTags {
+  position: absolute;
+  top: 25px;
+  right: 0;
+  z-index: 1;
+  background-color: #e0e0e0;
+  padding: 1px 1px 1px 5px;
+}
+
+.clearAll {
+  cursor: pointer;
+  border: 1px solid #000;
+  padding: 2px 5px;
+  margin-left: 5px;
+}
+
+.tagTh{
+  position: relative;
+}
+
+.tagsDropdown {
+  border:2px solid black;
+  padding: 2px 5px;
+  font-size: 10px;
+  line-height: normal;
+  position: absolute;
+  right: 10px;
+}
+
+.tagsPanel {
+  position: absolute;
+  right: 10px;
+  top: 67px;
+  background-color: #fff;
+  box-shadow: 5px 5px 5px #a0a0a0;
+  border: 2px solid #000;
+  z-index: 5;
+  display: block;
+  overflow: visible;
+  overflow-y: visible;
+}
+
+.tagsPanel > span > span {
+  display: block;
+  padding: 5px;
+}

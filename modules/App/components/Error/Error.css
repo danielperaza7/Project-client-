@@ -1,0 +1,59 @@
+.error-container {
+  position: fixed !important;
+  z-index: 1010;
+  width: 320px;
+  right: 0;
+  /*top: 34px;*/
+  bottom: 50px;
+  /*height: 50px;
+  overflow: hidden;*/
+}
+@media screen and (max-width: 767px){
+  .error-container {
+    width: 100%;
+  }
+}
+
+.error-item {
+  z-index: 1010;
+  border: none;
+  height: 50px;
+  text-align: center;
+  font-size: 14px;
+  line-height: 25px;
+  color: #fff;
+  background-color: #e85656;
+  font-weight: bold;
+  /*margin-bottom:5px;*/
+
+  box-shadow: 0 0 12px #999;
+
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  resize: both;
+}
+
+.example-enter {
+  opacity: 0.01;
+}
+
+.example-enter.example-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+
+.example-leave {
+  opacity: 1;
+}
+
+.example-leave.example-leave-active {
+  opacity: 0.01;
+  transition: opacity 300ms ease-in;
+}

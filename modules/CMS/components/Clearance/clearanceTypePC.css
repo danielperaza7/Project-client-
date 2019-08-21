@@ -1,0 +1,133 @@
+.topWording{
+  font-size:20px;
+}
+
+.btn_bottom{
+
+}
+
+.clearanceType{
+   margin:0;
+   color: black;
+}
+
+.clearanceTypePC{
+  width: 704px;
+  margin-left: calc( 50% - 352px );
+  margin-top:48px;
+  text-align: center;
+}
+
+
+.btn_bottom, .btn_bottom[disabled]{
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: 500;
+  border: 1px solid black;
+  color: white;
+  background: black;
+  height:48px;
+  width:343px;
+}
+
+.btn_bottom:hover{
+  cursor: pointer;
+}
+
+.btn_bottom[disabled]{
+  background: #E0E0E0 !important;
+  border: none;
+}
+
+.clearanceType{
+  padding-bottom:32px;
+  border-bottom: 1px solid rgba(0, 0, 0, .1);
+}
+
+.topWording{
+  font-size: 20px;
+  margin-bottom:32px;
+  font-weight: 500;
+}
+
+.sizeCard{
+  text-align: left;
+  margin-bottom:32px;
+}
+
+.sizeDetail_title{
+  font-size:20px;
+  font-weight: 500;
+  margin-top:48px;
+  margin-bottom:48px;
+  text-align: center;
+}
+
+.componentName{
+  font-size:12px;
+  margin-bottom:12px;
+  display: inline-flex;
+  margin-right:20px;
+  width: 64px;
+  height: 48px;
+  display: inline-table;
+  vertical-align: middle;
+}
+
+.componentName > span {
+  height: 100%;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.sizeCard_BTN, .sizeCard_BTN_selected{
+  width: 90px;
+  height: 48px;
+  font-size: 14px;
+  margin-right:11px;
+  border: 1px solid rgba(0, 0, 0, .12);
+  background-color:white;
+  display: inline-table;
+  margin-bottom:12px;
+  vertical-align: middle;
+}
+
+.sizeCard_BTN > div:first-child, .sizeCard_BTN > div:nth-child(4){
+  margin-left: 0px !important;
+}
+
+.ClearanceType_BTN, .ClearanceType_BTN_selected {
+  width: 136px;
+  height: 96px;
+  font-size: 16px;
+  margin-left:16px;
+  border: 1px solid rgba(0, 0, 0, .12);
+  background-color:white;
+  display: inline-table;
+  font-weight: 400;
+  vertical-align: middle;
+}
+
+.ClearanceType_BTN > span, .ClearanceType_BTN_selected > span, .sizeCard_BTN > span, .sizeCard_BTN_selected > span {
+  height: 100%;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+
+.ClearanceType_BTN:hover, .sizeCard_BTN:hover{
+  border: 1px solid rgba(0, 0, 0, .24);
+  box-shadow:0 0 4px 0 rgba(0, 0, 0, .12);
+  cursor: pointer;
+}
+
+.sizeCard_BTN_selected, .ClearanceType_BTN_selected{
+  border: 1px solid rgba(0, 0, 0, 1);
+  box-shadow:0 0 4px 0 #000000;
+}
+
+.clearanceType > div:first-child{
+  margin-left: 0px !important;
+}

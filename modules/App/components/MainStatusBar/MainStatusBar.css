@@ -1,0 +1,164 @@
+.main-status-bar {
+  background-color: black;
+  height: 40px;
+  width: 100%;
+  margin-top: 0;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+
+.main-status-bar :global(.col-xs-12){
+   padding:0;
+}
+
+.storeBtn{
+  display: inline-block;
+  padding: 10px;
+  margin-bottom: 0;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  margin-right: 1px;
+}
+
+
+.storeBtn:hover, .storeBtn:active{
+  text-decoration: none;
+  color: #ADA082;
+  outline: none;
+}
+
+.store-tab-container {
+  display: flex;
+  list-style-type: none;
+  width:100%;
+  padding-left: 0;
+  height: 40px;
+  margin: 0;
+}
+
+.store-tab-container li {
+  padding-left: 5px;
+  padding-right: 5px;
+  font-family: GothamMedium;
+  font-size: 12px;
+  width: 50%;
+  text-align:center;
+}
+
+.store-tab-no-select a,
+.store-tab-no-select-et a{
+  color: grey;
+}
+
+.store-tab-no-select,
+.store-tab-no-select-et{
+  background: #202020;
+}
+
+.store-tab-select,
+.store-tab-select-et{
+  background-color: white;
+}
+
+
+.cart-user-container {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height:100%;
+  color: white;
+  padding-right: 0 !important;
+}
+.cart-user-container div{
+  display: inline-block;
+  color: #ADA082
+}
+
+.user-signin {
+  color: #ADA082;
+  font-size: 24px;
+  margin-right: 4px;
+}
+
+.user-signin:hover {
+  color: #ADA082;
+  text-decoration: none;
+}
+
+.main-promotion-content {
+  color: #C1B497;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height:40px;
+}
+
+.user-name{
+  margin-left: 5px;
+  font-family: GothamBook;
+  font-size: 12px;
+
+}
+.account-icon:before{
+  transform: translateY(2px);
+}
+
+
+
+
+/* ================= User status & Shopping bag ============== */
+.app-status {
+  line-height: 35px;
+  width: 100%;
+  text-align: right;
+  margin-right: -20px;
+}
+.app-status>span>div>a:hover{
+  text-decoration: underline;
+}
+
+.user-logout{
+  cursor: pointer;
+  margin-right: 10px;
+  font-family: GothamBook;
+  font-size: 12px;
+}
+
+.user-logout:hover{
+  text-decoration: underline;
+}
+
+
+.app-status>span a{
+   color: #C1B497;
+   padding-right: 15px;
+}
+
+.app-status>span a:hover{
+   color: #C1B497;
+   text-decoration:  none;
+}
+
+.store-tab-select a, .store-tab-select-et a{
+  color: black;
+  text-decoration: none !important;
+}
+
+.store-tab-select a:hover, .store-tab-select a:focus, .store-tab-select-et a:hover, .store-tab-select-et a:focus{
+  color: #C1B497;
+  text-decoration: none !important;
+}

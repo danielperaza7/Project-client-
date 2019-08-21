@@ -1,0 +1,116 @@
+.menu-btn {
+  width: auto !important;
+  display: table-cell;
+  padding: 2px 17px;
+  vertical-align: middle;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: small
+}
+.menu-btn:hover{
+  color:#555;
+}
+.menu-btn h2{
+  padding-bottom: 2px;
+  font-family: GothamBook !important;
+  font-size: 12px;
+  letter-spacing: 0.05em;
+  font-weight: lighter;
+}
+.current-menu-btn span{
+  border-bottom: 2px solid #000;
+}
+
+.menu-bar,
+.menu-bar a{
+  width: auto !important;
+  vertical-align: middle;
+  text-decoration: none;
+  cursor: pointer;
+  color: #000;
+}
+.menu-bar{
+  display: inline-block;
+}
+.menu-bar a{
+  display: table-cell;
+}
+.menu-bar a:hover{
+  text-decoration: none;
+  color:#555;
+}
+
+.menu-bar{
+  padding-bottom: 15px;
+}
+
+.menu-panel{
+  padding: 15px 20px 40px 15px;
+  width: 80vw;
+  max-width: 960px;
+}
+
+.submenu-wrapper{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  font-size: 12px;
+  -ms-box-orient: horizontal;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+}
+.submenu-col{
+  max-width: 150px;
+  /*min-width: 100px;*/
+  display: inline-flex;
+  margin-right: 2px;
+}
+
+.SecondLevelMenu {
+  display: block;
+  text-align: left;
+  padding: 4px 0;
+  cursor: pointer;
+  font-family:GothamMedium;
+  margin-bottom: 10px;
+}
+
+
+.otherLevelMenu{
+  display: block;
+  text-align: left;
+  padding: 4px 0;
+  cursor: pointer;
+}
+
+
+.submenu-col a{
+  color: black;
+}
+
+.submenu-col a:hover{
+  text-decoration: none !important;
+  color: #ADA082 !important;
+}
+
+
+.search-btn{
+  font-size: 20px;
+}
+
+.no-link{
+  cursor: default;
+  text-decoration: none;
+}
+
+.closePanelBtn{
+  float: right;
+  font-size: 28px;
+  margin-top: -15px;
+}

@@ -1,0 +1,20 @@
+.giftCardInput{
+  border-radius: 0;
+  border: 1px solid #e0e0e0;
+  box-shadow: none;
+  height:40px;
+  margin-bottom: 10px;
+  width:80%;
+  font-family: GothamBook;
+}
+
+.giftCardBtn{
+  border-radius: 0px !important;
+  height: 40px;
+  width: 45%;
+  display: block;
+  background: black;
+  color: white;
+  margin-top: 10px;
+  font-family: GothamMedium;
+}

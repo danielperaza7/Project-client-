@@ -1,0 +1,73 @@
+.wrapper {
+  width: 684px;
+  margin: auto;
+}
+
+.wrapper .singleWrapper {
+  width: 114px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.wrapper .singleWrapper .image {
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+  border: 2px solid #E4D8BF;
+}
+
+.wrapper .singleWrapper .image:hover {
+  box-shadow: 0 0 4px #C1B497;
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+.wrapper .singleWrapper .title {
+  width: 100%;
+  text-align: center;
+  overflow-x: visible;
+  word-break: keep-all;
+  font-size: 14px;
+  vertical-align: bottom;
+  font-weight: 600;
+}
+
+.wrapper .singleWrapper .imageHolderOuter {
+  width: 94px;
+  height: 94px;
+  display: block;
+  border-radius: 48px;
+  border: 4px solid #fff;
+  margin: -8px 9px -8px 9px;
+}
+
+.wrapper .singleWrapper .imageHolderOuter img.image {
+  margin: 3px;
+}
+
+.wrapper .singleWrapper .imageHolderOuterSelected  {
+  border-color: #C1B497;
+}
+
+@media screen and (min-width: 992px) {
+  .wrapper {
+    width: 840px;
+  }
+
+  .wrapper .singleWrapper {
+    width: 140px;
+  }
+
+  .wrapper .singleWrapper .image {
+    width: 90px;
+    height: 90px;
+    border-radius: 45px;
+  }
+
+  .wrapper .singleWrapper .imageHolderOuter  {
+    width: 104px;
+    height: 104px;
+    border-radius: 52px;
+    margin: -8px 19px -8px 19px;
+  }
+}

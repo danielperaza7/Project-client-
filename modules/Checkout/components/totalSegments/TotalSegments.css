@@ -1,0 +1,57 @@
+/* Price detail bar's style */
+.price-detail-bar {
+  display: flex;
+  margin-left: -15px !important;
+  margin-right: -15px !important;
+}
+
+.shipping-method-header {
+  display: flex;
+}
+
+.summary-wrapper{
+  padding: 20px 20px 10px 20px;
+  background: #FFFFFF;
+  border: 1px solid #e0e0e0;
+  box-shadow: 2px 2px 4px 0 #e0e0e0;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  .summary-wrapper{
+    box-shadow: none;
+    font-size: 12px;
+  }
+}
+
+.summary-title{
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  font-family: GothamMedium;
+  line-height: normal;
+}
+
+.segment-wrapper, .grand-total-wrapper{
+  border-top: 1px solid #e0e0e0;
+  padding: 10px 0;
+  font-size: 12px;
+}
+
+.segment-wrapper:first-child{
+  border-top: 2px solid #e0e0e0;
+}
+
+.segment-wrapper:last-child {
+  font-family: GothamMedium;
+}
+
+.grand-total-wrapper{
+  font-family: GothamMedium;
+  font-size: 14px;
+  padding: 15px 0;
+}
+
+.attention{
+  color: #FC2674;
+}

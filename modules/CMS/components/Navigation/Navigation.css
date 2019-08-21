@@ -1,0 +1,116 @@
+@media (max-width:1440px) {
+  .navigation_bgc, .navigation_ca {
+    width: 264px;
+    padding-left: 0px;
+  }
+  .navigation1_bgc, .navigation1_ca {
+    width: 264px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  hr{
+    width: 162px;
+  }
+}
+@media (max-width:1023px) {
+  .navigation_bgc, .navigation_ca {
+    /*width: 100%;*/
+    width: 162px;
+    padding-left: 0px;
+  }
+  .navigation_bgc, .navigation_ca {
+    width: 162px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  hr{
+    width: 162px;
+  }
+}
+.navigation_bgc > li {
+  text-align: left;
+  padding-left: 6px;
+  display: block;
+  padding-top: 19px;
+  /* height: 40px; */
+  line-height: 21px;
+  color: #666;
+  border-bottom: 1px solid #ddd;
+  list-style-type: none;
+  cursor: pointer;
+}
+
+.navigation_ca > li{
+  display: block;
+  /* height: 40px; */
+  padding-top: 19px;
+  line-height: 21px;
+  color:#000000;
+  list-style-type: none;
+  cursor: pointer;
+  font-family: GothamBook;
+}
+
+.navigation1_ca > li{
+  display: block;
+  height: 40px;
+  line-height: 21px;
+  color:#000000;
+  list-style-type: none;
+  cursor: pointer;
+  font-family: GothamBook;
+}
+
+
+.navigation_bgc > li :hover, .navigation_ca > li :hover{
+  color: #ADA082 !important;
+}
+
+.navigation1_bgc > li :hover, .navigation1_ca > li :hover{
+  color: #ADA082 !important;
+}
+
+.navigation_bgc > li > div {
+  vertical-align: middle;
+  display: table-cell;
+  height: inherit;
+}
+
+.navigation1_bgc > li > div {
+  vertical-align: middle;
+  display: table-cell;
+  height: inherit;
+}
+
+.nav-item-selected_bgc {
+  background-color: #555;
+  color: #fff !important;
+  list-style-type: none;
+  font-family: GothamMedium;
+}
+
+.nav-item-selected_ca{
+  list-style-type: none;
+  font-family: GothamMedium !important;
+}
+
+.horizontal > li {
+  display: inline-block;
+  border-bottom: 0;
+  border-left: 1px solid #ddd;
+  width: 120px;
+}
+
+.navigation_ca .subtitle {
+  font-size: 10px;
+  color: rgba(0,0,0,0.5);
+  cursor: default;
+  margin-top: 42px;
+}
+
+.navigation1_ca .subtitle {
+  font-size: 10px;
+  color: rgba(0,0,0,0.5);
+  cursor: default;
+  margin-top: 42px;
+}

@@ -1,0 +1,354 @@
+/* Kit Detail HD display */
+@media screen and (min-width: 1440px) {
+  .kit-detail {
+    max-width: 1275px;
+    height: 835px;
+    margin: auto;
+    position: relative;
+    background-size: 1275px 915px;
+    background-repeat: no-repeat;
+  }
+}
+
+/* Kit Detail Regular Desktop */
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+  .kit-detail {
+    max-width: 944px;
+    height: 582px;
+    margin: auto;
+    position: relative;
+    background-size: 944px 632px;
+    background-repeat: no-repeat;
+  }
+}
+
+/* Kit Detail Tablet */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .kit-detail {
+    max-width: 708px;
+    height: 546px;
+    margin: auto;
+    position: relative;
+    background-size: 708px 586px;
+    background-repeat: no-repeat;
+  }
+}
+
+/* Kit Detail Mobile */
+@media screen and (max-width: 767px) {
+  .kit-detail {
+    width: 100%;
+  }
+}
+
+
+
+/* Kit Detail background Non Mobile */
+@media screen and (min-width: 768px) {
+  .kitImage {
+    width: 100%;
+    z-index: -1;
+  }
+}
+
+/* Kit Detail background Mobile */
+@media screen and (max-width: 767px) {
+  .kitImage {
+    width: 100%;
+    z-index: -1;
+    visibility: hidden;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .title {
+    margin-top: 20px;
+    margin-bottom: 32px;
+    text-align: center;
+  }
+}
+
+.title {
+  margin-bottom: 32px;
+  text-align: center;
+}
+
+@media screen and (min-width: 1440px) {
+  .kitContainer {
+    position: absolute;
+    top: 353px;
+    width: fit-content;
+    transform: translateX(-50%);
+    left: 50%;
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+  .kitContainer {
+    position: absolute;
+    top: 224px;
+    width: fit-content;
+    transform: translateX(-50%);
+    left: 50%;
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .kitContainer {
+    position: absolute;
+    top: 248px;
+    width: fit-content;
+    transform: translateX(-50%);
+    left: 50%;
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .kitContainer {
+    position: relative;
+    /* width: fit-content; */
+  }
+}
+
+/* kitContainerImageContainer HD Display */
+@media screen and (min-width: 1440px) {
+  .kitContainerImageContainer {
+    width: 376px;
+    height: 449.6px;
+  }
+}
+
+/* kitContainerImageContainer Regualr Desktop */
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+  .kitContainerImageContainer {
+    width: 341px;
+    height: 408px;
+  }
+}
+
+/* kitContainerImageContainer Tablet and Mobile */
+@media screen and (max-width: 1023px) {
+  .kitContainerImageContainer {
+    width: 225.6px;
+    height: 270.4px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .kitContainerImageContainer {
+    width: 225.6px;
+    height: 270.4px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.kitContainerImage {
+  width: 100%;
+  display: none;
+}
+
+/* Kit Button Container HD display */
+@media screen and (min-width: 1440px) {
+  .kitButtonContainer {
+    margin-top: 377px;
+    margin-left: 36px;
+    /* display: inline-block; */
+    list-style-type: none;
+    padding: 0px;
+  }
+
+  .kitButtonContainer li:last-child {
+    margin-right: 0px;
+  }
+}
+
+/* Kit Button Container Regular Desktop */
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+  .kitButtonContainer {
+    margin-top: 296px;
+    margin-left: 31px;
+    /* display: inline-block; */
+    list-style-type: none;
+    padding: 0px;
+  }
+
+  .kitButtonContainer li:last-child {
+    margin-right: 0px;
+  }
+}
+
+/* Kit Button Container Tablet */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .kitButtonContainer {
+    margin-top: 210px;
+    display: inline-block;
+    list-style-type: none;
+    /* padding: 0px; */
+  }
+
+  .kitButtonContainer li:last-child {
+    margin-right: 0px;
+  }
+}
+
+/* Kit Button Container Mobile */
+@media screen and (max-width: 767px) {
+  .kitButtonContainer {
+    display: block;
+    padding: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    margin-top: 25px;
+  }
+}
+
+/* Kit Button HD display */
+@media screen and (min-width: 1440px) {
+  .kitRoundButton {
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+    display: inline-block;
+    margin-right: 67px;
+    box-sizing: content-box;
+    vertical-align: middle;
+  }
+}
+
+/* Kit Button Regular Dektop */
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+  .kitRoundButton {
+    width: 36px;
+    height: 36px;
+    border-radius: 23px;
+    display: inline-block;
+    margin-right: 56px;
+    box-sizing: content-box;
+    vertical-align: middle;
+  }
+}
+
+/* Kit Button Tablet */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .kitRoundButton {
+    width: 32px;
+    height: 32px;
+    border-radius: 21px;
+    display: inline-block;
+    margin-right: 40px;
+    box-sizing: content-box;
+    vertical-align: middle;
+  }
+}
+ 
+/* Kit Button Mobile */
+@media screen and (max-width: 767px) {
+  .kitRoundButton {
+    width: 24px;
+    height: 24px;
+    border-radius: 17px;
+    display: inline-block;
+    margin-right: 25px;
+    box-sizing: content-box;
+    vertical-align: middle;
+  }
+}
+
+/* Description */
+@media screen and (min-width: 1440px) {
+  .descriptionContainer {
+    max-width: 1275px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  .descriptionTitle {
+    text-align: right;
+    font-family: GothamMedium;
+    font-size: 20px;
+  }
+
+  .descriptionBody {
+    text-align: right;
+    font-family: GothamBook;
+    font-size: 16px;
+    max-width: 665px;
+  }
+}
+
+.descriptionTitle {
+  text-align: right;
+  font-family: GothamMedium;
+  font-size: 20px;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+  .descriptionContainer {
+    max-width: 944px;
+    padding-top: 20px;
+    margin: auto;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  
+  .descriptionBody {
+    text-align: right;
+    font-family: GothamBook;
+    font-size: 16px;
+    max-width: 528px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .descriptionContainer {
+    margin: auto;
+    margin-top: 10px;
+    max-width: fit-content;
+    margin-bottom: 50px;
+  }
+
+  .descriptionTitle {
+    text-align: center;
+    font-family: GothamMedium;
+    font-size: 20px;
+  }
+
+  .descriptionBody {
+    text-align: center;
+    font-family: GothamBook;
+    font-size: 16px;
+    max-width: 615px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .descriptionBody {
+    text-align: center;
+    font-family: GothamBook;
+    font-size: 16px;
+    max-width: 337px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .descriptionTitle {
+    text-align: center;
+    font-family: GothamMedium;
+    font-size: 20px;
+    margin-top: 35px;
+  }
+}
+

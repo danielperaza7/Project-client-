@@ -1,0 +1,62 @@
+.error-tag-wrapper {
+  position: absolute;
+}
+
+.error-tag {
+  padding: 10px;
+  background-color: #fff;
+  color: #FD4F57;
+  white-space: normal;
+  z-index: 1;
+  line-height: 20px;
+  font-size: 12px;
+  font-family: GothamBook;
+  border: 1px solid #FD4F57;
+  position: absolute;
+  content: attr(data-tooltip);
+  text-align: center;
+  text-transform: lowercase;
+}
+.error-tag::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background: #fff;
+  border: 1px solid #FD4F57;
+  -moz-transform: rotate(-44deg);
+  -webkit-transform: rotate(-44deg);
+}
+
+
+@media screen and (min-width: 768px) {
+  .error-tag {
+    top: 20px;
+    left: -190px;
+    min-height: 40px;
+    width: 180px;
+  }
+
+  .error-tag::after {
+    top: 12px;
+    right: -9px;
+    border-left: none;
+    border-top: none;
+  }
+}
+
+
+@media screen and (max-width: 767px) {
+  .error-tag {
+    white-space: nowrap;
+    line-height: normal;
+    padding: 0;
+    left: 70px;
+    border: none;
+  }
+
+  .error-tag::after {
+    display: none;
+  }
+}

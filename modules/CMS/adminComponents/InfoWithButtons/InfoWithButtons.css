@@ -1,0 +1,42 @@
+.info-panel {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%
+}
+
+.info-panel>div {
+  min-width: 50%;
+  margin-top: 10px;
+  border-bottom: 1px solid black;
+}
+
+.info-panel>div>div {
+  padding: 5px;
+  height: 2em;
+}
+
+
+.info-panel input{
+ border: 1px solid grey;
+ border-radius: 4px;
+ color: black;
+ width: 15em;
+ overflow: scroll;
+ height: 2em;
+ padding-left: 3px;
+}
+
+.labels {
+  width: 8em;
+  padding-right: 10px;
+}
+
+.btn-save-back button {
+  height: 1.5em;
+  width: 10em;
+  float: right;
+}
+
+.country-lan {
+  float: right;
+}

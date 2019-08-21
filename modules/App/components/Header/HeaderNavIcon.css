@@ -1,0 +1,109 @@
+.div-modals{
+  overflow: hidden !important;
+}
+
+.div-modals :global(.modal-dialog) {
+  font-size: 80%;
+  width: 90%;
+}
+
+.div-modals :global(.modal-dialog) :global(.modal-content) {
+  box-shadow: none;
+  border: none;
+  border-radius: 0 !important;
+  height: 100%;
+  min-height:100%;
+  overflow: visible;
+}
+
+.div-modals :global(.modal-dialog){
+  margin: 0;
+  height: 100%;
+}
+
+.div-modals:not( :global(.in)) :global(.modal-dialog){
+  -webkit-transform: translate(-25%,0) !important;
+  -ms-transform: translate(-25%,0) !important;
+  -o-transform: translate(-25%,0) !important;
+}
+.div-modals :global(.modal-dialog){
+  -webkit-transform: translate(0,0) !important;
+  -ms-transform: translate(0,0) !important;
+  -o-transform: translate(0,0) !important;
+}
+
+.mobile-nav-modal-header{
+  height: 40px;
+  padding: 0;
+}
+
+.mobile-nav-modal-header .curStore {
+  background-color: white !important;
+  color: black !important;
+  font-size:12px;
+  font-family: GothamMedium;
+  text-decoration: underline;
+  outline: none;
+  border: none;
+  text-decoration: none!important;
+}
+
+.mobile-nav-modal-header button{
+  width: 50%;
+  background-color: black !important;
+  color: grey !important;
+  font-size:12px;
+  font-family: GothamMedium;
+  vertical-align: middle;
+  border: none;
+  height: 40px;
+}
+
+
+.mobile-nav-modal-header button:nth-last-child(2){
+  border-right: 1px solid #F0F0F0;
+}
+
+
+.mobile-nav-modal-header button:focus, .mobile-nav-modal-header button:active {
+  background-color: white;
+  color: black;
+  text-decoration: underline;
+  outline: none;
+  border: none;
+}
+
+.mobile-nav-modal-header :global(.close) {
+  display: block;
+  color: white !important;
+  width: 8%;
+  margin-right: -9.5%;
+  opacity: 0.8;
+  /*border: 1px solid #C1B497;*/
+  text-shadow: none;
+  margin-left: 1px;
+  margin-top: 3px;
+  margin-bottom: 2px;
+  height: initial;
+  background: none !important;
+  font-size: 30px;
+}
+
+
+.mobile-nav-modal-body {
+  height: calc(100% - 80px);
+  padding: 0;
+}
+
+.mobile-nav-modal-footer {
+  height: 40px;
+  position: sticky;
+  padding: 0;
+
+}
+
+.mobile-nav-modal-footer button:focus, .mobile-nav-modal-footer button:active {
+  outline: none !important;
+  font-weight: bold;
+  box-shadow: none;
+}

@@ -1,0 +1,32 @@
+.select-social-FBicon, .select-social-INSicon, .select-social-PTicon, .select-social-TTicon, .select-social-TYicon, .select-social-WCicon, .select-social-WBicon{
+  font-size:26px;
+  color: #C1B497;
+}
+
+.select-social-FBicon:hover{
+  color: #3b5998;
+}
+
+.select-social-INSicon:hover{
+  color: #bc2a8d;
+}
+
+.select-social-PTicon:hover{
+  color: #cb2027;
+}
+
+.select-social-TTicon:hover{
+  color: #55acee;
+}
+
+.select-social-TYicon:hover{
+  color: #ff0000;
+}
+
+.select-social-WCicon:hover{
+  color: #09b83e;
+}
+
+.select-social-WBicon:hover{
+  color: #df2029;
+}

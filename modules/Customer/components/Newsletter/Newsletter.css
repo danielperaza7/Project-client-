@@ -1,0 +1,422 @@
+.windowButton{
+  cursor: pointer;
+}
+
+.h2_page1{
+  font-family: GothamBook;
+  font-size: 24px !important;
+  color: white;
+}
+
+.h2_page1_V2{
+  font-family: GothamBook;
+  font-size: 20px !important;
+  color: white;
+  font-weight: 400;
+}
+
+.h2{
+  margin-top:27%;
+  text-align: left;
+  font-family: GothamMedium;
+  font-size: 30px !important;
+}
+
+.h2 i{
+  color: #C1B497;
+}
+
+.discountNum{
+  margin-top:30px;
+  font-size:50px;
+  font-family: GothamBook;
+  color: white;
+}
+
+.subscriptionText{
+  margin-top:30px;
+  font-size:40px;
+  font-family: GothamBook;
+  color: white;
+  margin-bottom:5px;
+}
+
+.emailInput{
+  margin-top:20px;
+  height: 44px;
+  width: 289px;
+  border: 1px #E0E0E0 solid;
+  color: #9B9B9B;
+  font-size:13px;
+  font-family: GothamBook;
+  opacity: 1.0;
+  padding: 15px !important;
+}
+
+.emailInput:focus, .emailInput:active{
+  border: 1px #C1B497 solid !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+.errShow{
+  margin-top:10px;
+  color: red;
+  font-size: 10px;
+  font-family: GothamBook;
+  margin-left: -31%;
+}
+
+.emailButton{
+  border: none;
+  border-radius: none;
+  background: #C1B497;
+  color: white;
+  height: 44px;
+  width: 289px;
+  padding: 8px 8px;
+  vertical-align: bottom;
+  display: block;
+  margin-top: 10px;
+  font-size:13px;
+  font-family: GothamMedium;
+  letter-spacing: .1em;
+}
+
+.note{
+  font-size:12px;
+  font-family: GothamBook;
+  text-shadow: 0 2px 4px #000000;
+  color: white;
+  margin-top: 30px;
+}
+
+
+.emailButton:focus{
+  outline: none !important;
+}
+
+.tobecontinued{
+  font-size:12px;
+  font-family: GothamBook;
+  color: white;
+  margin-top: 20px;
+  text-decoration: underline;
+  border:none !important;
+  background: inherit;
+}
+
+
+.popupImg{
+  height:380px;
+  width: 650px;
+  margin: 15px !important;
+  position:relative;
+}
+
+
+
+.popup_text{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  width: 100%;
+  text-align: center;
+  text-align: -moz-center;
+}
+
+.goBack{
+  color: #767676;
+  margin-top:5%;
+  text-decoration: underline;
+  font-size: 12px
+}
+
+.h3{
+  text-align: center;
+  font-family: GothamMedium;
+  font-size: 20px !important;
+}
+
+.detail{
+  font-size:10px;
+  font-weight: lighter;
+  text-align: center;
+  margin-top:5%
+}
+
+.gotIt1{
+  margin-top:10px;
+  border: none;
+  border-radius: none;
+  color: white;
+  width: 289px;
+  height: 44px;
+  padding: 8px 8px;
+  font-size:13px;
+  font-family: GothamMedium;
+  background: #C1B497;
+  letter-spacing: .05em;
+  display: block;
+
+}
+ .popup_text a:hover{
+   text-decoration: none !important;
+ }
+
+.gotIt1:hover, .gotIt2:hover{
+  text-decoration: none !important;
+}
+
+.gotIt2{
+  margin-top:10px;
+  border: none;
+  border-radius: none;
+  color: white;
+  width: 289px;
+  height: 44px;
+  padding: 8px 8px;
+  font-size:13px;
+  font-family: GothamMedium;
+  background: #C1B497;
+  letter-spacing: .05em;
+  display: block;
+}
+
+.signup{
+  color: #767676;
+  margin-top:4%;
+  text-decoration: underline;
+}
+
+.userEmail{
+  margin-bottom:3%;
+  text-align: center;
+  font-family: GothamMedium;
+  margin-left: 15%;
+  font-size: 16px;
+}
+
+.userdiscount{
+  margin-top:20px;
+  width: 100%;
+  font-size:12px;
+  font-family: GothamBook;
+  color: #000000;
+  text-align: left;
+}
+
+.userdiscount span{
+  font-size: 12px;
+  font-weight: bolder;
+}
+
+.emailButton:disabled, .emailButton_mobile:disabled{
+  background: grey;
+  border: 1px grey solid;
+}
+
+.right{
+  width:calc(100% - 84px);
+  margin-left:45px;
+}
+
+.mobileSubscription:not( :global(.in)){
+  -webkit-transform: translate(0,-100%) !important;
+  -ms-transform: translate(0,-100%)!important;
+  -o-transform: translate(0,-100%) !important;
+  transition-duration:1s;
+}
+
+.mobileSubscription{
+  width: 100%;
+  position:fixed;
+  bottom: -283px;
+  background: white;
+  border-top: 3px #C1B497 solid;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+}
+
+.userdiscount_mobile{
+  margin-top:20px;
+  margin-left:20px;
+  width: 60%;
+  font-size:12px;
+  font-family: GothamBook;
+  color: #000000;
+  text-align: left;
+}
+
+.userdiscount_mobile span{
+  font-size: 12px;
+  font-weight: bolder;
+}
+
+.gotIt1_mobile{
+  margin-top:20px;
+  margin-left: 20px;
+  margin-bottom:30px;
+  border: 1px grey solid;
+  border-radius: none;
+  color: #000000;
+  width: calc(100% - 40px);
+  height: 40px;
+  padding: 8px 8px;
+  font-size:12px;
+  font-family: GothamMedium;
+  background: white;
+}
+
+.gotIt2_mobile{
+  margin-top:20px;
+  margin-left: 20px;
+  margin-bottom:30px;
+  border: 1px black solid;
+  border-radius: none;
+  color: black;
+  width: calc(100% - 40px);
+  height: 40px;
+  padding: 8px 8px;
+  font-size:12px;
+  font-family: GothamMedium;
+  background: white;
+}
+
+.h2_mobile_page1{
+  margin-top:30px;
+  margin-left:20px;
+  font-family: GothamMedium;
+  font-size: 14px !important;
+}
+
+.h2_mobile{
+  margin-top:30px;
+  margin-left:20px;
+  font-family: GothamMedium;
+  font-size: 24px !important;
+  letter-spacing: .05em;
+}
+
+.h_mobile{
+  margin-top:20px;
+  margin-left:20px;
+  font-family: GothamMedium;
+  font-size: 40px !important;
+  letter-spacing: .05em;
+}
+
+.h2_mobile i{
+  color: #C1B497;
+}
+
+.discount_mobile{
+  margin-top:5px;
+  margin-left: 20px;
+  width: 90%;
+  font-size:12px;
+  font-family: GothamBook;
+  color: #000000;
+  text-align: left;
+}
+
+.discount_mobile span{
+  font-family: GothamMedium;
+}
+
+.subscriptionText_mobile{
+  margin-top:5px;
+  margin-left: 20px;
+  width: 90%;
+  font-size:24px;
+  font-family: GothamMedium;
+  color: #000000;
+  text-align: left;
+}
+
+
+.emailInput_mobile{
+  margin: 0 auto;
+  margin-top:20px;
+  margin-left: 20px;
+  width: calc(100% - 80px);
+  height: 40px;
+  border: 1px #E0E0E0 solid;
+  padding: 8px 15px;
+  color: #9B9B9B;
+  font-family: GothamBook;
+  opacity: 1.0;
+  border-radius: 0 !important;
+  line-height: normal;
+}
+
+.emailInput_mobile:focus, .emailInput_mobile:active{
+  border: 1px #C1B497 solid !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+.emailButton_mobile:focus{
+  outline: none !important;
+}
+
+.emailButton_mobile{
+  margin-right: 20px;
+  border: none;
+  border-radius: none;
+  background: #C1B497;
+  color: white;
+  width: 40px;
+  height: 40px;
+  padding: 8px 8px;
+  vertical-align: bottom;
+}
+
+.emailButton_mobile_v2{
+  margin: 0 auto;
+  margin-top:20px;
+  margin-left: 20px;
+  border: 1px #E0E0E0 solid;
+  border-radius: 0 !important;
+  background: #C1B497;
+  color: white;
+  font-family: GothamMedium;
+  height: 40px;
+  padding: 8px 15px;
+  vertical-align: bottom;
+  width: calc(100% - 40px);
+  line-height: normal;
+  opacity: 1.0;
+}
+
+.closeBtn_mobile{
+  float: right;
+  margin-top: 20px;
+  margin-right: 5px;
+  font-size: 24px;
+  background: white !important;
+  border: none !important;
+}
+
+.tobecontinued_mobile{
+  font-size:12px;
+  font-family: GothamBook;
+  color: #ADA082;
+  margin-top: 20px;
+  margin-left: 16px;
+  margin-bottom: 30px;
+  text-decoration: underline;
+  border:none !important;
+  background: white;
+}
+
+.note_mobile{
+  font-size:12px;
+  font-family: GothamBook;
+  text-shadow: 0 2px 4px white;
+  color: black;
+  margin-top: 10px;
+  margin-left: 18px;
+  margin-bottom: 30px;
+}

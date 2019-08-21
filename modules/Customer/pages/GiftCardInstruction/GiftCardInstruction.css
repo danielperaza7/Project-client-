@@ -1,0 +1,148 @@
+.title{
+  font-size: 30px;
+  font-family: GothamMedium;
+  letter-spacing: .24;
+}
+
+.GiftCardContainer_desktop{
+  width: 928px;
+  margin: auto;
+  padding-top:30px;
+}
+
+.card_info{
+  width:343px;
+  margin-top:20px;
+}
+
+.card_info img{
+  width: 100%;
+}
+
+
+.card_name{
+  font-size:16px;
+  font-family: GothamMedium;
+  text-align: center;
+  margin-top:10px;
+}
+
+.card_note{
+  font-size:12px;
+  font-family: GothamBook;
+  text-align: center;
+  letter-spacing: 0px;
+  padding: 5px 20px;
+}
+
+.redeem_title{
+  font-family: GothamMedium;
+}
+
+.redeem_situation{
+  font-family: GothamMedium;
+}
+
+.redeem_details{
+  font-family: GothamBook;
+}
+
+.redeem_details span{
+  font-family: GothamMedium;
+  margin-right: 5px;
+}
+
+.redeem_link{
+  color: #0076CA;
+  text-decoration: underline;
+  font-family: GothamBook !important;
+}
+
+.redeem_extra{
+  font-family: GothamBook;
+  font-size:12px;
+  letter-spacing: .18px;
+  line-height: 18px;
+  margin-top: 40px;
+  color: #9B9B9B;
+}
+
+.left{
+  width: 343px;
+}
+
+.left img{
+  width: 343px;
+}
+
+.right{
+  margin-left: 20px;
+  line-height:21px;
+}
+
+.redeem_details{
+  font-size: 14px;
+  margin-bottom:10px;
+}
+
+.redeem_title{
+  font-size:20px;
+  margin-bottom:10px;
+}
+
+.redeem_situation{
+  font-size: 14px;
+  margin-bottom:10px;
+  margin-top:15px;
+}
+
+@media screen and (max-width: 991px) {
+  .GiftCardContainer_desktop{
+    margin-left: 10px !important;
+    width: calc( 100% - 20px ) !important;
+    padding-top: 20px;
+  }
+
+  .redeem_details{
+    font-size: 14px;
+    margin-bottom:10px;
+  }
+
+  .title{
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+
+  .GiftCardContainer{
+    margin-left: 10px;
+    width: calc( 100% - 20px );
+    padding-top: 20px;
+  }
+
+  .title{
+    margin-bottom:15px;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .redeem_title{
+    margin-top: 30px;
+    margin-bottom:10px;
+  }
+
+  .redeem_situation{
+    margin-bottom:10px;
+    margin-top:15px;
+  }
+
+  .card_note{
+    padding: 5px 51px;
+    letter-spacing: 0px;
+  }
+
+  .redeem_extra{
+    margin-top: 0px;
+  }
+}

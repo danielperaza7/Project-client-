@@ -1,0 +1,32 @@
+.addNewAddress{
+  width: calc( 50% - 10px);
+  border: 1px solid #E0E0E0;
+  padding: 15px;
+  font-size: 12px;
+  font-family: GothamBook;
+  height: 50px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.addIcon{
+  width:10%;
+  font-size: 18px;
+  font-family: GothamMedium;
+}
+
+.addContent{
+  width:90%;
+}
+
+@media screen and (min-width: 768px) {
+  .addNewAddress{
+    margin-left:5px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .addNewAddress{
+    width: 100%;
+  }
+}
